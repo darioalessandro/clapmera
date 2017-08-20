@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06776B941F4992E5001EA6F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06776B931F4992E5001EA6F4 /* main.m */; };
+		06776B9A1F4992E5001EA6F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06776B991F4992E5001EA6F4 /* ViewController.m */; };
+		06776B9D1F4992E5001EA6F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06776B9B1F4992E5001EA6F4 /* Main.storyboard */; };
+		06776B9F1F4992E5001EA6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06776B9E1F4992E5001EA6F4 /* Assets.xcassets */; };
+		06776BA21F4992E5001EA6F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06776BA01F4992E5001EA6F4 /* LaunchScreen.storyboard */; };
+		06776BAD1F4992E5001EA6F4 /* ClapmeraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06776BAC1F4992E5001EA6F4 /* ClapmeraTests.m */; };
+		06776BBC1F499426001EA6F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06776BBB1F499426001EA6F4 /* AppDelegate.m */; };
+		06776BC21F49946B001EA6F4 /* ClapmeraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06776BBE1F49946B001EA6F4 /* ClapmeraViewController.m */; };
+		06776BC31F49946B001EA6F4 /* ClapmeraViewController+iAds.m in Sources */ = {isa = PBXBuildFile; fileRef = 06776BC01F49946B001EA6F4 /* ClapmeraViewController+iAds.m */; };
+		06776BC41F49946B001EA6F4 /* ClapmeraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06776BC11F49946B001EA6F4 /* ClapmeraViewController.xib */; };
+		06776BC81F4994C6001EA6F4 /* AppRater.m in Sources */ = {isa = PBXBuildFile; fileRef = 06776BC71F4994C6001EA6F4 /* AppRater.m */; };
+		067770D71F499AC4001EA6F4 /* CPTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 067770D61F499AC4001EA6F4 /* CPTheme.m */; };
+		067770DB1F499ACE001EA6F4 /* CPAudioAndVideoProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 067770D91F499ACE001EA6F4 /* CPAudioAndVideoProcessor.m */; };
+		067770E61F499AE1001EA6F4 /* CPSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 067770DD1F499AE1001EA6F4 /* CPSoundManager.m */; };
+		067770E71F499AE1001EA6F4 /* ClapRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 067770DF1F499AE1001EA6F4 /* ClapRecognizer.m */; };
+		067770E81F499AE1001EA6F4 /* RCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 067770E11F499AE1001EA6F4 /* RCTimer.m */; };
+		067770E91F499AE1001EA6F4 /* CPConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 067770E31F499AE1001EA6F4 /* CPConfiguration.m */; };
+		067770EA1F499AE1001EA6F4 /* ClapmeraEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 067770E51F499AE1001EA6F4 /* ClapmeraEngine.m */; };
+		067770F01F499AED001EA6F4 /* PurchasesRestorer.m in Sources */ = {isa = PBXBuildFile; fileRef = 067770EC1F499AED001EA6F4 /* PurchasesRestorer.m */; };
+		067770F11F499AED001EA6F4 /* InAppPurchasesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 067770EE1F499AED001EA6F4 /* InAppPurchasesManager.m */; };
+		067770F81F499CE0001EA6F4 /* ILTranslucentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 067770F71F499CE0001EA6F4 /* ILTranslucentView.m */; };
+		067770FE1F499F80001EA6F4 /* CMConfigurationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067770FC1F499F80001EA6F4 /* CMConfigurationsViewController.m */; };
+		067770FF1F499F80001EA6F4 /* CMConfigurationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067770FD1F499F80001EA6F4 /* CMConfigurationsViewController.xib */; };
+		0C27DED805609BB3B4451448 /* libPods-ClapmeraTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3B839435BD536C96F68AE1 /* libPods-ClapmeraTests.a */; };
+		45A4AC5AEC1B85DB9B14D140 /* libPods-Clapmera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59ABA58359790BE82A6DE311 /* libPods-Clapmera.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06776BA91F4992E5001EA6F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06776B871F4992E5001EA6F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06776B8E1F4992E5001EA6F4;
+			remoteInfo = Clapmera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06776B8F1F4992E5001EA6F4 /* Clapmera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clapmera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06776B931F4992E5001EA6F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06776B981F4992E5001EA6F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06776B991F4992E5001EA6F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06776B9C1F4992E5001EA6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06776B9E1F4992E5001EA6F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06776BA11F4992E5001EA6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06776BA31F4992E5001EA6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06776BA81F4992E5001EA6F4 /* ClapmeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClapmeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06776BAC1F4992E5001EA6F4 /* ClapmeraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClapmeraTests.m; sourceTree = "<group>"; };
+		06776BAE1F4992E5001EA6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06776BBA1F499426001EA6F4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06776BBB1F499426001EA6F4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06776BBD1F49946B001EA6F4 /* ClapmeraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClapmeraViewController.h; sourceTree = "<group>"; };
+		06776BBE1F49946B001EA6F4 /* ClapmeraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClapmeraViewController.m; sourceTree = "<group>"; };
+		06776BBF1F49946B001EA6F4 /* ClapmeraViewController+iAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ClapmeraViewController+iAds.h"; sourceTree = "<group>"; };
+		06776BC01F49946B001EA6F4 /* ClapmeraViewController+iAds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ClapmeraViewController+iAds.m"; sourceTree = "<group>"; };
+		06776BC11F49946B001EA6F4 /* ClapmeraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClapmeraViewController.xib; sourceTree = "<group>"; };
+		06776BC61F4994C6001EA6F4 /* AppRater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppRater.h; sourceTree = "<group>"; };
+		06776BC71F4994C6001EA6F4 /* AppRater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppRater.m; sourceTree = "<group>"; };
+		067770D51F499AC4001EA6F4 /* CPTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTheme.h; sourceTree = "<group>"; };
+		067770D61F499AC4001EA6F4 /* CPTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTheme.m; sourceTree = "<group>"; };
+		067770D81F499ACE001EA6F4 /* CPAudioAndVideoProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAudioAndVideoProcessor.h; sourceTree = "<group>"; };
+		067770D91F499ACE001EA6F4 /* CPAudioAndVideoProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAudioAndVideoProcessor.m; sourceTree = "<group>"; };
+		067770DA1F499ACE001EA6F4 /* CPNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPNotifications.h; sourceTree = "<group>"; };
+		067770DC1F499AE1001EA6F4 /* CPSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSoundManager.h; sourceTree = "<group>"; };
+		067770DD1F499AE1001EA6F4 /* CPSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSoundManager.m; sourceTree = "<group>"; };
+		067770DE1F499AE1001EA6F4 /* ClapRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClapRecognizer.h; sourceTree = "<group>"; };
+		067770DF1F499AE1001EA6F4 /* ClapRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClapRecognizer.m; sourceTree = "<group>"; };
+		067770E01F499AE1001EA6F4 /* RCTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTimer.h; sourceTree = "<group>"; };
+		067770E11F499AE1001EA6F4 /* RCTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTimer.m; sourceTree = "<group>"; };
+		067770E21F499AE1001EA6F4 /* CPConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPConfiguration.h; sourceTree = "<group>"; };
+		067770E31F499AE1001EA6F4 /* CPConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPConfiguration.m; sourceTree = "<group>"; };
+		067770E41F499AE1001EA6F4 /* ClapmeraEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClapmeraEngine.h; sourceTree = "<group>"; };
+		067770E51F499AE1001EA6F4 /* ClapmeraEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClapmeraEngine.m; sourceTree = "<group>"; };
+		067770EB1F499AED001EA6F4 /* PurchasesRestorer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchasesRestorer.h; sourceTree = "<group>"; };
+		067770EC1F499AED001EA6F4 /* PurchasesRestorer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchasesRestorer.m; sourceTree = "<group>"; };
+		067770ED1F499AED001EA6F4 /* InAppPurchasesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPurchasesManager.h; sourceTree = "<group>"; };
+		067770EE1F499AED001EA6F4 /* InAppPurchasesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPurchasesManager.m; sourceTree = "<group>"; };
+		067770EF1F499AED001EA6F4 /* SharedConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedConstants.h; sourceTree = "<group>"; };
+		067770F61F499CE0001EA6F4 /* ILTranslucentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILTranslucentView.h; sourceTree = "<group>"; };
+		067770F71F499CE0001EA6F4 /* ILTranslucentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILTranslucentView.m; sourceTree = "<group>"; };
+		067770F91F499D12001EA6F4 /* BFLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLog.h; sourceTree = "<group>"; };
+		067770FB1F499F80001EA6F4 /* CMConfigurationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMConfigurationsViewController.h; sourceTree = "<group>"; };
+		067770FC1F499F80001EA6F4 /* CMConfigurationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMConfigurationsViewController.m; sourceTree = "<group>"; };
+		067770FD1F499F80001EA6F4 /* CMConfigurationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CMConfigurationsViewController.xib; sourceTree = "<group>"; };
+		2F3B839435BD536C96F68AE1 /* libPods-ClapmeraTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClapmeraTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59ABA58359790BE82A6DE311 /* libPods-Clapmera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Clapmera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7A13E41D798ADE02AF18EB /* Pods-ClapmeraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClapmeraTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClapmeraTests/Pods-ClapmeraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		629860D5A85C745940D9C960 /* Pods-ClapmeraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClapmeraTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClapmeraTests/Pods-ClapmeraTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC11E462CCB379C833343FA8 /* Pods-Clapmera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clapmera.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera.release.xcconfig"; sourceTree = "<group>"; };
+		B4FE4156C6EA57AE19F603A3 /* Pods-Clapmera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clapmera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06776B8C1F4992E5001EA6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A4AC5AEC1B85DB9B14D140 /* libPods-Clapmera.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06776BA51F4992E5001EA6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C27DED805609BB3B4451448 /* libPods-ClapmeraTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06776B861F4992E5001EA6F4 = {
+			isa = PBXGroup;
+			children = (
+				06776B911F4992E5001EA6F4 /* Clapmera */,
+				06776BAB1F4992E5001EA6F4 /* ClapmeraTests */,
+				06776B901F4992E5001EA6F4 /* Products */,
+				BFE369D4E74544BF5AFDC9D7 /* Pods */,
+				C6C3EE34B68D069D2217E463 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06776B901F4992E5001EA6F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06776B8F1F4992E5001EA6F4 /* Clapmera.app */,
+				06776BA81F4992E5001EA6F4 /* ClapmeraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06776B911F4992E5001EA6F4 /* Clapmera */ = {
+			isa = PBXGroup;
+			children = (
+				067770F91F499D12001EA6F4 /* BFLog.h */,
+				067770F51F499B27001EA6F4 /* SharedCode */,
+				06776BC61F4994C6001EA6F4 /* AppRater.h */,
+				06776BC71F4994C6001EA6F4 /* AppRater.m */,
+				06776BC51F49947D001EA6F4 /* ClapmeraViewController */,
+				067770FA1F499F6A001EA6F4 /* ConfigurationsViewController */,
+				06776BBA1F499426001EA6F4 /* AppDelegate.h */,
+				06776BBB1F499426001EA6F4 /* AppDelegate.m */,
+				06776B981F4992E5001EA6F4 /* ViewController.h */,
+				06776B991F4992E5001EA6F4 /* ViewController.m */,
+				06776B9B1F4992E5001EA6F4 /* Main.storyboard */,
+				06776B9E1F4992E5001EA6F4 /* Assets.xcassets */,
+				06776BA01F4992E5001EA6F4 /* LaunchScreen.storyboard */,
+				06776BA31F4992E5001EA6F4 /* Info.plist */,
+				06776B921F4992E5001EA6F4 /* Supporting Files */,
+			);
+			path = Clapmera;
+			sourceTree = "<group>";
+		};
+		06776B921F4992E5001EA6F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06776B931F4992E5001EA6F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06776BAB1F4992E5001EA6F4 /* ClapmeraTests */ = {
+			isa = PBXGroup;
+			children = (
+				06776BAC1F4992E5001EA6F4 /* ClapmeraTests.m */,
+				06776BAE1F4992E5001EA6F4 /* Info.plist */,
+			);
+			path = ClapmeraTests;
+			sourceTree = "<group>";
+		};
+		06776BC51F49947D001EA6F4 /* ClapmeraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				06776BBD1F49946B001EA6F4 /* ClapmeraViewController.h */,
+				06776BBE1F49946B001EA6F4 /* ClapmeraViewController.m */,
+				06776BBF1F49946B001EA6F4 /* ClapmeraViewController+iAds.h */,
+				06776BC01F49946B001EA6F4 /* ClapmeraViewController+iAds.m */,
+				06776BC11F49946B001EA6F4 /* ClapmeraViewController.xib */,
+			);
+			name = ClapmeraViewController;
+			sourceTree = "<group>";
+		};
+		067770F21F499AF9001EA6F4 /* InAppPurchaseEngine */ = {
+			isa = PBXGroup;
+			children = (
+				067770EB1F499AED001EA6F4 /* PurchasesRestorer.h */,
+				067770EC1F499AED001EA6F4 /* PurchasesRestorer.m */,
+				067770ED1F499AED001EA6F4 /* InAppPurchasesManager.h */,
+				067770EE1F499AED001EA6F4 /* InAppPurchasesManager.m */,
+				067770EF1F499AED001EA6F4 /* SharedConstants.h */,
+			);
+			name = InAppPurchaseEngine;
+			sourceTree = "<group>";
+		};
+		067770F31F499B15001EA6F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				067770F21F499AF9001EA6F4 /* InAppPurchaseEngine */,
+				067770DC1F499AE1001EA6F4 /* CPSoundManager.h */,
+				067770DD1F499AE1001EA6F4 /* CPSoundManager.m */,
+				067770DE1F499AE1001EA6F4 /* ClapRecognizer.h */,
+				067770DF1F499AE1001EA6F4 /* ClapRecognizer.m */,
+				067770E01F499AE1001EA6F4 /* RCTimer.h */,
+				067770E11F499AE1001EA6F4 /* RCTimer.m */,
+				067770E21F499AE1001EA6F4 /* CPConfiguration.h */,
+				067770E31F499AE1001EA6F4 /* CPConfiguration.m */,
+				067770E41F499AE1001EA6F4 /* ClapmeraEngine.h */,
+				067770E51F499AE1001EA6F4 /* ClapmeraEngine.m */,
+				067770D81F499ACE001EA6F4 /* CPAudioAndVideoProcessor.h */,
+				067770D91F499ACE001EA6F4 /* CPAudioAndVideoProcessor.m */,
+				067770DA1F499ACE001EA6F4 /* CPNotifications.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		067770F41F499B1E001EA6F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				067770F61F499CE0001EA6F4 /* ILTranslucentView.h */,
+				067770F71F499CE0001EA6F4 /* ILTranslucentView.m */,
+				067770D51F499AC4001EA6F4 /* CPTheme.h */,
+				067770D61F499AC4001EA6F4 /* CPTheme.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		067770F51F499B27001EA6F4 /* SharedCode */ = {
+			isa = PBXGroup;
+			children = (
+				067770F31F499B15001EA6F4 /* Model */,
+				067770F41F499B1E001EA6F4 /* View */,
+			);
+			name = SharedCode;
+			sourceTree = "<group>";
+		};
+		067770FA1F499F6A001EA6F4 /* ConfigurationsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				067770FB1F499F80001EA6F4 /* CMConfigurationsViewController.h */,
+				067770FC1F499F80001EA6F4 /* CMConfigurationsViewController.m */,
+				067770FD1F499F80001EA6F4 /* CMConfigurationsViewController.xib */,
+			);
+			name = ConfigurationsViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BFE369D4E74544BF5AFDC9D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4FE4156C6EA57AE19F603A3 /* Pods-Clapmera.debug.xcconfig */,
+				AC11E462CCB379C833343FA8 /* Pods-Clapmera.release.xcconfig */,
+				5E7A13E41D798ADE02AF18EB /* Pods-ClapmeraTests.debug.xcconfig */,
+				629860D5A85C745940D9C960 /* Pods-ClapmeraTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6C3EE34B68D069D2217E463 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59ABA58359790BE82A6DE311 /* libPods-Clapmera.a */,
+				2F3B839435BD536C96F68AE1 /* libPods-ClapmeraTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06776B8E1F4992E5001EA6F4 /* Clapmera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06776BB11F4992E5001EA6F4 /* Build configuration list for PBXNativeTarget "Clapmera" */;
+			buildPhases = (
+				B2C7EF6D1F7E3D792AF9C26D /* [CP] Check Pods Manifest.lock */,
+				06776B8B1F4992E5001EA6F4 /* Sources */,
+				06776B8C1F4992E5001EA6F4 /* Frameworks */,
+				06776B8D1F4992E5001EA6F4 /* Resources */,
+				2724E032F860B2A7092B2CE7 /* [CP] Embed Pods Frameworks */,
+				B78226175F13353714B67D83 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clapmera;
+			productName = Clapmera;
+			productReference = 06776B8F1F4992E5001EA6F4 /* Clapmera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06776BA71F4992E5001EA6F4 /* ClapmeraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06776BB41F4992E5001EA6F4 /* Build configuration list for PBXNativeTarget "ClapmeraTests" */;
+			buildPhases = (
+				E4C316DAB01C66592ABCBC9C /* [CP] Check Pods Manifest.lock */,
+				06776BA41F4992E5001EA6F4 /* Sources */,
+				06776BA51F4992E5001EA6F4 /* Frameworks */,
+				06776BA61F4992E5001EA6F4 /* Resources */,
+				61889D04596BE58240A4C7FA /* [CP] Embed Pods Frameworks */,
+				72814A2F4BB97C01ABF74478 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06776BAA1F4992E5001EA6F4 /* PBXTargetDependency */,
+			);
+			name = ClapmeraTests;
+			productName = ClapmeraTests;
+			productReference = 06776BA81F4992E5001EA6F4 /* ClapmeraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06776B871F4992E5001EA6F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BlackFireApps;
+				TargetAttributes = {
+					06776B8E1F4992E5001EA6F4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9BAHU39A66;
+						ProvisioningStyle = Automatic;
+					};
+					06776BA71F4992E5001EA6F4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9BAHU39A66;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06776B8E1F4992E5001EA6F4;
+					};
+				};
+			};
+			buildConfigurationList = 06776B8A1F4992E5001EA6F4 /* Build configuration list for PBXProject "Clapmera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				fr,
+				ja,
+				pt,
+				"zh-Hant",
+				es,
+				it,
+				"zh-Hans",
+				ko,
+			);
+			mainGroup = 06776B861F4992E5001EA6F4;
+			productRefGroup = 06776B901F4992E5001EA6F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06776B8E1F4992E5001EA6F4 /* Clapmera */,
+				06776BA71F4992E5001EA6F4 /* ClapmeraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06776B8D1F4992E5001EA6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06776BA21F4992E5001EA6F4 /* LaunchScreen.storyboard in Resources */,
+				06776B9F1F4992E5001EA6F4 /* Assets.xcassets in Resources */,
+				067770FF1F499F80001EA6F4 /* CMConfigurationsViewController.xib in Resources */,
+				06776B9D1F4992E5001EA6F4 /* Main.storyboard in Resources */,
+				06776BC41F49946B001EA6F4 /* ClapmeraViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06776BA61F4992E5001EA6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2724E032F860B2A7092B2CE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61889D04596BE58240A4C7FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClapmeraTests/Pods-ClapmeraTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72814A2F4BB97C01ABF74478 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClapmeraTests/Pods-ClapmeraTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2C7EF6D1F7E3D792AF9C26D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B78226175F13353714B67D83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4C316DAB01C66592ABCBC9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06776B8B1F4992E5001EA6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06776BBC1F499426001EA6F4 /* AppDelegate.m in Sources */,
+				06776BC81F4994C6001EA6F4 /* AppRater.m in Sources */,
+				067770D71F499AC4001EA6F4 /* CPTheme.m in Sources */,
+				067770F11F499AED001EA6F4 /* InAppPurchasesManager.m in Sources */,
+				067770F01F499AED001EA6F4 /* PurchasesRestorer.m in Sources */,
+				06776B9A1F4992E5001EA6F4 /* ViewController.m in Sources */,
+				067770E91F499AE1001EA6F4 /* CPConfiguration.m in Sources */,
+				06776BC21F49946B001EA6F4 /* ClapmeraViewController.m in Sources */,
+				067770E81F499AE1001EA6F4 /* RCTimer.m in Sources */,
+				067770E61F499AE1001EA6F4 /* CPSoundManager.m in Sources */,
+				06776BC31F49946B001EA6F4 /* ClapmeraViewController+iAds.m in Sources */,
+				067770E71F499AE1001EA6F4 /* ClapRecognizer.m in Sources */,
+				067770F81F499CE0001EA6F4 /* ILTranslucentView.m in Sources */,
+				06776B941F4992E5001EA6F4 /* main.m in Sources */,
+				067770EA1F499AE1001EA6F4 /* ClapmeraEngine.m in Sources */,
+				067770DB1F499ACE001EA6F4 /* CPAudioAndVideoProcessor.m in Sources */,
+				067770FE1F499F80001EA6F4 /* CMConfigurationsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06776BA41F4992E5001EA6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06776BAD1F4992E5001EA6F4 /* ClapmeraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06776BAA1F4992E5001EA6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06776B8E1F4992E5001EA6F4 /* Clapmera */;
+			targetProxy = 06776BA91F4992E5001EA6F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06776B9B1F4992E5001EA6F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06776B9C1F4992E5001EA6F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06776BA01F4992E5001EA6F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06776BA11F4992E5001EA6F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06776BAF1F4992E5001EA6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06776BB01F4992E5001EA6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06776BB21F4992E5001EA6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4FE4156C6EA57AE19F603A3 /* Pods-Clapmera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9BAHU39A66;
+				INFOPLIST_FILE = Clapmera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Clapmera/aurioTouch/Pods/GoogleAnalytics/Libraries",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackfireapps.Clapmera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06776BB31F4992E5001EA6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC11E462CCB379C833343FA8 /* Pods-Clapmera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9BAHU39A66;
+				INFOPLIST_FILE = Clapmera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Clapmera/aurioTouch/Pods/GoogleAnalytics/Libraries",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackfireapps.Clapmera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06776BB51F4992E5001EA6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7A13E41D798ADE02AF18EB /* Pods-ClapmeraTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9BAHU39A66;
+				INFOPLIST_FILE = ClapmeraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackfireapps.ClapmeraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clapmera.app/Clapmera";
+			};
+			name = Debug;
+		};
+		06776BB61F4992E5001EA6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 629860D5A85C745940D9C960 /* Pods-ClapmeraTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9BAHU39A66;
+				INFOPLIST_FILE = ClapmeraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackfireapps.ClapmeraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clapmera.app/Clapmera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06776B8A1F4992E5001EA6F4 /* Build configuration list for PBXProject "Clapmera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06776BAF1F4992E5001EA6F4 /* Debug */,
+				06776BB01F4992E5001EA6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06776BB11F4992E5001EA6F4 /* Build configuration list for PBXNativeTarget "Clapmera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06776BB21F4992E5001EA6F4 /* Debug */,
+				06776BB31F4992E5001EA6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06776BB41F4992E5001EA6F4 /* Build configuration list for PBXNativeTarget "ClapmeraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06776BB51F4992E5001EA6F4 /* Debug */,
+				06776BB61F4992E5001EA6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06776B871F4992E5001EA6F4 /* Project object */;
+}

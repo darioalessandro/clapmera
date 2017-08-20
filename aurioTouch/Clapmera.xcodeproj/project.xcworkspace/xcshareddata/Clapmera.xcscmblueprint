@@ -1,16 +1,16 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AD7AD89360BE7591045FAB774D6C3C9D63F7E6C7",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "404655DCD61B67578BB64013C178F6E3C20AFE1F",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "AD7AD89360BE7591045FAB774D6C3C9D63F7E6C7" : 0,
+    "404655DCD61B67578BB64013C178F6E3C20AFE1F" : 9223372036854775807,
     "369E7761CE1035DE7E30B65DC049C333D00CD48A" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "550FE1C2-4A97-4390-8D59-C1C7F39BEEBE",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "AD7AD89360BE7591045FAB774D6C3C9D63F7E6C7" : "Clapmera",
-    "369E7761CE1035DE7E30B65DC049C333D00CD48A" : "BlackFireApps"
+    "404655DCD61B67578BB64013C178F6E3C20AFE1F" : "Clapmera\/",
+    "369E7761CE1035DE7E30B65DC049C333D00CD48A" : "BlackFireApps\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Clapmera",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -24,7 +24,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "blackfireapps.com:Clapmera",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD7AD89360BE7591045FAB774D6C3C9D63F7E6C7"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "404655DCD61B67578BB64013C178F6E3C20AFE1F"
     }
   ]
 }

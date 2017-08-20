@@ -15,7 +15,6 @@
 #import "GAI.h"
 #import "CPNotifications.h"
 #define kFBURLSchema @"fb302317129848474"
-#import <FacebookSDK/FacebookSDK.h>
 #import "CPTheme.h"
 
 //Analytics config.
@@ -97,7 +96,6 @@
 -(void)startGoogleAnalyticsTracker{
     BFLog(@"GoogleAnalyticsAccount %@", GoogleAnalyticsAccount);
     [[GAI sharedInstance] setDispatchInterval:kGANDispatchPeriodSec];
-    [[GAI sharedInstance] setDebug:NO];
     [[GAI sharedInstance] trackerWithTrackingId:GoogleAnalyticsAccount];
 }
 
@@ -115,7 +113,7 @@
 #pragma Facebook
 
 -(void)initFacebook{
-    if ([FBSession activeSession].state == FBSessionStateCreatedTokenLoaded) {        
+    if ([ activeSession].state == FBSessionStateCreatedTokenLoaded) {        
         [[FBSession activeSession] openWithCompletionHandler:^(FBSession *session,
                                                                FBSessionState status,
                                                                NSError *error) {
