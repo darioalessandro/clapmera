@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>550FE1C2-4A97-4390-8D59-C1C7F39BEEBE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Clapmera</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>369E7761CE1035DE7E30B65DC049C333D00CD48A</key>
+		<string>blackfireapps:BlackFireApps</string>
+		<key>AD7AD89360BE7591045FAB774D6C3C9D63F7E6C7</key>
+		<string>blackfireapps.com:Clapmera</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>aurioTouch/Clapmera.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>369E7761CE1035DE7E30B65DC049C333D00CD48A</key>
+		<string>../../../../BlackFireApps</string>
+		<key>AD7AD89360BE7591045FAB774D6C3C9D63F7E6C7</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>blackfireapps.com:Clapmera</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AD7AD89360BE7591045FAB774D6C3C9D63F7E6C7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>369E7761CE1035DE7E30B65DC049C333D00CD48A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BlackFireApps</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AD7AD89360BE7591045FAB774D6C3C9D63F7E6C7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Clapmera</string>
+		</dict>
+	</array>
+</dict>
+</plist>

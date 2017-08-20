@@ -1,0 +1,66 @@
+/* 
+  Localizable.strings
+  Clapmera
+
+  Created by Dario Lencina on 5/2/12.
+  Copyright (c) 2012 BlackFireApps. All rights reserved.
+  Chinese simplified
+*/
+
+/* Rating Dialog */
+"¡Gracias por usar nuestra App!" =                  "谢谢使用我们的应用程序!";
+"En otro momento" =                                 "也许下次";
+"Calificar en la AppStore" =                        "在AppStore打分 ";
+"Mandar Feedback" =                                 "发送反馈";
+"No Gracias" =                                      "不用，谢谢";
+
+/* Camera */
+"Off" =                                             "关";
+"Listening" =                                       "听";
+
+/* Settings */
+"timeunit" =                                        "秒";
+"Timer to take photos" =                         "拍照定时器";
+"Sensitivity" =                                     "灵感度";
+"Upgrades"     = "升级";
+
+/* Tutorial */
+"tuto_title_step1" =                                "再简单不过！";
+"tuto_description_step1" =                          "把传感器打开后，拍一拍手就可以拍照。绿色按钮表示程序已准备好拍照。";
+"tuto_title_step2" =                                "个人化设定";
+"tuto_description1_step2" =                         "设定拍手传感器的灵敏度";
+"tuto_description2_step2" =                         "设置定时器。";
+"tuto_title_step3" =                                "只需微笑！";
+"tuto_description_step3" =                          "准备好拍照，拍手，然后微笑！";
+"tuto_go ahead!" =                                  "好！";
+"Processing"=                                       "处理中";
+"iAds Removed."= " iAds已删除。";
+"Tap to refresh from the AppStore."="点选「来刷新从AppStore的中」";
+"¿Desea sincronizar su %@ con los productos previamente comprados en la AppStore (gratuitamente)?"="，你会想，以恢复您的先前的采购额吗？";
+"%@, ¿Desea intentar nuevamente?"="%@, 你想再试一次吗？";
+"AppName"="Clapmera";
+"Si"="是的";
+"Reestableciendo compras"="还原购入";
+"Espere..."="请稍候";
+"No"="无";
+"Clap Detected..."="掌声检测";
+"Smile!"="微笑！";
+"Action canceled..."="动作已取消]";
+"You have %d pics left"="你有 %d 剩下照片";
+"Choose a way to get more pics:"="选择一种方式来获得更多图片";
+"Invite Facebook friends"="邀请Facebook上的朋友";
+"Pro Version (Unlimited x%x no ads)"="Pro版本（无限的＆无广告）";
+
+"Community"="社区";
+"Join the conversation on Twitter"="加入统客的在Twitter上的谈话";
+"Visit us on Facebook"="浏览我们的Facebook";
+"Tutorial"="教程";
+"Rate on the AppStore"="在AppStore上率";
+"About"="关于";
+"Acknowledgments"="致谢";
+"Version"="版本";
+"Settings"="设置";
+"Email us! (english or spanish please)"= "邮寄给我们！";
+"Restore purchases"="恢复购买";
+"You're running the Pro Version."="专业版";
+"MODE"="模式";

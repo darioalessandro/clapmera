@@ -1,0 +1,6 @@
+Facebook SDK for iOS
+===========================
+
+Please see the beta release of the Facebook SDK 3.0 for iOS here:
+
+https://github.com/facebook/facebook-ios-sdk/tree/preview

@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  Clapmera
+
+  Created by Dario Lencina on 5/2/12.
+  Copyright (c) 2012 BlackFireApps. All rights reserved.
+  English
+*/
+
+/* Rating Dialog */
+"¡Gracias por usar nuestra App!" =                  "Thank you for using this App!";
+"En otro momento" =                                 "Maybe some other time";
+"Calificar en la AppStore" =                        "Rate @ the AppStore";
+"Mandar Feedback" =                                 "Send Feedback";
+"No Gracias" =                                      "No, thanks";
+
+/* Camera */
+"Off" =                                             "Off";
+"Listening" =                                       "Listening";
+
+/* Settings */
+"timeunit" =                                        "sec";
+"Timer to take photos" =                         "TIMER";
+"Sensitivity" =                                     "SENSITIVITY";
+"Upgrades"     = "Upgrades";
+
+/* Tutorial */
+"tuto_title_step1" =                                "Could not be easier!";
+"tuto_description_step1" =                          "To start taking pictures by clapping, just turn on the sensor. The green button indicates that the app is ready to take photos.";
+"tuto_title_step2" =                                "Customize it";
+"tuto_description1_step2" =                         "Setup the sensitivity of the clap sensor";
+"tuto_description2_step2" =                         "And specify the timer.";
+"tuto_title_step3" =                                "And just smile!";
+"tuto_description_step3" =                          "Get ready for the pic, clap and smile!.";
+"tuto_go ahead!" =                                  "Ok!";
+"Processing"=                                       "Processing";
+"iAds Removed."= "iAds Removed";
+"Front camera and flash installed."="Front camera and flash installed.";
+
+
+"Tap to refresh from the AppStore."="Tap to refresh from the AppStore.";
+"¿Desea sincronizar su %@ con los productos previamente comprados en la AppStore (gratuitamente)?"="Would you like to restore your previous purchases?";
+"%@, ¿Desea intentar nuevamente?"="%@, Would you like to try again?";
+"AppName"="Clapmera";
+"Si"="Yes";
+"Reestableciendo compras"="Restoring Purchases...";
+"Espere..."="Please wait...";
+"No"="No";
+"Too much movement..."="Too much movement...";
+"Action canceled..."="Action canceled...";
+
+"You have %d pics left"="You have %d pics left.";
+"Choose a way to get more pics:"="CHOOSE A WAY TO GET MORE PICS:";
+"Invite Facebook friends"="Invite Facebook friends";
+"Pro Version (Unlimited & no ads)"="Pro Version (Unlimited & no ads)";
+"Community"="COMMUNITY";
+"Join the conversation on Twitter"="Join the conversation on Twitter";
+"Visit us on Facebook"="Visit us on Facebook";
+"Tutorial"="Tutorial";
+"Rate on the AppStore"="Rate on the AppStore";
+"About"="ABOUT";
+"Acknowledgments"="Acknowledgments";
+"Version"="Version";
+"Settings"="Settings";
+"Restore purchases" = "Restore purchases";
+"MODE"="MODE";
+
