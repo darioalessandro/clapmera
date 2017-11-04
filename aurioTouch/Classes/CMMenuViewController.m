@@ -94,7 +94,7 @@
 }
 
 -(void)showLastPic:(id)caller{
-    [super showLastPic:caller];
+    if([[self productsArray] count]<1) return;
     self.isShowingFullSizeGallery=TRUE;
     self.lastSelectedRow=[NSIndexPath indexPathForRow:[[self productsArray] count]-1 inSection:0];
     [self showGalleryDetailWithIndex:[[self productsArray] count]-1 fromView:nil];
@@ -105,10 +105,12 @@
 }
 
 -(void)didAddedAssets:(NSNotification *)notif{
-    id array= [notif object];
-    self.productsArray=array;
-    [self.tableView reloadData];
-    [self.loadingPicsIndicator stopAnimating];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        id array= [notif object];
+        self.productsArray=array;
+        [self.tableView reloadData];
+        [self.loadingPicsIndicator stopAnimating];
+    });
 //    [self showLastPic:nil];
 }
 
@@ -138,7 +140,20 @@
     }
     
     if(!landscapeiPhone5){
-        cell=[super getCell];
+        NSString * fileName= @"BFGFullSizeCell";
+        
+        if(UIInterfaceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation])){
+            fileName= [NSString stringWithFormat:@"%@_landscape", fileName];
+        }
+        
+        BFGFullSizeCell * cell= (BFGFullSizeCell *)[self.tableView dequeueReusableCellWithIdentifier:@"ff"];
+        if(cell==nil){
+            cell= [[NSBundle bundleForClass:[BFGalleryViewController class] ] loadNibNamed:fileName owner:nil options:nil][0];
+            [cell setSelectedBackgroundView:[[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 0)]];
+            [cell setBackgroundView:[[UIView alloc] init]];
+            [[cell backgroundView] setBackgroundColor:[UIColor blackColor]];
+        }
+        return cell;
     }
     [[cell backgroundView] setBackgroundColor:self.view.backgroundColor];
     return cell;

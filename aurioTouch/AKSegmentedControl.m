@@ -164,19 +164,19 @@
 
 - (void)setButtonsArray:(NSArray *)buttonsArray
 {
-    [_buttonsArray makeObjectsPerformSelector:@selector(removeFromSuperview)];
-    [separatorsArray removeAllObjects];
-    
-    _buttonsArray = buttonsArray;
-    
-    [_buttonsArray enumerateObjectsWithOptions:NSEnumerationConcurrent usingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-         [self addSubview:(UIButton *)obj];
-        [(UIButton *)obj addTarget:self action:@selector(segmentButtonPressed:) forControlEvents:UIControlEventTouchDown];
-        [(UIButton *)obj setTag:idx];
-    }];
-    
-    [self rebuildSeparators];
-    [self updateButtons];
+        [_buttonsArray makeObjectsPerformSelector:@selector(removeFromSuperview)];
+        
+        [separatorsArray removeAllObjects];
+        
+        _buttonsArray = buttonsArray;
+        
+        [_buttonsArray enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+            [self addSubview:(UIButton *)obj];
+            [(UIButton *)obj addTarget:self action:@selector(segmentButtonPressed:) forControlEvents:UIControlEventTouchDown];
+            [(UIButton *)obj setTag:idx];
+        }];
+        [self rebuildSeparators];
+        [self updateButtons];
 }
 
 - (void)setSeparatorImage:(UIImage *)separatorImage
@@ -226,7 +226,7 @@
     
     NSUInteger separatorsNumber = [_buttonsArray count] - 1;
     
-    [_buttonsArray enumerateObjectsWithOptions:NSEnumerationConcurrent usingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+    [_buttonsArray enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         if (idx < separatorsNumber)
         {
             UIImageView *separatorImageView = [[UIImageView alloc] initWithImage:_separatorImage];

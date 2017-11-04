@@ -277,7 +277,7 @@ static DejalActivityView *dejalActivityView = nil;
 {
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
     
-    label.font = [UIFont systemFontOfSize:[UIFont systemFontSize]];
+    label.font = [UIFont systemFontOfSize:40];
     label.textAlignment = NSTextAlignmentLeft;
     label.textColor = [UIColor blackColor];
     label.backgroundColor = [UIColor clearColor];
@@ -304,7 +304,7 @@ static DejalActivityView *dejalActivityView = nil;
     if (!CGAffineTransformIsIdentity(self.borderView.transform))
         return;
     
-    CGSize textSize = [self.activityLabel.text sizeWithFont:[UIFont systemFontOfSize:[UIFont systemFontSize]]];
+    CGSize textSize = [self.activityLabel.text sizeWithFont:[UIFont systemFontOfSize:40]];
     
     // Use the fixed width if one is specified:
     if (self.labelWidth > 10)
@@ -531,7 +531,7 @@ static DejalActivityView *dejalActivityView = nil;
 {
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
     
-    label.font = [UIFont fontWithName:@"Helvetica-Light" size:15];
+    label.font = [UIFont fontWithName:@"Helvetica-Light" size:40];
     label.textAlignment = NSTextAlignmentCenter;
     label.textColor = [UIColor blackColor];
     label.backgroundColor = [UIColor clearColor];
@@ -559,7 +559,7 @@ static DejalActivityView *dejalActivityView = nil;
     
     self.frame = [self enclosingFrame];
     
-    CGSize maxSize = CGSizeMake(300, 400);
+    CGSize maxSize = CGSizeMake(300, 500);
     
     CGSize textSize = [self.activityLabel.text sizeWithFont:self.activityLabel.font constrainedToSize:maxSize lineBreakMode:self.activityLabel.lineBreakMode];
     textSize.height=80;

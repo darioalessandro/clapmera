@@ -44,6 +44,9 @@
 		064A9AC81756DC6700854F44 /* ClapRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 064A9AC71756DC6700854F44 /* ClapRecognizer.m */; };
 		06546D7E17A4F724007572D1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06546D7D17A4F724007572D1 /* MobileCoreServices.framework */; };
 		06546D8417A58565007572D1 /* CPAudioAndVideoProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 06546D8317A58565007572D1 /* CPAudioAndVideoProcessor.m */; };
+		065B0EEC1FAD7966000D436F /* UIView+LoadingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 065B0EEA1FAD7965000D436F /* UIView+LoadingState.m */; };
+		065B0EEF1FAD7994000D436F /* NetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 065B0EED1FAD7994000D436F /* NetworkActivityIndicatorManager.m */; };
+		065B0EF11FAD7A64000D436F /* UIViewController + Analytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 065B0EF01FAD7A64000D436F /* UIViewController + Analytics.m */; };
 		06670EA917558B9500AA7E94 /* RCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 06670EA317558B8C00AA7E94 /* RCTimer.m */; };
 		0668FEA9162D4A92004423E5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0668FEA8162D4A92004423E5 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0668FEAB162D4A9C004423E5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0668FEAA162D4A9C004423E5 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -254,6 +257,11 @@
 		06546D7D17A4F724007572D1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		06546D8217A58565007572D1 /* CPAudioAndVideoProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAudioAndVideoProcessor.h; sourceTree = "<group>"; };
 		06546D8317A58565007572D1 /* CPAudioAndVideoProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAudioAndVideoProcessor.m; sourceTree = "<group>"; };
+		065B0EEA1FAD7965000D436F /* UIView+LoadingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LoadingState.m"; sourceTree = SOURCE_ROOT; };
+		065B0EEB1FAD7966000D436F /* UIView+LoadingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LoadingState.h"; sourceTree = SOURCE_ROOT; };
+		065B0EED1FAD7994000D436F /* NetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkActivityIndicatorManager.m; sourceTree = SOURCE_ROOT; };
+		065B0EEE1FAD7994000D436F /* NetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkActivityIndicatorManager.h; sourceTree = SOURCE_ROOT; };
+		065B0EF01FAD7A64000D436F /* UIViewController + Analytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController + Analytics.m"; sourceTree = SOURCE_ROOT; };
 		06670EA217558B8C00AA7E94 /* RCTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTimer.h; path = "Clapmera for Mac/RCTimer.h"; sourceTree = "<group>"; };
 		06670EA317558B8C00AA7E94 /* RCTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTimer.m; path = "Clapmera for Mac/RCTimer.m"; sourceTree = "<group>"; };
 		06670EAA1755906C00AA7E94 /* BFLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFLog.h; sourceTree = "<group>"; };
@@ -663,6 +671,11 @@
 		06A49B1218A202C9005035C3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				065B0EF01FAD7A64000D436F /* UIViewController + Analytics.m */,
+				065B0EEE1FAD7994000D436F /* NetworkActivityIndicatorManager.h */,
+				065B0EED1FAD7994000D436F /* NetworkActivityIndicatorManager.m */,
+				065B0EEB1FAD7966000D436F /* UIView+LoadingState.h */,
+				065B0EEA1FAD7965000D436F /* UIView+LoadingState.m */,
 				060813431FAD728B00A80F3D /* DejalActivityView.h */,
 				060813441FAD728B00A80F3D /* DejalActivityView.m */,
 				0608133F1FAD726F00A80F3D /* InstructionsView.xib */,
@@ -1322,9 +1335,11 @@
 				0BBA85AC156859DA0007E3C8 /* TutoViewController.m in Sources */,
 				87FB8A7015C501FA00768768 /* CMMenuViewController.m in Sources */,
 				060813381FAD71E500A80F3D /* FPTouchView.m in Sources */,
+				065B0EEC1FAD7966000D436F /* UIView+LoadingState.m in Sources */,
 				0608132D1FAD71A300A80F3D /* AKSegmentedControl.m in Sources */,
 				0608133D1FAD725900A80F3D /* FadeAndScaleSiegue.m in Sources */,
 				068E0C54166A2C2A00E89A72 /* ClapmeraViewController.m in Sources */,
+				065B0EF11FAD7A64000D436F /* UIViewController + Analytics.m in Sources */,
 				0608132B1FAD687A00A80F3D /* TypeTransformers.m in Sources */,
 				068E0C59166A31B300E89A72 /* ClapmeraViewController+iAds.m in Sources */,
 				06546D8417A58565007572D1 /* CPAudioAndVideoProcessor.m in Sources */,
@@ -1346,6 +1361,7 @@
 				06A49B1518A202D2005035C3 /* ILTranslucentView.m in Sources */,
 				069E5C5817A6218100EDA934 /* NewFeaturesController.m in Sources */,
 				066DB11317A644A600F53804 /* CMConfigurationsViewController.m in Sources */,
+				065B0EEF1FAD7994000D436F /* NetworkActivityIndicatorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1501,6 +1517,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 9BAHU39A66;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1535,6 +1552,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 9BAHU39A66;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Clapmera_Prefix.pch;
@@ -1607,6 +1625,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 9BAHU39A66;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Clapmera_Prefix.pch;

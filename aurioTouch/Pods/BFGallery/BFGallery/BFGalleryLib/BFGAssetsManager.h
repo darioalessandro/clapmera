@@ -35,6 +35,7 @@ typedef enum{
 }
 -(void)readImagesFromProvider:(BFGAssetsManagerProvider)provider withContext:(id)context;
 -(void)getMoreImages;
+-(void)readUserImagesFromLibrary;
 +(BFGAssetsManager *)sharedInstance;
 -(BOOL)handleOpenURL:(NSURL *)url;
 -(BOOL)cameraRollAuthorizationStatus;
