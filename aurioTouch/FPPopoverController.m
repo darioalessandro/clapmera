@@ -121,9 +121,9 @@
         [self.view addSubview:_touchView];
         
         
-        __block typeof (self) bself = self;
+        __weak FPPopoverController * me = self;
         [_touchView setTouchedOutsideBlock:^{
-            [bself dismissPopoverAnimated:YES];
+            [me dismissPopoverAnimated:YES];
         }];
 
         self.contentSize = CGSizeMake(226, 109); //default size

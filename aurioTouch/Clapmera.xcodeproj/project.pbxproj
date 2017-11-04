@@ -13,6 +13,15 @@
 		0606603117597985004FB964 /* NSDictionary+QuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606603017597985004FB964 /* NSDictionary+QuickLook.m */; };
 		0606603317598BF5004FB964 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0606603217598BF5004FB964 /* icon.icns */; };
 		0608132B1FAD687A00A80F3D /* TypeTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608132A1FAD687A00A80F3D /* TypeTransformers.m */; };
+		0608132D1FAD71A300A80F3D /* AKSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608132C1FAD71A300A80F3D /* AKSegmentedControl.m */; };
+		060813311FAD71BD00A80F3D /* AppRater.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608132F1FAD71BD00A80F3D /* AppRater.m */; };
+		060813381FAD71E500A80F3D /* FPTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 060813321FAD71E500A80F3D /* FPTouchView.m */; };
+		060813391FAD71E500A80F3D /* FPPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 060813341FAD71E500A80F3D /* FPPopoverView.m */; };
+		0608133A1FAD71E500A80F3D /* FPPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 060813361FAD71E500A80F3D /* FPPopoverController.m */; };
+		0608133D1FAD725900A80F3D /* FadeAndScaleSiegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608133C1FAD725900A80F3D /* FadeAndScaleSiegue.m */; };
+		060813411FAD727000A80F3D /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608133E1FAD726F00A80F3D /* InstructionsViewController.m */; };
+		060813421FAD727000A80F3D /* InstructionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0608133F1FAD726F00A80F3D /* InstructionsView.xib */; };
+		060813451FAD728B00A80F3D /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 060813441FAD728B00A80F3D /* DejalActivityView.m */; };
 		060AD34F17A4CD06007ADCA1 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 060AD34E17A4CD06007ADCA1 /* click.wav */; };
 		060F5BAC17546DF3007A4671 /* UIWindow+FullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 060F5BAB17546DF3007A4671 /* UIWindow+FullScreen.m */; };
 		060F5BAE17547FE5007A4671 /* listening.png in Resources */ = {isa = PBXBuildFile; fileRef = 060F5BAD17547FE5007A4671 /* listening.png */; };
@@ -97,7 +106,6 @@
 		068230B8173346AA0071A309 /* BFMenuDetailViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230AB173346AA0071A309 /* BFMenuDetailViewController_ipad.xib */; };
 		068230B9173346AA0071A309 /* BFMenuDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230AC173346AA0071A309 /* BFMenuDetailViewController.xib */; };
 		068230BB173346CD0071A309 /* InstructionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230BA173346CD0071A309 /* InstructionsView.xib */; };
-		068230BD173346FD0071A309 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068230BC173346FD0071A309 /* FacebookSDK.framework */; };
 		068230BF173347140071A309 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068230BE173347140071A309 /* CoreData.framework */; };
 		06886F9E17640F640098D320 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06886F9D17640F640098D320 /* main.m */; };
 		068E0C54166A2C2A00E89A72 /* ClapmeraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068E0C52166A2C2A00E89A72 /* ClapmeraViewController.m */; };
@@ -151,7 +159,7 @@
 		1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		2A0AC409A8669E784EAD0942 /* libPods-Clapmera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0501B5F6599CCED8417D87CD /* libPods-Clapmera.a */; };
+		7F1C67B63216691D0ED95B30 /* Pods_Clapmera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58BE85E9E5F9FE1B6BB480B5 /* Pods_Clapmera.framework */; };
 		8705C7EE1557593E009D3A6A /* CPSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8705C7ED1557593E009D3A6A /* CPSoundManager.m */; };
 		873EB264153ABC3B00465FA2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873EB263153ABC3B00465FA2 /* AVFoundation.framework */; };
 		8752E1C1153D06120038B15A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8752E1C0153D06120038B15A /* libsqlite3.0.dylib */; };
@@ -191,7 +199,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0501B5F6599CCED8417D87CD /* libPods-Clapmera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Clapmera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0600138E17571EBE00ED1754 /* clapmera.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = clapmera.entitlements; path = ../clapmera.entitlements; sourceTree = "<group>"; };
 		060013951757F63500ED1754 /* IconViewPrototype.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconViewPrototype.xib; sourceTree = "<group>"; };
 		0606602817597058004FB964 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -201,6 +208,23 @@
 		0606603217598BF5004FB964 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
 		060813291FAD687A00A80F3D /* TypeTransformers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypeTransformers.h; sourceTree = "<group>"; };
 		0608132A1FAD687A00A80F3D /* TypeTransformers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypeTransformers.m; sourceTree = "<group>"; };
+		0608132C1FAD71A300A80F3D /* AKSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKSegmentedControl.m; sourceTree = SOURCE_ROOT; };
+		0608132E1FAD71AA00A80F3D /* AKSegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKSegmentedControl.h; sourceTree = SOURCE_ROOT; };
+		0608132F1FAD71BD00A80F3D /* AppRater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppRater.m; sourceTree = SOURCE_ROOT; };
+		060813301FAD71BD00A80F3D /* AppRater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppRater.h; sourceTree = SOURCE_ROOT; };
+		060813321FAD71E500A80F3D /* FPTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTouchView.m; sourceTree = SOURCE_ROOT; };
+		060813331FAD71E500A80F3D /* FPPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPopoverController.h; sourceTree = SOURCE_ROOT; };
+		060813341FAD71E500A80F3D /* FPPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPopoverView.m; sourceTree = SOURCE_ROOT; };
+		060813351FAD71E500A80F3D /* FPPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPopoverView.h; sourceTree = SOURCE_ROOT; };
+		060813361FAD71E500A80F3D /* FPPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPopoverController.m; sourceTree = SOURCE_ROOT; };
+		060813371FAD71E500A80F3D /* FPTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTouchView.h; sourceTree = SOURCE_ROOT; };
+		0608133B1FAD725900A80F3D /* FadeAndScaleSiegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeAndScaleSiegue.h; sourceTree = SOURCE_ROOT; };
+		0608133C1FAD725900A80F3D /* FadeAndScaleSiegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeAndScaleSiegue.m; sourceTree = SOURCE_ROOT; };
+		0608133E1FAD726F00A80F3D /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = SOURCE_ROOT; };
+		0608133F1FAD726F00A80F3D /* InstructionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructionsView.xib; sourceTree = SOURCE_ROOT; };
+		060813401FAD726F00A80F3D /* InstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = SOURCE_ROOT; };
+		060813431FAD728B00A80F3D /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = SOURCE_ROOT; };
+		060813441FAD728B00A80F3D /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = SOURCE_ROOT; };
 		060AD34E17A4CD06007ADCA1 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
 		060F5BAA17546DF3007A4671 /* UIWindow+FullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+FullScreen.h"; sourceTree = "<group>"; };
 		060F5BAB17546DF3007A4671 /* UIWindow+FullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+FullScreen.m"; sourceTree = "<group>"; };
@@ -408,6 +432,7 @@
 		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* clapmera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clapmera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58BE85E9E5F9FE1B6BB480B5 /* Pods_Clapmera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clapmera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59999291EA4913F83B136DEE /* Pods-Clapmera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clapmera.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera.release.xcconfig"; sourceTree = "<group>"; };
 		6305D26525B4CFA7712626EB /* Pods-Clapmera.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clapmera.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera.adhoc.xcconfig"; sourceTree = "<group>"; };
 		8705C7EC1557593E009D3A6A /* CPSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPSoundManager.h; path = Classes/CPSoundManager.h; sourceTree = "<group>"; };
@@ -498,8 +523,7 @@
 				F7E58EDA0DCFD988006C4A2F /* AudioToolbox.framework in Frameworks */,
 				A16C47120DE37F9E00F4A0B3 /* OpenGLES.framework in Frameworks */,
 				A16C473F0DE3801700F4A0B3 /* QuartzCore.framework in Frameworks */,
-				068230BD173346FD0071A309 /* FacebookSDK.framework in Frameworks */,
-				2A0AC409A8669E784EAD0942 /* libPods-Clapmera.a in Frameworks */,
+				7F1C67B63216691D0ED95B30 /* Pods_Clapmera.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +663,23 @@
 		06A49B1218A202C9005035C3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				060813431FAD728B00A80F3D /* DejalActivityView.h */,
+				060813441FAD728B00A80F3D /* DejalActivityView.m */,
+				0608133F1FAD726F00A80F3D /* InstructionsView.xib */,
+				060813401FAD726F00A80F3D /* InstructionsViewController.h */,
+				0608133E1FAD726F00A80F3D /* InstructionsViewController.m */,
+				0608133B1FAD725900A80F3D /* FadeAndScaleSiegue.h */,
+				0608133C1FAD725900A80F3D /* FadeAndScaleSiegue.m */,
+				060813331FAD71E500A80F3D /* FPPopoverController.h */,
+				060813361FAD71E500A80F3D /* FPPopoverController.m */,
+				060813351FAD71E500A80F3D /* FPPopoverView.h */,
+				060813341FAD71E500A80F3D /* FPPopoverView.m */,
+				060813371FAD71E500A80F3D /* FPTouchView.h */,
+				060813321FAD71E500A80F3D /* FPTouchView.m */,
+				060813301FAD71BD00A80F3D /* AppRater.h */,
+				0608132F1FAD71BD00A80F3D /* AppRater.m */,
+				0608132E1FAD71AA00A80F3D /* AKSegmentedControl.h */,
+				0608132C1FAD71A300A80F3D /* AKSegmentedControl.m */,
 				06A49B1318A202D2005035C3 /* ILTranslucentView.h */,
 				06A49B1418A202D2005035C3 /* ILTranslucentView.m */,
 			);
@@ -937,7 +978,7 @@
 		A94D62F811B40C9A6D8C9FB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0501B5F6599CCED8417D87CD /* libPods-Clapmera.a */,
+				58BE85E9E5F9FE1B6BB480B5 /* Pods_Clapmera.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1137,6 +1178,7 @@
 				06B7C1BB1772CFE8003C4D01 /* menu_preview_button.png in Resources */,
 				0697804417769245003ADCFF /* UpgradesViewController.xib in Resources */,
 				066BCC001777721700254548 /* navBar_fondo.png in Resources */,
+				060813421FAD727000A80F3D /* InstructionsView.xib in Resources */,
 				066BCC011777721700254548 /* navBar_fondo@2x.png in Resources */,
 				066BCC0D1777727B00254548 /* navigationBarButton.png in Resources */,
 				066BCC0E1777727B00254548 /* navigationBarButton@2x.png in Resources */,
@@ -1234,9 +1276,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BFGallery/BFGallery.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BFGallery.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1272,19 +1321,27 @@
 				8705C7EE1557593E009D3A6A /* CPSoundManager.m in Sources */,
 				0BBA85AC156859DA0007E3C8 /* TutoViewController.m in Sources */,
 				87FB8A7015C501FA00768768 /* CMMenuViewController.m in Sources */,
+				060813381FAD71E500A80F3D /* FPTouchView.m in Sources */,
+				0608132D1FAD71A300A80F3D /* AKSegmentedControl.m in Sources */,
+				0608133D1FAD725900A80F3D /* FadeAndScaleSiegue.m in Sources */,
 				068E0C54166A2C2A00E89A72 /* ClapmeraViewController.m in Sources */,
 				0608132B1FAD687A00A80F3D /* TypeTransformers.m in Sources */,
 				068E0C59166A31B300E89A72 /* ClapmeraViewController+iAds.m in Sources */,
 				06546D8417A58565007572D1 /* CPAudioAndVideoProcessor.m in Sources */,
 				06C29163172A0F0700D1FAA9 /* PurchasesRestorer.m in Sources */,
+				0608133A1FAD71E500A80F3D /* FPPopoverController.m in Sources */,
+				060813311FAD71BD00A80F3D /* AppRater.m in Sources */,
 				06C29164172A0F0700D1FAA9 /* InAppPurchasesManager.m in Sources */,
 				0677647D1763BD93000606D6 /* ClapRecognizer.m in Sources */,
+				060813391FAD71E500A80F3D /* FPPopoverView.m in Sources */,
 				0677647F1763BD9B000606D6 /* RCTimer.m in Sources */,
 				067764801763C0B7000606D6 /* CPConfiguration.m in Sources */,
 				06886F9E17640F640098D320 /* main.m in Sources */,
 				0697803917768D88003ADCFF /* CPTheme.m in Sources */,
 				0697804317769245003ADCFF /* UpgradesViewController.m in Sources */,
+				060813451FAD728B00A80F3D /* DejalActivityView.m in Sources */,
 				066BCC1B177786D600254548 /* AcknowledgmentsViewController.m in Sources */,
+				060813411FAD727000A80F3D /* InstructionsViewController.m in Sources */,
 				066E8257178074C1007D8EB5 /* ClapmeraEngine.m in Sources */,
 				06A49B1518A202D2005035C3 /* ILTranslucentView.m in Sources */,
 				069E5C5817A6218100EDA934 /* NewFeaturesController.m in Sources */,
@@ -1520,6 +1577,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Dario Lencina";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dario Lencina";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
@@ -1713,6 +1771,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dario Lencina (B7LQ9NTG5B)";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1754,6 +1813,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Dario Lencina";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dario Lencina";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
