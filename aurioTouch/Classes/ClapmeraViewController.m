@@ -20,6 +20,8 @@
 #import "ClapmeraEngine.h"
 #import "BFGAssetsManager.h"
 #import "UIView+LoadingState.h"
+#import "GAI.h"
+#import "TypeTransformers.h"
 
 @interface ClapmeraViewController ()
 -(void)showSettingsAsModalView:(id)sender;
@@ -66,7 +68,7 @@
 
 -(void)clapmeraEngine:(ClapmeraEngine *)clapmeraEngine timerDidTic:(RCTimer *)timer{
     if(timer){
-        self.sensorOnOffLabel.text = [NSString stringWithFormat:@"%d",timer.timeRemaining];
+        self.sensorOnOffLabel.text = [NSString stringWithFormat:@"%ld",(long)timer.timeRemaining];
     }
     [self turnOnFlashForTimeInterval:1];
 }
@@ -74,11 +76,10 @@
 -(void)clapmeraEngine:(ClapmeraEngine *)clapmeraEngine didThrowError:(NSError *)error{
     if (error.code==ClapmeraEngineErrorUserRanOutOfPictures) {
         [self showUpgrades:nil];
-        [[[GAI sharedInstance] defaultTracker] sendView:@"ClapmeraViewController/UserRanOutOfPics"];
+        [[[GAI sharedInstance] defaultTracker] send:@{@"view":@"ClapmeraViewController/UserRanOutOfPics"}];
     }else if(error.code==ClapmeraEngineErrorAppHasNoAccessToPhotos){
-        
         BFLog(@"Error saving photo: %@", error);
-        [[[GAI sharedInstance] defaultTracker] sendView:@"ClapmeraViewController/DidFailToSnapPhoto"];
+        [[[GAI sharedInstance] defaultTracker] send:@{@"view":@"ClapmeraViewController/DidFailToSnapPhoto"}];
     }else if(error.code==ClapmeraEngineErrorhighVolume){
         [DejalBezelActivityView activityViewForView:self.view withLabel:NSLocalizedString(@"Environment is too noisy", nil)];
         [self removeActivityView];
@@ -90,7 +91,7 @@
     if([engine state]==ClapmeraEngineStateCanceledCapture){
         [DejalBezelActivityView activityViewForView:self.view withLabel:NSLocalizedString(@"Action canceled...", nil)];
         [self removeActivityView];
-        [[[GAI sharedInstance] defaultTracker] sendView:@"ClapmeraViewController/cancelPic/FromClap"];
+        [[[GAI sharedInstance] defaultTracker] send:@{@"view":@"ClapmeraViewController/cancelPic/FromClap"}];
     }
     if(engine.state==ClapmeraEngineStateCounting){
         [DejalBezelActivityView activityViewForView:self.view withLabel:NSLocalizedString(@"Clap Detected...", nil)];
@@ -256,10 +257,11 @@
 }
 
 -(void)rotateCameraToOrientation:(UIInterfaceOrientation)orientation{
-    [_captureVideoPreviewLayer.connection setVideoOrientation:orientation];
+    AVCaptureVideoOrientation videoOrientation = [TypeTransformers tansformToVideoOrientation:orientation];
+    [_captureVideoPreviewLayer.connection setVideoOrientation:videoOrientation];
     _captureVideoPreviewLayer.frame = self.cameraView.bounds;
     for(AVCaptureConnection * connection in [self.clapmeraEngine.imageOutput connections]){
-        [connection setVideoOrientation:orientation];
+        [connection setVideoOrientation:videoOrientation];
     }
     [self.clapmeraEngine.videoProcessor updateVideoOrientation:orientation];
 }

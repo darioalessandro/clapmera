@@ -16,7 +16,7 @@
 #import "CPNotifications.h"
 #define kFBURLSchema @"fb302317129848474"
 #import "CPTheme.h"
-
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 //Analytics config.
 #define GoogleAnalyticsAccount @"UA-30917267-1"
 #define kGANDispatchPeriodSec 30
@@ -34,7 +34,7 @@
 
 -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
     [self.window setBounds:[[UIScreen mainScreen] bounds]];
-    [self initFacebook];
+    [self initFacebookWithApplication:application andOptions:launchOptions];
     [self showClapmeraMainController];
     [self startGoogleAnalyticsTracker];
     [self startInAppPurchasesEngine];
@@ -49,7 +49,10 @@
          annotation:(id)annotation{
     BOOL openURL=NO;
     if([[url scheme] isEqualToString:kFBURLSchema]){
-        openURL= [[FBSession activeSession] handleOpenURL:url];
+        openURL= [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                                openURL:url
+                                                      sourceApplication:sourceApplication
+                                                             annotation:annotation];
     }
     return openURL;
 }
@@ -62,11 +65,6 @@
 -(void)applicationDidBecomeActive:(UIApplication *)application{
     [[NSNotificationCenter defaultCenter] postNotificationName:AppDidBecomeActive object:nil];
     [((ClapmeraViewController *)self.viewController) applicationDidBecomeActive:application];
-    [FBSession.activeSession handleDidBecomeActive];
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application{
-    [[FBSession activeSession] close];
 }
 
 #pragma mark -
@@ -106,20 +104,15 @@
 - (void)trackerDispatchDidComplete:(GAI *)tracker
                   eventsDispatched:(NSUInteger)eventsDispatched
               eventsFailedDispatch:(NSUInteger)eventsFailedDispatch {
-    BFLog(@"events dispatched: %d, events failed: %d", eventsDispatched, eventsFailedDispatch);
+    BFLog(@"events dispatched: %lu, events failed: %d", (unsigned long)eventsDispatched, eventsFailedDispatch);
 }
 
 #pragma mark -
 #pragma Facebook
 
--(void)initFacebook{
-    if ([ activeSession].state == FBSessionStateCreatedTokenLoaded) {        
-        [[FBSession activeSession] openWithCompletionHandler:^(FBSession *session,
-                                                               FBSessionState status,
-                                                               NSError *error) {
-            
-        }];
-    }
+-(void)initFacebookWithApplication:(UIApplication *)application andOptions:(NSDictionary *)launchOptions {
+    [[FBSDKApplicationDelegate sharedInstance] application:application
+                             didFinishLaunchingWithOptions:launchOptions];
 }
 
 -(void)setCustomNavBarTheme{

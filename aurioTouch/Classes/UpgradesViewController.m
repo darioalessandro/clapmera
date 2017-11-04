@@ -15,6 +15,7 @@
 #import "UIViewController + Analytics.h"
 #import "CPTheme.h"
 #import "ClapmeraViewController.h"
+#import "GAI.h"
 
 @interface UpgradesViewController ()
     @property(nonatomic, strong) NSArray * cells;
@@ -160,7 +161,7 @@
             }
         }];
     }
-    [[[GAI sharedInstance] defaultTracker] sendView:pathToTrack];
+    [[[GAI sharedInstance] defaultTracker] send:@{@"view": pathToTrack}];
 }
 
 #pragma mark -
@@ -169,29 +170,29 @@
 -(void)triggerLogicToShareClapmeraWithFriendsAndAdd12Pics{
     NSString * message=NSLocalizedString(@"Try out Clapmera for free, an awesome app to take photos remotely.", nil);
     NSDictionary * params =   @{@"message":message, @"method:":@"apprequests"};
-    [FBWebDialogs presentRequestsDialogModallyWithSession:[FBSession activeSession]
-                                                  message:message
-                                                    title:@"clapmera"
-                                               parameters:params
-                                                  handler:^(FBWebDialogResult result, NSURL *resultURL, NSError *error) {
-                                                      if (error) {
-                                                          // Case A: Error launching the dialog or sending request.
-                                                          BFLog(@"Error sending request.");
-                                                          UIAlertView * alert=[[UIAlertView alloc] initWithTitle:@"Facebook:" message:[error localizedDescription] delegate:nil cancelButtonTitle:NSLocalizedString(@"Ok", nil) otherButtonTitles: nil];
-                                                          [alert show];
-                                                      } else {
-                                                          if (result == FBWebDialogResultDialogNotCompleted) {
-                                                              // Case B: User clicked the "x" icon
-                                                              BFLog(@"User canceled request.");
-                                                          } else {
-                                                              // Case C: Dialog shown and the user clicks Cancel or Send
-                                                              NSDictionary *urlParams = [self parseURLParams:[resultURL query]];
-                                                              if (![urlParams valueForKey:@"request"]) {
-                                                                  // User clicked the Cancel button
-                                                                  BFLog(@"User canceled request.");
-                                                              }
-                                                          }
-                                                      }}];
+//    [FBWebDialogs presentRequestsDialogModallyWithSession:[FBSession activeSession]
+//                                                  message:message
+//                                                    title:@"clapmera"
+//                                               parameters:params
+//                                                  handler:^(FBWebDialogResult result, NSURL *resultURL, NSError *error) {
+//                                                      if (error) {
+//                                                          // Case A: Error launching the dialog or sending request.
+//                                                          BFLog(@"Error sending request.");
+//                                                          UIAlertView * alert=[[UIAlertView alloc] initWithTitle:@"Facebook:" message:[error localizedDescription] delegate:nil cancelButtonTitle:NSLocalizedString(@"Ok", nil) otherButtonTitles: nil];
+//                                                          [alert show];
+//                                                      } else {
+//                                                          if (result == FBWebDialogResultDialogNotCompleted) {
+//                                                              // Case B: User clicked the "x" icon
+//                                                              BFLog(@"User canceled request.");
+//                                                          } else {
+//                                                              // Case C: Dialog shown and the user clicks Cancel or Send
+//                                                              NSDictionary *urlParams = [self parseURLParams:[resultURL query]];
+//                                                              if (![urlParams valueForKey:@"request"]) {
+//                                                                  // User clicked the Cancel button
+//                                                                  BFLog(@"User canceled request.");
+//                                                              }
+//                                                          }
+//                                                      }}];
 }
 
 /**

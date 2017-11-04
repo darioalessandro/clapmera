@@ -37,9 +37,7 @@
 
 -(void)syncDBWithCompletedTransactionsQueue:(SKPaymentQueue *)queue{
     BFLog(@"queue %@", queue.transactions);
-    for(SKPaymentTransaction * transaction in queue.transactions){
-        [queue removeTransactionObserver:self];
-    }
+    [queue removeTransactionObserver:self];
     [self.delegate didEndedSync:self];
 }
 

@@ -31,7 +31,6 @@
         self.player= [[CPSoundManager alloc] init];
         [self set_state:ClapmeraEngineStateListening];
         self.timer=[RCTimer new];
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateSensitivity:) name:CPConfigurationSensitivityChanged object:nil];
         self.videoProcessor = [[CPAudioAndVideoProcessor alloc] init];
         self.videoProcessor.delegate = self;
         self.videoProcessor.audioDelegate=self.clapRecognizer;

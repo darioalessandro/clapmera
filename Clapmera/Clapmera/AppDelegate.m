@@ -76,7 +76,7 @@
 }
 
 -(void)startInAppPurchasesEngine{
-    [[InAppPurchasesManager sharedManager] reloadProductsWithHandler:NULL];
+//    [[InAppPurchasesManager sharedManager] reloadProductsWithHandler:NULL];
 }
 
 - (void)showClapmeraMainController{

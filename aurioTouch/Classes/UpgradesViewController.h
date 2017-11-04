@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <FacebookSDK/FacebookSDK.h>
 #import "ClapmeraViewController.h"
 
-@interface UpgradesViewController : UITableViewController <FBFriendPickerDelegate>
+@interface UpgradesViewController : UITableViewController
 @property (weak, nonatomic) IBOutlet UITableViewCell *remainingPics;
 @property (weak, nonatomic) IBOutlet UITableViewCell *upgrade_24Pics;
 @property (weak, nonatomic) IBOutlet UITableViewCell *upgrade_12Pics;

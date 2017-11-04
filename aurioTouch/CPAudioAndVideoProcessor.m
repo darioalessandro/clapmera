@@ -3,14 +3,14 @@
 #import <AssetsLibrary/AssetsLibrary.h>
 #import "CPAudioAndVideoProcessor.h"
 #import "CPConfiguration.h"
-
+#import "TypeTransformers.h"
 #define BYTES_PER_PIXEL 4
 
 @interface CPAudioAndVideoProcessor ()
 
 @property (readwrite) CMVideoDimensions videoDimensions;
 @property (readwrite) CMVideoCodecType videoType;
-@property (nonatomic, assign) AVCaptureVideoOrientation * videoOrientation;
+@property (nonatomic, assign) AVCaptureVideoOrientation videoOrientation;
 @property (readwrite, getter=isRecording) BOOL recording;
 
 @end
@@ -329,7 +329,7 @@
 
 - (void)updateVideoOrientation:(UIInterfaceOrientation)interfaceOrientation{
     if(UIInterfaceOrientationIsLandscape(interfaceOrientation)|| UIInterfaceOrientationIsPortrait(interfaceOrientation)){
-        self.videoOrientation=interfaceOrientation;
+        self.videoOrientation=[TypeTransformers tansformToVideoOrientation:interfaceOrientation];
     }
 }
 

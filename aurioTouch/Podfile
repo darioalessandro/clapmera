@@ -8,8 +8,16 @@ target 'Clapmera' do
   #pod 'BFGallery' , :git => "https://github.com/darioalessandro/BlackFireGallery.git", :tag => "0.1.2"
   # Pods for Clapmera
   pod 'GoogleAnalytics', '~> 3.17'
-  pod 'FBSDKCoreKit', '~> 4.25'
+  pod 'FBSDKCoreKit', '~> 4.27.1'
+  	
+end
 
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |configuration|
+      target.build_settings(configuration.name)['ONLY_ACTIVE_ARCH'] = 'NO'
+    end
+  end
 end
 
 #target 'clapmera' do

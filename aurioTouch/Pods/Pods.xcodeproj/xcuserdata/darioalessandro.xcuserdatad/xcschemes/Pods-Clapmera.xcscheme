@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7609A90B6B3F4930357234E34BA57D2B'
+               BlueprintIdentifier = '980CB81858AA0467ACA75C3D5372F7BE'
                BlueprintName = 'Pods-Clapmera'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-Clapmera.a'>

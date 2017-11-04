@@ -12,6 +12,7 @@
 		0606602E17597176004FB964 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606602D17597176004FB964 /* QuickLook.framework */; };
 		0606603117597985004FB964 /* NSDictionary+QuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606603017597985004FB964 /* NSDictionary+QuickLook.m */; };
 		0606603317598BF5004FB964 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0606603217598BF5004FB964 /* icon.icns */; };
+		0608132B1FAD687A00A80F3D /* TypeTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608132A1FAD687A00A80F3D /* TypeTransformers.m */; };
 		060AD34F17A4CD06007ADCA1 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 060AD34E17A4CD06007ADCA1 /* click.wav */; };
 		060F5BAC17546DF3007A4671 /* UIWindow+FullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 060F5BAB17546DF3007A4671 /* UIWindow+FullScreen.m */; };
 		060F5BAE17547FE5007A4671 /* listening.png in Resources */ = {isa = PBXBuildFile; fileRef = 060F5BAD17547FE5007A4671 /* listening.png */; };
@@ -198,6 +199,8 @@
 		0606602F17597985004FB964 /* NSDictionary+QuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QuickLook.h"; sourceTree = "<group>"; };
 		0606603017597985004FB964 /* NSDictionary+QuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QuickLook.m"; sourceTree = "<group>"; };
 		0606603217598BF5004FB964 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
+		060813291FAD687A00A80F3D /* TypeTransformers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypeTransformers.h; sourceTree = "<group>"; };
+		0608132A1FAD687A00A80F3D /* TypeTransformers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypeTransformers.m; sourceTree = "<group>"; };
 		060AD34E17A4CD06007ADCA1 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
 		060F5BAA17546DF3007A4671 /* UIWindow+FullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+FullScreen.h"; sourceTree = "<group>"; };
 		060F5BAB17546DF3007A4671 /* UIWindow+FullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+FullScreen.m"; sourceTree = "<group>"; };
@@ -405,6 +408,8 @@
 		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* clapmera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clapmera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59999291EA4913F83B136DEE /* Pods-Clapmera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clapmera.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera.release.xcconfig"; sourceTree = "<group>"; };
+		6305D26525B4CFA7712626EB /* Pods-Clapmera.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clapmera.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera.adhoc.xcconfig"; sourceTree = "<group>"; };
 		8705C7EC1557593E009D3A6A /* CPSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPSoundManager.h; path = Classes/CPSoundManager.h; sourceTree = "<group>"; };
 		8705C7ED1557593E009D3A6A /* CPSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPSoundManager.m; path = Classes/CPSoundManager.m; sourceTree = "<group>"; };
 		8714CF471554C7AC00391524 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -452,9 +457,7 @@
 		87FB8A6F15C501FA00768768 /* CMMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMenuViewController.m; sourceTree = "<group>"; };
 		A16C47110DE37F9E00F4A0B3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		A16C473E0DE3801700F4A0B3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		AEA2ED0471DB271B7B56D7BB /* Pods-Clapmera.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clapmera.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera.adhoc.xcconfig"; sourceTree = "<group>"; };
-		CAEAEE39C6C1324D3E6BC6C3 /* Pods-Clapmera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clapmera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera.debug.xcconfig"; sourceTree = "<group>"; };
-		E32780D0FD903748ACCFECBF /* Pods-Clapmera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clapmera.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera.release.xcconfig"; sourceTree = "<group>"; };
+		A1F2EC3CA81E1103E3AD14B2 /* Pods-Clapmera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clapmera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera.debug.xcconfig"; sourceTree = "<group>"; };
 		EB007CB01610007000F9A83E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EB007CB21610007C00F9A83E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		EB79946F15F16DD9000FE961 /* CPConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPConfiguration.h; path = "Clapmera for Mac/CPConfiguration.h"; sourceTree = "<group>"; };
@@ -608,6 +611,8 @@
 				EB79947015F16DD9000FE961 /* CPConfiguration.m */,
 				066E8255178074C1007D8EB5 /* ClapmeraEngine.h */,
 				066E8256178074C1007D8EB5 /* ClapmeraEngine.m */,
+				060813291FAD687A00A80F3D /* TypeTransformers.h */,
+				0608132A1FAD687A00A80F3D /* TypeTransformers.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -760,8 +765,8 @@
 				87A1762D155928EE007317AC /* Mac */,
 				29B97323FDCFA39411CA2CEA /* AllFrameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				EDE22120D2595B733F85080D /* Pods */,
 				A94D62F811B40C9A6D8C9FB1 /* Frameworks */,
+				764F62A843019170AF4FCD6D /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -842,6 +847,16 @@
 				8720234D1558F70B0019CDA8 /* Other Frameworks */,
 			);
 			name = AllFrameworks;
+			sourceTree = "<group>";
+		};
+		764F62A843019170AF4FCD6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1F2EC3CA81E1103E3AD14B2 /* Pods-Clapmera.debug.xcconfig */,
+				59999291EA4913F83B136DEE /* Pods-Clapmera.release.xcconfig */,
+				6305D26525B4CFA7712626EB /* Pods-Clapmera.adhoc.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		8714CF531554D4B700391524 /* InAppPurchasesEngine */ = {
@@ -982,16 +997,6 @@
 			name = Tutorial;
 			sourceTree = "<group>";
 		};
-		EDE22120D2595B733F85080D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CAEAEE39C6C1324D3E6BC6C3 /* Pods-Clapmera.debug.xcconfig */,
-				E32780D0FD903748ACCFECBF /* Pods-Clapmera.release.xcconfig */,
-				AEA2ED0471DB271B7B56D7BB /* Pods-Clapmera.adhoc.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1038,7 +1043,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 9BAHU39A66;
@@ -1211,9 +1216,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1241,13 +1249,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clapmera-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1262,6 +1273,7 @@
 				0BBA85AC156859DA0007E3C8 /* TutoViewController.m in Sources */,
 				87FB8A7015C501FA00768768 /* CMMenuViewController.m in Sources */,
 				068E0C54166A2C2A00E89A72 /* ClapmeraViewController.m in Sources */,
+				0608132B1FAD687A00A80F3D /* TypeTransformers.m in Sources */,
 				068E0C59166A31B300E89A72 /* ClapmeraViewController+iAds.m in Sources */,
 				06546D8417A58565007572D1 /* CPAudioAndVideoProcessor.m in Sources */,
 				06C29163172A0F0700D1FAA9 /* PurchasesRestorer.m in Sources */,
@@ -1422,7 +1434,7 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAEAEE39C6C1324D3E6BC6C3 /* Pods-Clapmera.debug.xcconfig */;
+			baseConfigurationReference = A1F2EC3CA81E1103E3AD14B2 /* Pods-Clapmera.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1457,7 +1469,7 @@
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E32780D0FD903748ACCFECBF /* Pods-Clapmera.release.xcconfig */;
+			baseConfigurationReference = 59999291EA4913F83B136DEE /* Pods-Clapmera.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1490,12 +1502,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1512,6 +1530,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "";
 				PROVISIONING_PROFILE = "A8EDDD53-E69E-4CE1-83B1-380FD445D9DC";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A8EDDD53-E69E-4CE1-83B1-380FD445D9DC";
 				SDKROOT = iphoneos;
@@ -1520,7 +1539,7 @@
 		};
 		873277A2153FCA8D0067A451 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEA2ED0471DB271B7B56D7BB /* Pods-Clapmera.adhoc.xcconfig */;
+			baseConfigurationReference = 6305D26525B4CFA7712626EB /* Pods-Clapmera.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1675,12 +1694,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1700,7 +1725,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = "-DDEBUGLOGMODE";
+				OTHER_CFLAGS = "";
 				PROVISIONING_PROFILE = "6199E90A-A4A3-4A33-BD90-688F1CFEFC11";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6199E90A-A4A3-4A33-BD90-688F1CFEFC11";
 				SDKROOT = iphoneos;
@@ -1711,12 +1736,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1733,6 +1764,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "";
 				PROVISIONING_PROFILE = "66F252B6-0B57-43CA-A6E4-D6725C5EAF72";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "66F252B6-0B57-43CA-A6E4-D6725C5EAF72";
 				SDKROOT = iphoneos;
