@@ -95,20 +95,6 @@
 		067AE226183479CC00D1A358 /* BFDeniedAccessToMicrophoneViewipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067AE224183479CB00D1A358 /* BFDeniedAccessToMicrophoneViewipad.xib */; };
 		067FCB171734CF4500F055E1 /* RMTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 067FCB161734CF4400F055E1 /* RMTheme.m */; };
 		067FCB1F1734CFC300F055E1 /* ClapmeraTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 067FCB1E1734CFC300F055E1 /* ClapmeraTheme.m */; };
-		068230AD173346AA0071A309 /* BFGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230A0173346AA0071A309 /* BFGalleryViewController.xib */; };
-		068230AE173346AA0071A309 /* BFGCell_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230A1173346AA0071A309 /* BFGCell_ipad.xib */; };
-		068230AF173346AA0071A309 /* BFGCell_iphone_landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230A2173346AA0071A309 /* BFGCell_iphone_landscape.xib */; };
-		068230B0173346AA0071A309 /* BFGCell_iphone_portrait.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230A3173346AA0071A309 /* BFGCell_iphone_portrait.xib */; };
-		068230B1173346AA0071A309 /* BFGFullSizeCell_ipad_landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230A4173346AA0071A309 /* BFGFullSizeCell_ipad_landscape.xib */; };
-		068230B2173346AA0071A309 /* BFGFullSizeCell_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230A5173346AA0071A309 /* BFGFullSizeCell_ipad.xib */; };
-		068230B3173346AA0071A309 /* BFGFullSizeCell_iphone_landscape_iphone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230A6173346AA0071A309 /* BFGFullSizeCell_iphone_landscape_iphone5.xib */; };
-		068230B4173346AA0071A309 /* BFGFullSizeCell_iphone_landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230A7173346AA0071A309 /* BFGFullSizeCell_iphone_landscape.xib */; };
-		068230B5173346AA0071A309 /* BFGFullSizeCell_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230A8173346AA0071A309 /* BFGFullSizeCell_iphone.xib */; };
-		068230B6173346AA0071A309 /* BFGFullSizeViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230A9173346AA0071A309 /* BFGFullSizeViewController_ipad.xib */; };
-		068230B7173346AA0071A309 /* BFGFullSizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230AA173346AA0071A309 /* BFGFullSizeViewController.xib */; };
-		068230B8173346AA0071A309 /* BFMenuDetailViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230AB173346AA0071A309 /* BFMenuDetailViewController_ipad.xib */; };
-		068230B9173346AA0071A309 /* BFMenuDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230AC173346AA0071A309 /* BFMenuDetailViewController.xib */; };
-		068230BB173346CD0071A309 /* InstructionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230BA173346CD0071A309 /* InstructionsView.xib */; };
 		068230BF173347140071A309 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068230BE173347140071A309 /* CoreData.framework */; };
 		06886F9E17640F640098D320 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06886F9D17640F640098D320 /* main.m */; };
 		068E0C54166A2C2A00E89A72 /* ClapmeraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068E0C52166A2C2A00E89A72 /* ClapmeraViewController.m */; };
@@ -135,6 +121,21 @@
 		06B7C1B51772CE51003C4D01 /* menu_button_change_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 06B7C1B41772CE50003C4D01 /* menu_button_change_camera.png */; };
 		06B7C1B71772CF0C003C4D01 /* menu_button_flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 06B7C1B61772CF0B003C4D01 /* menu_button_flash.png */; };
 		06B7C1BB1772CFE8003C4D01 /* menu_preview_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 06B7C1B91772CFE6003C4D01 /* menu_preview_button.png */; };
+		06BE06D024EEA7A10085B2BB /* InstructionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06CF24EEA7A10085B2BB /* InstructionsView.xib */; };
+		06BE06D224EEA7D40085B2BB /* BFGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06D124EEA7D40085B2BB /* BFGalleryViewController.xib */; };
+		06BE06D624EEA8020085B2BB /* BFGCell_iphone_landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06D324EEA8020085B2BB /* BFGCell_iphone_landscape.xib */; };
+		06BE06D724EEA8020085B2BB /* BFGCell_iphone_portrait.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06D424EEA8020085B2BB /* BFGCell_iphone_portrait.xib */; };
+		06BE06D824EEA8020085B2BB /* BFGCell_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06D524EEA8020085B2BB /* BFGCell_ipad.xib */; };
+		06BE06DA24EEA8220085B2BB /* BFGFullSizeCell_ipad_landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06D924EEA8220085B2BB /* BFGFullSizeCell_ipad_landscape.xib */; };
+		06BE06DC24EEA82B0085B2BB /* BFGFullSizeCell_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06DB24EEA82B0085B2BB /* BFGFullSizeCell_ipad.xib */; };
+		06BE06DE24EEA8340085B2BB /* BFGFullSizeCell_iphone_landscape_iphone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06DD24EEA8340085B2BB /* BFGFullSizeCell_iphone_landscape_iphone5.xib */; };
+		06BE06E024EEA83C0085B2BB /* BFGFullSizeCell_iphone_landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06DF24EEA83C0085B2BB /* BFGFullSizeCell_iphone_landscape.xib */; };
+		06BE06E224EEA8470085B2BB /* BFGFullSizeCell_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06E124EEA8470085B2BB /* BFGFullSizeCell_iphone.xib */; };
+		06BE06E424EEA8500085B2BB /* BFGFullSizeViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06E324EEA8500085B2BB /* BFGFullSizeViewController_ipad.xib */; };
+		06BE06E624EEA8770085B2BB /* BFGFullSizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06E524EEA8770085B2BB /* BFGFullSizeViewController.xib */; };
+		06BE06E824EEA8840085B2BB /* BFGFullSizeViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06E724EEA8840085B2BB /* BFGFullSizeViewController_ipad.xib */; };
+		06BE06EB24EEA8A40085B2BB /* BFMenuDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06E924EEA8A40085B2BB /* BFMenuDetailViewController.xib */; };
+		06BE06EC24EEA8A40085B2BB /* BFMenuDetailViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06EA24EEA8A40085B2BB /* BFMenuDetailViewController_ipad.xib */; };
 		06BFD2A11702973A00DA8E9A /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BFD2A01702973A00DA8E9A /* Twitter.framework */; };
 		06C29163172A0F0700D1FAA9 /* PurchasesRestorer.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C29160172A0F0700D1FAA9 /* PurchasesRestorer.m */; };
 		06C29164172A0F0700D1FAA9 /* InAppPurchasesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C29162172A0F0700D1FAA9 /* InAppPurchasesManager.m */; };
@@ -316,20 +317,6 @@
 		067FCB1B1734CF8E00F055E1 /* Raleway */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Raleway; sourceTree = "<group>"; };
 		067FCB1D1734CFC300F055E1 /* ClapmeraTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClapmeraTheme.h; sourceTree = "<group>"; };
 		067FCB1E1734CFC300F055E1 /* ClapmeraTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClapmeraTheme.m; sourceTree = "<group>"; };
-		068230A0173346AA0071A309 /* BFGalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BFGalleryViewController.xib; path = ../../BlackFireApps/BlackFireApps/assets/BFGalleryViewController.xib; sourceTree = "<group>"; };
-		068230A1173346AA0071A309 /* BFGCell_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BFGCell_ipad.xib; path = ../../BlackFireApps/BlackFireApps/assets/BFGCell_ipad.xib; sourceTree = "<group>"; };
-		068230A2173346AA0071A309 /* BFGCell_iphone_landscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BFGCell_iphone_landscape.xib; path = ../../BlackFireApps/BlackFireApps/assets/BFGCell_iphone_landscape.xib; sourceTree = "<group>"; };
-		068230A3173346AA0071A309 /* BFGCell_iphone_portrait.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BFGCell_iphone_portrait.xib; path = ../../BlackFireApps/BlackFireApps/assets/BFGCell_iphone_portrait.xib; sourceTree = "<group>"; };
-		068230A4173346AA0071A309 /* BFGFullSizeCell_ipad_landscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BFGFullSizeCell_ipad_landscape.xib; path = ../../BlackFireApps/BlackFireApps/assets/BFGFullSizeCell_ipad_landscape.xib; sourceTree = "<group>"; };
-		068230A5173346AA0071A309 /* BFGFullSizeCell_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BFGFullSizeCell_ipad.xib; path = ../../BlackFireApps/BlackFireApps/assets/BFGFullSizeCell_ipad.xib; sourceTree = "<group>"; };
-		068230A6173346AA0071A309 /* BFGFullSizeCell_iphone_landscape_iphone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BFGFullSizeCell_iphone_landscape_iphone5.xib; path = ../../BlackFireApps/BlackFireApps/assets/BFGFullSizeCell_iphone_landscape_iphone5.xib; sourceTree = "<group>"; };
-		068230A7173346AA0071A309 /* BFGFullSizeCell_iphone_landscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BFGFullSizeCell_iphone_landscape.xib; path = ../../BlackFireApps/BlackFireApps/assets/BFGFullSizeCell_iphone_landscape.xib; sourceTree = "<group>"; };
-		068230A8173346AA0071A309 /* BFGFullSizeCell_iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BFGFullSizeCell_iphone.xib; path = ../../BlackFireApps/BlackFireApps/assets/BFGFullSizeCell_iphone.xib; sourceTree = "<group>"; };
-		068230A9173346AA0071A309 /* BFGFullSizeViewController_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BFGFullSizeViewController_ipad.xib; path = ../../BlackFireApps/BlackFireApps/assets/BFGFullSizeViewController_ipad.xib; sourceTree = "<group>"; };
-		068230AA173346AA0071A309 /* BFGFullSizeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BFGFullSizeViewController.xib; path = ../../BlackFireApps/BlackFireApps/assets/BFGFullSizeViewController.xib; sourceTree = "<group>"; };
-		068230AB173346AA0071A309 /* BFMenuDetailViewController_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BFMenuDetailViewController_ipad.xib; path = ../../BlackFireApps/BlackFireApps/assets/BFMenuDetailViewController_ipad.xib; sourceTree = "<group>"; };
-		068230AC173346AA0071A309 /* BFMenuDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BFMenuDetailViewController.xib; path = ../../BlackFireApps/BlackFireApps/assets/BFMenuDetailViewController.xib; sourceTree = "<group>"; };
-		068230BA173346CD0071A309 /* InstructionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InstructionsView.xib; path = ../../BlackFireApps/BlackFireApps/InstructionsView.xib; sourceTree = "<group>"; };
 		068230BC173346FD0071A309 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../3PartyLibs/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		068230BE173347140071A309 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		068230D1173354C50071A309 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/BFDeniedAccessToAssetsView.strings; sourceTree = "<group>"; };
@@ -405,6 +392,21 @@
 		06B7C1B41772CE50003C4D01 /* menu_button_change_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_button_change_camera.png; sourceTree = SOURCE_ROOT; };
 		06B7C1B61772CF0B003C4D01 /* menu_button_flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_button_flash.png; sourceTree = SOURCE_ROOT; };
 		06B7C1B91772CFE6003C4D01 /* menu_preview_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_preview_button.png; sourceTree = SOURCE_ROOT; };
+		06BE06CF24EEA7A10085B2BB /* InstructionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructionsView.xib; sourceTree = "<group>"; };
+		06BE06D124EEA7D40085B2BB /* BFGalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFGalleryViewController.xib; sourceTree = "<group>"; };
+		06BE06D324EEA8020085B2BB /* BFGCell_iphone_landscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFGCell_iphone_landscape.xib; sourceTree = "<group>"; };
+		06BE06D424EEA8020085B2BB /* BFGCell_iphone_portrait.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFGCell_iphone_portrait.xib; sourceTree = "<group>"; };
+		06BE06D524EEA8020085B2BB /* BFGCell_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFGCell_ipad.xib; sourceTree = "<group>"; };
+		06BE06D924EEA8220085B2BB /* BFGFullSizeCell_ipad_landscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFGFullSizeCell_ipad_landscape.xib; sourceTree = "<group>"; };
+		06BE06DB24EEA82B0085B2BB /* BFGFullSizeCell_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFGFullSizeCell_ipad.xib; sourceTree = "<group>"; };
+		06BE06DD24EEA8340085B2BB /* BFGFullSizeCell_iphone_landscape_iphone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFGFullSizeCell_iphone_landscape_iphone5.xib; sourceTree = "<group>"; };
+		06BE06DF24EEA83C0085B2BB /* BFGFullSizeCell_iphone_landscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFGFullSizeCell_iphone_landscape.xib; sourceTree = "<group>"; };
+		06BE06E124EEA8470085B2BB /* BFGFullSizeCell_iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFGFullSizeCell_iphone.xib; sourceTree = "<group>"; };
+		06BE06E324EEA8500085B2BB /* BFGFullSizeViewController_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFGFullSizeViewController_ipad.xib; sourceTree = "<group>"; };
+		06BE06E524EEA8770085B2BB /* BFGFullSizeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFGFullSizeViewController.xib; sourceTree = "<group>"; };
+		06BE06E724EEA8840085B2BB /* BFGFullSizeViewController_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFGFullSizeViewController_ipad.xib; sourceTree = "<group>"; };
+		06BE06E924EEA8A40085B2BB /* BFMenuDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFMenuDetailViewController.xib; sourceTree = "<group>"; };
+		06BE06EA24EEA8A40085B2BB /* BFMenuDetailViewController_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFMenuDetailViewController_ipad.xib; sourceTree = "<group>"; };
 		06BFD2A01702973A00DA8E9A /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		06C2915F172A0F0700D1FAA9 /* PurchasesRestorer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchasesRestorer.h; sourceTree = "<group>"; };
 		06C29160172A0F0700D1FAA9 /* PurchasesRestorer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchasesRestorer.m; sourceTree = "<group>"; };
@@ -708,20 +710,21 @@
 				067AE224183479CB00D1A358 /* BFDeniedAccessToMicrophoneViewipad.xib */,
 				06CFD5C817A758CA00A9A4F9 /* ReloadView.xib */,
 				06CFD5C317A7589600A9A4F9 /* LoadingView.xib */,
-				068230BA173346CD0071A309 /* InstructionsView.xib */,
-				068230A0173346AA0071A309 /* BFGalleryViewController.xib */,
-				068230A1173346AA0071A309 /* BFGCell_ipad.xib */,
-				068230A2173346AA0071A309 /* BFGCell_iphone_landscape.xib */,
-				068230A3173346AA0071A309 /* BFGCell_iphone_portrait.xib */,
-				068230A4173346AA0071A309 /* BFGFullSizeCell_ipad_landscape.xib */,
-				068230A5173346AA0071A309 /* BFGFullSizeCell_ipad.xib */,
-				068230A6173346AA0071A309 /* BFGFullSizeCell_iphone_landscape_iphone5.xib */,
-				068230A7173346AA0071A309 /* BFGFullSizeCell_iphone_landscape.xib */,
-				068230A8173346AA0071A309 /* BFGFullSizeCell_iphone.xib */,
-				068230A9173346AA0071A309 /* BFGFullSizeViewController_ipad.xib */,
-				068230AA173346AA0071A309 /* BFGFullSizeViewController.xib */,
-				068230AB173346AA0071A309 /* BFMenuDetailViewController_ipad.xib */,
-				068230AC173346AA0071A309 /* BFMenuDetailViewController.xib */,
+				06BE06CF24EEA7A10085B2BB /* InstructionsView.xib */,
+				06BE06D124EEA7D40085B2BB /* BFGalleryViewController.xib */,
+				06BE06D524EEA8020085B2BB /* BFGCell_ipad.xib */,
+				06BE06D324EEA8020085B2BB /* BFGCell_iphone_landscape.xib */,
+				06BE06D424EEA8020085B2BB /* BFGCell_iphone_portrait.xib */,
+				06BE06D924EEA8220085B2BB /* BFGFullSizeCell_ipad_landscape.xib */,
+				06BE06DB24EEA82B0085B2BB /* BFGFullSizeCell_ipad.xib */,
+				06BE06DD24EEA8340085B2BB /* BFGFullSizeCell_iphone_landscape_iphone5.xib */,
+				06BE06DF24EEA83C0085B2BB /* BFGFullSizeCell_iphone_landscape.xib */,
+				06BE06E124EEA8470085B2BB /* BFGFullSizeCell_iphone.xib */,
+				06BE06E324EEA8500085B2BB /* BFGFullSizeViewController_ipad.xib */,
+				06BE06E524EEA8770085B2BB /* BFGFullSizeViewController.xib */,
+				06BE06E724EEA8840085B2BB /* BFGFullSizeViewController_ipad.xib */,
+				06BE06EA24EEA8A40085B2BB /* BFMenuDetailViewController_ipad.xib */,
+				06BE06E924EEA8A40085B2BB /* BFMenuDetailViewController.xib */,
 				06466E5F1708C2860027A076 /* lock.png */,
 				06466E661708C2B30027A076 /* BFDeniedAccessToAssetsView.xib */,
 				06466E6E1708C3520027A076 /* BFDeniedAccessToAssetsViewipad.xib */,
@@ -1163,24 +1166,16 @@
 				06466E6C1708C3520027A076 /* BFDeniedAccessToAssetsViewipad.xib in Resources */,
 				06466E601708C2860027A076 /* lock.png in Resources */,
 				06C29171172A206300D1FAA9 /* BFGFullSizeCell_iphone_landscape_iphone5.xib in Resources */,
-				068230AD173346AA0071A309 /* BFGalleryViewController.xib in Resources */,
-				068230AE173346AA0071A309 /* BFGCell_ipad.xib in Resources */,
-				068230AF173346AA0071A309 /* BFGCell_iphone_landscape.xib in Resources */,
-				068230B0173346AA0071A309 /* BFGCell_iphone_portrait.xib in Resources */,
-				068230B1173346AA0071A309 /* BFGFullSizeCell_ipad_landscape.xib in Resources */,
-				068230B2173346AA0071A309 /* BFGFullSizeCell_ipad.xib in Resources */,
-				068230B3173346AA0071A309 /* BFGFullSizeCell_iphone_landscape_iphone5.xib in Resources */,
+				06BE06DC24EEA82B0085B2BB /* BFGFullSizeCell_ipad.xib in Resources */,
+				06BE06E024EEA83C0085B2BB /* BFGFullSizeCell_iphone_landscape.xib in Resources */,
 				060AD34F17A4CD06007ADCA1 /* click.wav in Resources */,
-				068230B4173346AA0071A309 /* BFGFullSizeCell_iphone_landscape.xib in Resources */,
-				068230B5173346AA0071A309 /* BFGFullSizeCell_iphone.xib in Resources */,
-				068230B6173346AA0071A309 /* BFGFullSizeViewController_ipad.xib in Resources */,
-				068230B7173346AA0071A309 /* BFGFullSizeViewController.xib in Resources */,
-				068230B8173346AA0071A309 /* BFMenuDetailViewController_ipad.xib in Resources */,
-				068230B9173346AA0071A309 /* BFMenuDetailViewController.xib in Resources */,
-				068230BB173346CD0071A309 /* InstructionsView.xib in Resources */,
+				06BE06DA24EEA8220085B2BB /* BFGFullSizeCell_ipad_landscape.xib in Resources */,
+				06BE06DE24EEA8340085B2BB /* BFGFullSizeCell_iphone_landscape_iphone5.xib in Resources */,
 				06D97ECF176C29B300BD1499 /* Default-568h@2x.png in Resources */,
+				06BE06D824EEA8020085B2BB /* BFGCell_ipad.xib in Resources */,
 				06B7C1A51772C85B003C4D01 /* menu_fondo.png in Resources */,
 				06B7C1A71772C952003C4D01 /* menu_fondo@2x.png in Resources */,
+				06BE06D624EEA8020085B2BB /* BFGCell_iphone_landscape.xib in Resources */,
 				06B7C1B11772CAF8003C4D01 /* menu_button_sensor_off.png in Resources */,
 				067AE226183479CC00D1A358 /* BFDeniedAccessToMicrophoneViewipad.xib in Resources */,
 				06B7C1B21772CAF8003C4D01 /* menu_button_sensor_on.png in Resources */,
@@ -1191,6 +1186,7 @@
 				0697804417769245003ADCFF /* UpgradesViewController.xib in Resources */,
 				066BCC001777721700254548 /* navBar_fondo.png in Resources */,
 				060813421FAD727000A80F3D /* InstructionsView.xib in Resources */,
+				06BE06D024EEA7A10085B2BB /* InstructionsView.xib in Resources */,
 				066BCC011777721700254548 /* navBar_fondo@2x.png in Resources */,
 				066BCC0D1777727B00254548 /* navigationBarButton.png in Resources */,
 				066BCC0E1777727B00254548 /* navigationBarButton@2x.png in Resources */,
@@ -1202,12 +1198,15 @@
 				066BCC141777727B00254548 /* navigationBarBackPressed@2x.png in Resources */,
 				066BCC16177781F200254548 /* menu_configs_button.png in Resources */,
 				066BCC1C177786D600254548 /* AcknowledgmentsViewController.xib in Resources */,
+				06BE06EB24EEA8A40085B2BB /* BFMenuDetailViewController.xib in Resources */,
 				066BCC1F1777871800254548 /* Acknowledgments.html in Resources */,
 				066BCC23177A849300254548 /* MainWindow-iPad.xib in Resources */,
 				066BCC26177AA4B300254548 /* menu_fondo_gray.png in Resources */,
 				066BCC27177AA4B300254548 /* menu_fondo_gray@2x.png in Resources */,
 				066BCC29177AA95800254548 /* Default@2x.png in Resources */,
+				06BE06E424EEA8500085B2BB /* BFGFullSizeViewController_ipad.xib in Resources */,
 				066BCC2B177AA9A500254548 /* Default@2x~ipad.png in Resources */,
+				06BE06E824EEA8840085B2BB /* BFGFullSizeViewController_ipad.xib in Resources */,
 				066BCC2D177AA9CD00254548 /* Default-Landscape@2x~ipad.png in Resources */,
 				06CE680D17E9317A00234ACE /* Images.xcassets in Resources */,
 				066BCC2F177AAB6F00254548 /* Default-Portrait~ipad.png in Resources */,
@@ -1215,14 +1214,18 @@
 				066BCC33177AAB8E00254548 /* Default-Landscape~ipad.png in Resources */,
 				066BCC35177AB34600254548 /* menu_button_flash_auto.png in Resources */,
 				066BCC37177AB37800254548 /* menu_button_flash_off.png in Resources */,
+				06BE06E624EEA8770085B2BB /* BFGFullSizeViewController.xib in Resources */,
 				06740B67177BE5EB0071966C /* beep.aif in Resources */,
 				06740B6A177BEE370071966C /* fastBeep.aif in Resources */,
+				06BE06D224EEA7D40085B2BB /* BFGalleryViewController.xib in Resources */,
 				06740B6C177BF32C0071966C /* beepCancel.aif in Resources */,
 				06142E26177F693500E7070D /* blackfireapps.png in Resources */,
 				066E82611780F9AE007D8EB5 /* beepFailed.aif in Resources */,
+				06BE06EC24EEA8A40085B2BB /* BFMenuDetailViewController_ipad.xib in Resources */,
 				066E82621780F9AE007D8EB5 /* beepPossible.aif in Resources */,
 				06230E5E178CDA5C00EE2C7C /* icon@2x.png in Resources */,
 				06230E62178D05BC00EE2C7C /* icon.png in Resources */,
+				06BE06D724EEA8020085B2BB /* BFGCell_iphone_portrait.xib in Resources */,
 				06230E64178D05D000EE2C7C /* icon@2x~ipad.png in Resources */,
 				06230E66178D05D800EE2C7C /* icon~ipad.png in Resources */,
 				06230E6A178D0E2E00EE2C7C /* tuto_s3_image1.png in Resources */,
@@ -1230,6 +1233,7 @@
 				06230E6C178D0E2E00EE2C7C /* tuto_s1_image.png in Resources */,
 				0673802317A47B4000174118 /* menu_roll.png in Resources */,
 				062EA7C517A4B9E20019FC2C /* modeBg@2x.png in Resources */,
+				06BE06E224EEA8470085B2BB /* BFGFullSizeCell_iphone.xib in Resources */,
 				062EA7C617A4B9E20019FC2C /* modeBg.png in Resources */,
 				06A1A18A17A4BCD100B07BDC /* video.png in Resources */,
 				06A1A18B17A4BCD100B07BDC /* single.png in Resources */,
