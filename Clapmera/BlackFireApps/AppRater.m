@@ -65,31 +65,31 @@ NSString *templateReviewURL = @"https://userpub.itunes.apple.com/WebObjects/MZUs
     NSInteger launchCounter= [self launchCounter];
     launchCounter++;
     if(launchCounter>=[self.provider maxAppRaterCounter]){
-        [self monitorCallBack];
+//        [self monitorCallBack];
     }
     [self setLaunchCounter:launchCounter];
 }
-
--(void)monitorCallBack{
-    UIAlertView * alertView= [[UIAlertView alloc] initWithTitle:[self appName] message:NSLocalizedString(@"¡Gracias por usar nuestra App!", nil) delegate:self cancelButtonTitle: NSLocalizedString(@"No Gracias",nil) otherButtonTitles:  NSLocalizedString(@"Calificar en la AppStore", nil), nil];
-    [alertView show];
-}
+//
+//-(void)monitorCallBack{
+//    UIAlertView * alertView= [[UIAlertView alloc] initWithTitle:[self appName] message:NSLocalizedString(@"¡Gracias por usar nuestra App!", nil) delegate:self cancelButtonTitle: NSLocalizedString(@"No Gracias",nil) otherButtonTitles:  NSLocalizedString(@"Calificar en la AppStore", nil), nil];
+//    [alertView show];
+//}
 
 #pragma mark - UIAlertViewDelegate
 
 
-
--(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
-    if(buttonIndex==1){
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:templateReviewURL, [self.provider appId]]]];
-    }else if(buttonIndex==0){
-        NSUserDefaults * defaults= [NSUserDefaults standardUserDefaults];
-        NSNumber * number= [NSNumber numberWithBool:TRUE];
-        [defaults setObject:number forKey: [self nsUserDefaultsPathForDidShowAlertFlag]];
-        [defaults synchronize];
-    }
-    [self setLaunchCounter:0];
-}
+//
+//-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+//    if(buttonIndex==1){
+//        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:templateReviewURL, [self.provider appId]]]];
+//    }else if(buttonIndex==0){
+//        NSUserDefaults * defaults= [NSUserDefaults standardUserDefaults];
+//        NSNumber * number= [NSNumber numberWithBool:TRUE];
+//        [defaults setObject:number forKey: [self nsUserDefaultsPathForDidShowAlertFlag]];
+//        [defaults synchronize];
+//    }
+//    [self setLaunchCounter:0];
+//}
 
 -(NSString *)nsUserDefaultsPathForDidShowAlertFlag{
     return [NSString stringWithFormat:kAppRaterUserDefaultsPath, [self version]];

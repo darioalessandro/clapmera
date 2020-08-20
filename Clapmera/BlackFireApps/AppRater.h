@@ -16,7 +16,7 @@
 
 @end
 
-@interface AppRater : NSObject <UIAlertViewDelegate>{
+@interface AppRater : NSObject {
     id <AppRaterProvider> __weak provider;
 }
 

@@ -1,26 +1,33 @@
 PODS:
-  - Bolts (1.8.4):
-    - Bolts/AppLinks (= 1.8.4)
-    - Bolts/Tasks (= 1.8.4)
-  - Bolts/AppLinks (1.8.4):
+  - Bolts (1.9.1):
+    - Bolts/AppLinks (= 1.9.1)
+    - Bolts/Tasks (= 1.9.1)
+  - Bolts/AppLinks (1.9.1):
     - Bolts/Tasks
-  - Bolts/Tasks (1.8.4)
-  - FBSDKCoreKit (4.25.0):
+  - Bolts/Tasks (1.9.1)
+  - FBSDKCoreKit (4.27.1):
     - Bolts (~> 1.7)
   - FPPopover (1.4.1)
   - GoogleAnalytics (3.17.0)
 
 DEPENDENCIES:
-  - FBSDKCoreKit (~> 4.25)
+  - FBSDKCoreKit (~> 4.27.1)
   - FPPopover (~> 1.4)
   - GoogleAnalytics (~> 3.17)
 
+SPEC REPOS:
+  trunk:
+    - Bolts
+    - FBSDKCoreKit
+    - FPPopover
+    - GoogleAnalytics
+
 SPEC CHECKSUMS:
-  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
-  FBSDKCoreKit: 53e3f4bfb64e80c5f229dd30ae33ff57fbbbd2d1
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  FBSDKCoreKit: 03365dad5d790249196ffad8be4f6d8a2d98f932
   FPPopover: aaf34a88cad4113867c5f1d0a4f9b2f1c06e2352
   GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
 
-PODFILE CHECKSUM: 23ceeff05c46f52f7e92e83a312417b1c1792793
+PODFILE CHECKSUM: 00d2c98c1ee11de0ba94994a20e958dfa3d401ec
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.9.3
