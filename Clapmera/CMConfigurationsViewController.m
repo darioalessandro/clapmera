@@ -216,7 +216,7 @@
         pathToTrack=[NSString stringWithFormat:@"%@/BlackFireApps.com", pathToTrack];
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.blackfireapps.com"]];
     }
-    [[[GAI sharedInstance] defaultTracker] sendView:pathToTrack];
+//    [[[GAI sharedInstance] defaultTracker] sendView:pathToTrack];
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {

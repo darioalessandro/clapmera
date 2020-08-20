@@ -78,6 +78,15 @@
 		067770F81F499CE0001EA6F4 /* ILTranslucentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 067770F71F499CE0001EA6F4 /* ILTranslucentView.m */; };
 		067770FE1F499F80001EA6F4 /* CMConfigurationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067770FC1F499F80001EA6F4 /* CMConfigurationsViewController.m */; };
 		067770FF1F499F80001EA6F4 /* CMConfigurationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067770FD1F499F80001EA6F4 /* CMConfigurationsViewController.xib */; };
+		06CF596724EE95C6008030CE /* CMMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CF596524EE95C6008030CE /* CMMenuViewController.m */; };
+		06CF596B24EE9634008030CE /* AcknowledgmentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06CF596824EE9633008030CE /* AcknowledgmentsViewController.xib */; };
+		06CF596C24EE9634008030CE /* AcknowledgmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CF596A24EE9634008030CE /* AcknowledgmentsViewController.m */; };
+		06CF596F24EE9645008030CE /* NewFeaturesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CF596D24EE9645008030CE /* NewFeaturesController.m */; };
+		06CF597224EE96F6008030CE /* TutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CF597124EE96F6008030CE /* TutoViewController.m */; };
+		06CF597624EE9704008030CE /* UpgradesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06CF597324EE9703008030CE /* UpgradesViewController.xib */; };
+		06CF597724EE9704008030CE /* UpgradesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CF597524EE9704008030CE /* UpgradesViewController.m */; };
+		06CF597A24EE970B008030CE /* TutoViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06CF597824EE970B008030CE /* TutoViewController_iPad.xib */; };
+		06CF597B24EE970B008030CE /* TutoViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06CF597924EE970B008030CE /* TutoViewController_iPhone.xib */; };
 		0C27DED805609BB3B4451448 /* libPods-ClapmeraTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3B839435BD536C96F68AE1 /* libPods-ClapmeraTests.a */; };
 		45A4AC5AEC1B85DB9B14D140 /* libPods-Clapmera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59ABA58359790BE82A6DE311 /* libPods-Clapmera.a */; };
 /* End PBXBuildFile section */
@@ -227,6 +236,20 @@
 		067770FB1F499F80001EA6F4 /* CMConfigurationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMConfigurationsViewController.h; sourceTree = "<group>"; };
 		067770FC1F499F80001EA6F4 /* CMConfigurationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMConfigurationsViewController.m; sourceTree = "<group>"; };
 		067770FD1F499F80001EA6F4 /* CMConfigurationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CMConfigurationsViewController.xib; sourceTree = "<group>"; };
+		06CF596524EE95C6008030CE /* CMMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMMenuViewController.m; path = ../../aurioTouch/Classes/CMMenuViewController.m; sourceTree = "<group>"; };
+		06CF596624EE95C6008030CE /* CMMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMMenuViewController.h; path = ../../aurioTouch/Classes/CMMenuViewController.h; sourceTree = "<group>"; };
+		06CF596824EE9633008030CE /* AcknowledgmentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AcknowledgmentsViewController.xib; path = ../../aurioTouch/Classes/AcknowledgmentsViewController.xib; sourceTree = "<group>"; };
+		06CF596924EE9634008030CE /* AcknowledgmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AcknowledgmentsViewController.h; path = ../../aurioTouch/Classes/AcknowledgmentsViewController.h; sourceTree = "<group>"; };
+		06CF596A24EE9634008030CE /* AcknowledgmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AcknowledgmentsViewController.m; path = ../../aurioTouch/Classes/AcknowledgmentsViewController.m; sourceTree = "<group>"; };
+		06CF596D24EE9645008030CE /* NewFeaturesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewFeaturesController.m; path = ../../aurioTouch/Classes/NewFeaturesController.m; sourceTree = "<group>"; };
+		06CF596E24EE9645008030CE /* NewFeaturesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewFeaturesController.h; path = ../../aurioTouch/Classes/NewFeaturesController.h; sourceTree = "<group>"; };
+		06CF597024EE96F6008030CE /* TutoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TutoViewController.h; path = ../../aurioTouch/Classes/TutoViewController.h; sourceTree = "<group>"; };
+		06CF597124EE96F6008030CE /* TutoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TutoViewController.m; path = ../../aurioTouch/Classes/TutoViewController.m; sourceTree = "<group>"; };
+		06CF597324EE9703008030CE /* UpgradesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UpgradesViewController.xib; path = ../../aurioTouch/Classes/UpgradesViewController.xib; sourceTree = "<group>"; };
+		06CF597424EE9704008030CE /* UpgradesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpgradesViewController.h; path = ../../aurioTouch/Classes/UpgradesViewController.h; sourceTree = "<group>"; };
+		06CF597524EE9704008030CE /* UpgradesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpgradesViewController.m; path = ../../aurioTouch/Classes/UpgradesViewController.m; sourceTree = "<group>"; };
+		06CF597824EE970B008030CE /* TutoViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TutoViewController_iPad.xib; path = ../../aurioTouch/Classes/TutoViewController_iPad.xib; sourceTree = "<group>"; };
+		06CF597924EE970B008030CE /* TutoViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TutoViewController_iPhone.xib; path = ../../aurioTouch/Classes/TutoViewController_iPhone.xib; sourceTree = "<group>"; };
 		2F3B839435BD536C96F68AE1 /* libPods-ClapmeraTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClapmeraTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59ABA58359790BE82A6DE311 /* libPods-Clapmera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Clapmera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7A13E41D798ADE02AF18EB /* Pods-ClapmeraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClapmeraTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClapmeraTests/Pods-ClapmeraTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -413,6 +436,20 @@
 		06776BC51F49947D001EA6F4 /* ClapmeraViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06CF597024EE96F6008030CE /* TutoViewController.h */,
+				06CF597824EE970B008030CE /* TutoViewController_iPad.xib */,
+				06CF597924EE970B008030CE /* TutoViewController_iPhone.xib */,
+				06CF597124EE96F6008030CE /* TutoViewController.m */,
+				06CF596924EE9634008030CE /* AcknowledgmentsViewController.h */,
+				06CF596A24EE9634008030CE /* AcknowledgmentsViewController.m */,
+				06CF596824EE9633008030CE /* AcknowledgmentsViewController.xib */,
+				06CF597424EE9704008030CE /* UpgradesViewController.h */,
+				06CF597524EE9704008030CE /* UpgradesViewController.m */,
+				06CF597324EE9703008030CE /* UpgradesViewController.xib */,
+				06CF596E24EE9645008030CE /* NewFeaturesController.h */,
+				06CF596D24EE9645008030CE /* NewFeaturesController.m */,
+				06CF596624EE95C6008030CE /* CMMenuViewController.h */,
+				06CF596524EE95C6008030CE /* CMMenuViewController.m */,
 				06776BBD1F49946B001EA6F4 /* ClapmeraViewController.h */,
 				06776BBE1F49946B001EA6F4 /* ClapmeraViewController.m */,
 				06776BBF1F49946B001EA6F4 /* ClapmeraViewController+iAds.h */,
@@ -553,7 +590,7 @@
 		06776B871F4992E5001EA6F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = BlackFireApps;
 				TargetAttributes = {
 					06776B8E1F4992E5001EA6F4 = {
@@ -603,9 +640,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06CF596B24EE9634008030CE /* AcknowledgmentsViewController.xib in Resources */,
 				06290C051FAD412F00C567B9 /* assets in Resources */,
 				06290BDD1FAD412F00C567B9 /* switch in Resources */,
 				06290C071FAD412F00C567B9 /* BlackFireApps-Info.plist in Resources */,
+				06CF597A24EE970B008030CE /* TutoViewController_iPad.xib in Resources */,
 				06776BA21F4992E5001EA6F4 /* LaunchScreen.storyboard in Resources */,
 				06776B9F1F4992E5001EA6F4 /* Assets.xcassets in Resources */,
 				067770FF1F499F80001EA6F4 /* CMConfigurationsViewController.xib in Resources */,
@@ -619,6 +658,8 @@
 				06290BEC1FAD412F00C567B9 /* LoadingView.xib in Resources */,
 				06290C0D1FAD412F00C567B9 /* InstructionsView.xib in Resources */,
 				06290BE91FAD412F00C567B9 /* Default.png in Resources */,
+				06CF597624EE9704008030CE /* UpgradesViewController.xib in Resources */,
+				06CF597B24EE970B008030CE /* TutoViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -695,17 +736,20 @@
 			files = (
 				06290BC31FAD412F00C567B9 /* MailOptionListViewController.m in Sources */,
 				06776BBC1F499426001EA6F4 /* AppDelegate.m in Sources */,
+				06CF597224EE96F6008030CE /* TutoViewController.m in Sources */,
 				06290C061FAD412F00C567B9 /* BFAppDelegate.m in Sources */,
 				06290BCF1FAD412F00C567B9 /* BFImage.m in Sources */,
 				06290BF51FAD412F00C567B9 /* NSString+UUID.m in Sources */,
 				06776BC81F4994C6001EA6F4 /* AppRater.m in Sources */,
 				06290BE31FAD412F00C567B9 /* BFAlienSwitch.m in Sources */,
+				06CF596C24EE9634008030CE /* AcknowledgmentsViewController.m in Sources */,
 				067770D71F499AC4001EA6F4 /* CPTheme.m in Sources */,
 				067770F11F499AED001EA6F4 /* InAppPurchasesManager.m in Sources */,
 				06290C001FAD412F00C567B9 /* DejalActivityView.m in Sources */,
 				067770F01F499AED001EA6F4 /* PurchasesRestorer.m in Sources */,
 				06290BC61FAD412F00C567B9 /* BFGalleryViewController.m in Sources */,
 				06290C031FAD412F00C567B9 /* RMNavigationController.m in Sources */,
+				06CF597724EE9704008030CE /* UpgradesViewController.m in Sources */,
 				06776B9A1F4992E5001EA6F4 /* ViewController.m in Sources */,
 				06290BD31FAD412F00C567B9 /* UIViewController + Analytics.m in Sources */,
 				06290BC91FAD412F00C567B9 /* MenuViewController.m in Sources */,
@@ -716,6 +760,7 @@
 				06776BC21F49946B001EA6F4 /* ClapmeraViewController.m in Sources */,
 				06290BFA1FAD412F00C567B9 /* BFGAssetsManager.m in Sources */,
 				06290BFE1FAD412F00C567B9 /* BFAlienCellBackgroundView.m in Sources */,
+				06CF596724EE95C6008030CE /* CMMenuViewController.m in Sources */,
 				06290BD91FAD412F00C567B9 /* PopoverView.m in Sources */,
 				06290BEB1FAD412F00C567B9 /* BFGCell.m in Sources */,
 				06290BCD1FAD412F00C567B9 /* AKSegmentedControl.m in Sources */,
@@ -735,6 +780,7 @@
 				06290BBF1FAD412F00C567B9 /* NSMutableURLRequest+CurlDescription.m in Sources */,
 				06290C081FAD412F00C567B9 /* NSData+Base64Additions.m in Sources */,
 				06290BE41FAD412F00C567B9 /* FPPopoverView.m in Sources */,
+				06CF596F24EE9645008030CE /* NewFeaturesController.m in Sources */,
 				06776BC31F49946B001EA6F4 /* ClapmeraViewController+iAds.m in Sources */,
 				067770E71F499AE1001EA6F4 /* ClapRecognizer.m in Sources */,
 				06290BC51FAD412F00C567B9 /* BFGFullSizeViewController.m in Sources */,
@@ -803,6 +849,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -810,6 +857,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -859,6 +907,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -866,6 +915,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

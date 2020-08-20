@@ -7,7 +7,6 @@
 //
 
 #import "UpgradesViewController.h"
-#import "BFFacebook.h"
 #import "CPConfiguration.h"
 #import "InAppPurchasesManager.h"
 #define kMinNecessaryFriends 10 
