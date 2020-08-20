@@ -1,9 +1,0 @@
-
-/* Class = "IBUILabel"; text = "This app does not have access to your Photos."; ObjectID = "413"; */
-"413.text" = "This app does not have access to your Photos.";
-
-/* Class = "IBUILabel"; text = "You can enable access in Privacy Settings."; ObjectID = "427"; */
-"427.text" = "You can enable access in Privacy Settings.";
-
-/* Class = "IBUILabel"; text = "*This is necessary to use Clapmera."; ObjectID = "444"; */
-"444.text" = "*This is necessary to use Clapmera.";

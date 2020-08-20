@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '299B42AFC5FAF7AC0B80033C8D07F83B'
-               BlueprintName = 'BFGallery'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'BFGallery.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "40E95035640575A0EAB6FD66B8634B35"
+               BuildableName = "BFGallery.framework"
+               BlueprintName = "BFGallery"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

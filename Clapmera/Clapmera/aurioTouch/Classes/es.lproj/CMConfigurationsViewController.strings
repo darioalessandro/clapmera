@@ -1,9 +1,0 @@
-
-/* Class = "IBUILabel"; text = "20 secs"; ObjectID = "22"; */
-"22.text" = "20 secs";
-
-/* Class = "IBUILabel"; text = "Tap to refresh from AppStore."; ObjectID = "60"; */
-"60.text" = "Presione para actualizar.";
-
-/* Class = "IBUILabel"; text = "Restore Purchases"; ObjectID = "68"; */
-"68.text" = "Restaurar compras";

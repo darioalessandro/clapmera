@@ -1,8 +1,0 @@
-/* Class = "IBUILabel"; text = "You can enable access in Privacy Settings."; ObjectID = "4"; */
-"413.text" = "你可以在隱私設定中開啟這個功能。";
-
-/* Class = "IBUILabel"; text = "This app does not have access to your Photos."; ObjectID = "5"; */
-"427.text" = "這個應用程式不能使用你的照片。";
-
-/* Class = "IBUILabel"; text = "*This is necessary to use Clapmera."; ObjectID = "35"; */
-"444.text" = "這是使用Clapmera的必要步驟。";

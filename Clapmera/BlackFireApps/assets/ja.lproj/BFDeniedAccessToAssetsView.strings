@@ -1,9 +1,0 @@
-
-/* Class = "IBUILabel"; text = "This app does not have access to your Photos."; ObjectID = "413"; */
-"413.text" = "このアプリケーションはあなたの他の写真にアクセスしません";
-
-/* Class = "IBUILabel"; text = "You can enable access in Privacy Settings."; ObjectID = "427"; */
-"427.text" = "個人情報設定時に、アクセスを可能にする事ができます";
-
-/* Class = "IBUILabel"; text = "*This is necessary to use Clapmera."; ObjectID = "444"; */
-"444.text" = "*これはClapmeraを使うのに必須です";
