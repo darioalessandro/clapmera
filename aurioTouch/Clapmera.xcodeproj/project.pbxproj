@@ -121,7 +121,6 @@
 		06B7C1B51772CE51003C4D01 /* menu_button_change_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 06B7C1B41772CE50003C4D01 /* menu_button_change_camera.png */; };
 		06B7C1B71772CF0C003C4D01 /* menu_button_flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 06B7C1B61772CF0B003C4D01 /* menu_button_flash.png */; };
 		06B7C1BB1772CFE8003C4D01 /* menu_preview_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 06B7C1B91772CFE6003C4D01 /* menu_preview_button.png */; };
-		06BE06D024EEA7A10085B2BB /* InstructionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06CF24EEA7A10085B2BB /* InstructionsView.xib */; };
 		06BE06D224EEA7D40085B2BB /* BFGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06D124EEA7D40085B2BB /* BFGalleryViewController.xib */; };
 		06BE06D624EEA8020085B2BB /* BFGCell_iphone_landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06D324EEA8020085B2BB /* BFGCell_iphone_landscape.xib */; };
 		06BE06D724EEA8020085B2BB /* BFGCell_iphone_portrait.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06D424EEA8020085B2BB /* BFGCell_iphone_portrait.xib */; };
@@ -133,7 +132,6 @@
 		06BE06E224EEA8470085B2BB /* BFGFullSizeCell_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06E124EEA8470085B2BB /* BFGFullSizeCell_iphone.xib */; };
 		06BE06E424EEA8500085B2BB /* BFGFullSizeViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06E324EEA8500085B2BB /* BFGFullSizeViewController_ipad.xib */; };
 		06BE06E624EEA8770085B2BB /* BFGFullSizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06E524EEA8770085B2BB /* BFGFullSizeViewController.xib */; };
-		06BE06E824EEA8840085B2BB /* BFGFullSizeViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06E724EEA8840085B2BB /* BFGFullSizeViewController_ipad.xib */; };
 		06BE06EB24EEA8A40085B2BB /* BFMenuDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06E924EEA8A40085B2BB /* BFMenuDetailViewController.xib */; };
 		06BE06EC24EEA8A40085B2BB /* BFMenuDetailViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BE06EA24EEA8A40085B2BB /* BFMenuDetailViewController_ipad.xib */; };
 		06BFD2A11702973A00DA8E9A /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BFD2A01702973A00DA8E9A /* Twitter.framework */; };
@@ -1099,7 +1097,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1160;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 9BAHU39A66;
@@ -1182,7 +1180,6 @@
 				0697804417769245003ADCFF /* UpgradesViewController.xib in Resources */,
 				066BCC001777721700254548 /* navBar_fondo.png in Resources */,
 				060813421FAD727000A80F3D /* InstructionsView.xib in Resources */,
-				06BE06D024EEA7A10085B2BB /* InstructionsView.xib in Resources */,
 				066BCC011777721700254548 /* navBar_fondo@2x.png in Resources */,
 				066BCC0D1777727B00254548 /* navigationBarButton.png in Resources */,
 				066BCC0E1777727B00254548 /* navigationBarButton@2x.png in Resources */,
@@ -1202,7 +1199,6 @@
 				066BCC29177AA95800254548 /* Default@2x.png in Resources */,
 				06BE06E424EEA8500085B2BB /* BFGFullSizeViewController_ipad.xib in Resources */,
 				066BCC2B177AA9A500254548 /* Default@2x~ipad.png in Resources */,
-				06BE06E824EEA8840085B2BB /* BFGFullSizeViewController_ipad.xib in Resources */,
 				066BCC2D177AA9CD00254548 /* Default-Landscape@2x~ipad.png in Resources */,
 				06CE680D17E9317A00234ACE /* Images.xcassets in Resources */,
 				066BCC2F177AAB6F00254548 /* Default-Portrait~ipad.png in Resources */,
@@ -1384,7 +1380,6 @@
 				068230F9173378790071A309 /* pt */,
 			);
 			name = BFDeniedAccessToAssetsView.xib;
-			path = ../../BlackFireApps/BlackFireApps/assets;
 			sourceTree = "<group>";
 		};
 		06466E6E1708C3520027A076 /* BFDeniedAccessToAssetsViewipad.xib */ = {
@@ -1402,7 +1397,6 @@
 				068230FA173378790071A309 /* pt */,
 			);
 			name = BFDeniedAccessToAssetsViewipad.xib;
-			path = ../../BlackFireApps/BlackFireApps/assets;
 			sourceTree = "<group>";
 		};
 		066DB10E17A6432600F53804 /* NewFeaturesController.xib */ = {
@@ -1562,11 +1556,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -1637,6 +1633,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
@@ -1721,6 +1718,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
@@ -1756,11 +1754,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -1799,11 +1799,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
