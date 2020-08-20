@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  Clapmera
+
+  Created by Dario Lencina on 5/2/12.
+  Copyright (c) 2012 BlackFireApps. All rights reserved.
+ Japanese
+ 
+*/
+
+/* Rating Dialog */
+"¡Gracias por usar nuestra App!" =                  "1 私たちのアプリケーションをお使い頂きありがとうございます！";
+"En otro momento" =                                 "2 別の機会に";
+"Calificar en la AppStore" =                        "アプリケーションストアで評価をしてください";
+"Mandar Feedback" =                                 "感想を送る";
+"No Gracias" =                                      "けっこうです";
+
+/* Camera */
+"Off" =                                             "オフ";
+"Listening" =                                       "リスニング";
+
+/* Settings */
+"timeunit" =                                        "秒";
+"Timer to take photos" =                            "写真を撮るタイマー";
+"Sensitivity" =                                     "感度";
+"Upgrades"     = "アップグレード";
+
+/* Tutorial */
+"tuto_title_step1" =                                "簡単すぎ！";
+"tuto_description_step1" =                          "写真を撮るためにはセンサーをオンにして、拍手をするだけ。緑のボタンが アプリケーションの準備が出来ている証拠です。";
+"tuto_title_step2" =                                "カスタマイズ";
+"tuto_description1_step2" =                         "音（拍手）センサーの感度をセットアップする";
+"tuto_description2_step2" =                         "タイマー時間を選ぶ";
+"tuto_title_step3" =                                "スマイル！";
+"tuto_description_step3" =                          "準備が出来たら、拍手してスマイル！";
+"tuto_go ahead!" =                                  "Ok!";
+"Processing"=                                       "処理中";
+"iAds Removed."= "広告を取り外す";
+
+"Tap to refresh from the AppStore."="AppStoreのからリフレッシュするためにタップ";
+"¿Desea sincronizar su %@ con los productos previamente comprados en la AppStore (gratuitamente)?"="あなたがあなたの前の購入を復元することを確認していますか？";
+"%@, ¿Desea intentar nuevamente?"="@, もう一度やってみますか？";
+"AppName"="Clapmera";
+"Si"="はい";
+"Reestableciendo compras"="復元購入";
+"Espere..."="しばらくお待ちください";
+"No"="いいえ";
+"Clap Detected..."="拍手が検出された";
+"Smile!"="笑って！";
+"Action canceled..."="アクションはキャンセルさ";
+"You have %d pics left"="あなたが左に %d 個の写真を持って";
+"Choose a way to get more pics:"="もっと多くの写真を取得する方法を選択してください";
+"Invite Facebook friends"="Facebookの友達を招待";
+"Pro Version (Unlimited x%x no ads)"="Proバージョン（無制限と広告がない）";
+"Community"="コミュニティ";
+"Join the conversation on Twitter"="Twitterで会話に参加";
+"Visit us on Facebook"="Facebook上で私たちを訪問";
+"Tutorial"="チュートリアル";
+"Rate on the AppStore"="AppStoreの上のレート";
+"About"="約";
+"Acknowledgments"="謝辞";
+"Version"="バージョン";
+"Settings"="設定";
+"Email us! (english or spanish please)"= "私達を郵送!";
+"Restore purchases"= "購入を復元する";
+"You're running the Pro Version."="專業版";
+"MODE"="動作モード";

@@ -1,0 +1,38 @@
+PODS:
+  - BFGallery (0.1.3):
+    - BFGallery/json (= 0.1.3)
+  - BFGallery/json (0.1.3)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FBSDKCoreKit (4.27.1):
+    - Bolts (~> 1.7)
+  - GoogleAnalytics (3.17.0)
+
+DEPENDENCIES:
+  - BFGallery (from `https://github.com/darioalessandro/BlackFireGallery.git`, tag `0.1.3`)
+  - FBSDKCoreKit (~> 4.27.1)
+  - GoogleAnalytics (~> 3.17)
+
+EXTERNAL SOURCES:
+  BFGallery:
+    :git: https://github.com/darioalessandro/BlackFireGallery.git
+    :tag: 0.1.3
+
+CHECKOUT OPTIONS:
+  BFGallery:
+    :git: https://github.com/darioalessandro/BlackFireGallery.git
+    :tag: 0.1.3
+
+SPEC CHECKSUMS:
+  BFGallery: 0413c1caabaa8a5ccf58f2f89424a600b6d97f57
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FBSDKCoreKit: 03365dad5d790249196ffad8be4f6d8a2d98f932
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+
+PODFILE CHECKSUM: 56bb396cdedddb32c89179a1a79982a0a59d0a46
+
+COCOAPODS: 1.3.1

@@ -136,7 +136,7 @@ static InAppPurchasesManager * _manager= nil;
 }  
 
 -(void)paymentQueue:(SKPaymentQueue *)queue updatedTransactions:(NSArray *)transactions{
-    BFLog(@"number of transactions %d", [transactions count]);
+    BFLog(@"number of transactions %@", @([transactions count]));
 	for(SKPaymentTransaction * transaction in transactions){
         NSString * productId=[[transaction payment] productIdentifier];
         switch ([transaction transactionState]) {

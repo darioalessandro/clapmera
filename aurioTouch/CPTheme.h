@@ -21,8 +21,6 @@
 
 +(UIImage *)imageForNavigationBar;
 +(NSDictionary *)navBarTitleTextAttributes;
-
-+(NSDictionary *)navBarTitleTextAttributes;
 +(NSDictionary *)tabBarItemTitleTextAttributes;
 +(UILabel *)labelForTableViewSectionHeaderWithFrame:(CGRect)frame;
 

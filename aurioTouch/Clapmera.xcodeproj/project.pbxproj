@@ -12,6 +12,16 @@
 		0606602E17597176004FB964 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606602D17597176004FB964 /* QuickLook.framework */; };
 		0606603117597985004FB964 /* NSDictionary+QuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606603017597985004FB964 /* NSDictionary+QuickLook.m */; };
 		0606603317598BF5004FB964 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0606603217598BF5004FB964 /* icon.icns */; };
+		0608132B1FAD687A00A80F3D /* TypeTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608132A1FAD687A00A80F3D /* TypeTransformers.m */; };
+		0608132D1FAD71A300A80F3D /* AKSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608132C1FAD71A300A80F3D /* AKSegmentedControl.m */; };
+		060813311FAD71BD00A80F3D /* AppRater.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608132F1FAD71BD00A80F3D /* AppRater.m */; };
+		060813381FAD71E500A80F3D /* FPTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 060813321FAD71E500A80F3D /* FPTouchView.m */; };
+		060813391FAD71E500A80F3D /* FPPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 060813341FAD71E500A80F3D /* FPPopoverView.m */; };
+		0608133A1FAD71E500A80F3D /* FPPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 060813361FAD71E500A80F3D /* FPPopoverController.m */; };
+		0608133D1FAD725900A80F3D /* FadeAndScaleSiegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608133C1FAD725900A80F3D /* FadeAndScaleSiegue.m */; };
+		060813411FAD727000A80F3D /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608133E1FAD726F00A80F3D /* InstructionsViewController.m */; };
+		060813421FAD727000A80F3D /* InstructionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0608133F1FAD726F00A80F3D /* InstructionsView.xib */; };
+		060813451FAD728B00A80F3D /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 060813441FAD728B00A80F3D /* DejalActivityView.m */; };
 		060AD34F17A4CD06007ADCA1 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 060AD34E17A4CD06007ADCA1 /* click.wav */; };
 		060F5BAC17546DF3007A4671 /* UIWindow+FullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 060F5BAB17546DF3007A4671 /* UIWindow+FullScreen.m */; };
 		060F5BAE17547FE5007A4671 /* listening.png in Resources */ = {isa = PBXBuildFile; fileRef = 060F5BAD17547FE5007A4671 /* listening.png */; };
@@ -34,6 +44,9 @@
 		064A9AC81756DC6700854F44 /* ClapRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 064A9AC71756DC6700854F44 /* ClapRecognizer.m */; };
 		06546D7E17A4F724007572D1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06546D7D17A4F724007572D1 /* MobileCoreServices.framework */; };
 		06546D8417A58565007572D1 /* CPAudioAndVideoProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 06546D8317A58565007572D1 /* CPAudioAndVideoProcessor.m */; };
+		065B0EEC1FAD7966000D436F /* UIView+LoadingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 065B0EEA1FAD7965000D436F /* UIView+LoadingState.m */; };
+		065B0EEF1FAD7994000D436F /* NetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 065B0EED1FAD7994000D436F /* NetworkActivityIndicatorManager.m */; };
+		065B0EF11FAD7A64000D436F /* UIViewController + Analytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 065B0EF01FAD7A64000D436F /* UIViewController + Analytics.m */; };
 		06670EA917558B9500AA7E94 /* RCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 06670EA317558B8C00AA7E94 /* RCTimer.m */; };
 		0668FEA9162D4A92004423E5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0668FEA8162D4A92004423E5 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0668FEAB162D4A9C004423E5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0668FEAA162D4A9C004423E5 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -96,9 +109,7 @@
 		068230B8173346AA0071A309 /* BFMenuDetailViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230AB173346AA0071A309 /* BFMenuDetailViewController_ipad.xib */; };
 		068230B9173346AA0071A309 /* BFMenuDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230AC173346AA0071A309 /* BFMenuDetailViewController.xib */; };
 		068230BB173346CD0071A309 /* InstructionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068230BA173346CD0071A309 /* InstructionsView.xib */; };
-		068230BD173346FD0071A309 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068230BC173346FD0071A309 /* FacebookSDK.framework */; };
 		068230BF173347140071A309 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068230BE173347140071A309 /* CoreData.framework */; };
-		068230C017334A060071A309 /* libBlacklib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0682309A173345F20071A309 /* libBlacklib.a */; };
 		06886F9E17640F640098D320 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06886F9D17640F640098D320 /* main.m */; };
 		068E0C54166A2C2A00E89A72 /* ClapmeraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068E0C52166A2C2A00E89A72 /* ClapmeraViewController.m */; };
 		068E0C55166A2C2A00E89A72 /* ClapmeraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068E0C53166A2C2A00E89A72 /* ClapmeraViewController.xib */; };
@@ -151,6 +162,7 @@
 		1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		7F1C67B63216691D0ED95B30 /* Pods_Clapmera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58BE85E9E5F9FE1B6BB480B5 /* Pods_Clapmera.framework */; };
 		8705C7EE1557593E009D3A6A /* CPSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8705C7ED1557593E009D3A6A /* CPSoundManager.m */; };
 		873EB264153ABC3B00465FA2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873EB263153ABC3B00465FA2 /* AVFoundation.framework */; };
 		8752E1C1153D06120038B15A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8752E1C0153D06120038B15A /* libsqlite3.0.dylib */; };
@@ -189,44 +201,6 @@
 		F7E58EDA0DCFD988006C4A2F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E58ED90DCFD988006C4A2F /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		06823095173345F20071A309 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 06395643170294A10047B4EF /* BlackFireApps.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06F2FBBC16DC590E00084E3D;
-			remoteInfo = BlackFireApps;
-		};
-		06823097173345F20071A309 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 06395643170294A10047B4EF /* BlackFireApps.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06F2FBE516DC590F00084E3D;
-			remoteInfo = BlackFireAppsTests;
-		};
-		06823099173345F20071A309 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 06395643170294A10047B4EF /* BlackFireApps.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06F2FC0116DC594000084E3D;
-			remoteInfo = Blacklib;
-		};
-		0682309B173345F20071A309 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 06395643170294A10047B4EF /* BlackFireApps.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06F2FC0F16DC594000084E3D;
-			remoteInfo = BlacklibTests;
-		};
-		068230C117334A0F0071A309 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 06395643170294A10047B4EF /* BlackFireApps.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 06F2FC0016DC594000084E3D;
-			remoteInfo = Blacklib;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		0600138E17571EBE00ED1754 /* clapmera.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = clapmera.entitlements; path = ../clapmera.entitlements; sourceTree = "<group>"; };
 		060013951757F63500ED1754 /* IconViewPrototype.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconViewPrototype.xib; sourceTree = "<group>"; };
@@ -235,6 +209,25 @@
 		0606602F17597985004FB964 /* NSDictionary+QuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QuickLook.h"; sourceTree = "<group>"; };
 		0606603017597985004FB964 /* NSDictionary+QuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QuickLook.m"; sourceTree = "<group>"; };
 		0606603217598BF5004FB964 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
+		060813291FAD687A00A80F3D /* TypeTransformers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypeTransformers.h; sourceTree = "<group>"; };
+		0608132A1FAD687A00A80F3D /* TypeTransformers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypeTransformers.m; sourceTree = "<group>"; };
+		0608132C1FAD71A300A80F3D /* AKSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKSegmentedControl.m; sourceTree = SOURCE_ROOT; };
+		0608132E1FAD71AA00A80F3D /* AKSegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKSegmentedControl.h; sourceTree = SOURCE_ROOT; };
+		0608132F1FAD71BD00A80F3D /* AppRater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppRater.m; sourceTree = SOURCE_ROOT; };
+		060813301FAD71BD00A80F3D /* AppRater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppRater.h; sourceTree = SOURCE_ROOT; };
+		060813321FAD71E500A80F3D /* FPTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTouchView.m; sourceTree = SOURCE_ROOT; };
+		060813331FAD71E500A80F3D /* FPPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPopoverController.h; sourceTree = SOURCE_ROOT; };
+		060813341FAD71E500A80F3D /* FPPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPopoverView.m; sourceTree = SOURCE_ROOT; };
+		060813351FAD71E500A80F3D /* FPPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPopoverView.h; sourceTree = SOURCE_ROOT; };
+		060813361FAD71E500A80F3D /* FPPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPopoverController.m; sourceTree = SOURCE_ROOT; };
+		060813371FAD71E500A80F3D /* FPTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTouchView.h; sourceTree = SOURCE_ROOT; };
+		0608133B1FAD725900A80F3D /* FadeAndScaleSiegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeAndScaleSiegue.h; sourceTree = SOURCE_ROOT; };
+		0608133C1FAD725900A80F3D /* FadeAndScaleSiegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeAndScaleSiegue.m; sourceTree = SOURCE_ROOT; };
+		0608133E1FAD726F00A80F3D /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = SOURCE_ROOT; };
+		0608133F1FAD726F00A80F3D /* InstructionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructionsView.xib; sourceTree = SOURCE_ROOT; };
+		060813401FAD726F00A80F3D /* InstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = SOURCE_ROOT; };
+		060813431FAD728B00A80F3D /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = SOURCE_ROOT; };
+		060813441FAD728B00A80F3D /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = SOURCE_ROOT; };
 		060AD34E17A4CD06007ADCA1 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
 		060F5BAA17546DF3007A4671 /* UIWindow+FullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+FullScreen.h"; sourceTree = "<group>"; };
 		060F5BAB17546DF3007A4671 /* UIWindow+FullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+FullScreen.m"; sourceTree = "<group>"; };
@@ -252,7 +245,6 @@
 		06230E69178D0E2D00EE2C7C /* tuto_s1_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tuto_s1_image.png; sourceTree = SOURCE_ROOT; };
 		062EA7C317A4B9E20019FC2C /* modeBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "modeBg@2x.png"; sourceTree = "<group>"; };
 		062EA7C417A4B9E20019FC2C /* modeBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = modeBg.png; sourceTree = "<group>"; };
-		06395643170294A10047B4EF /* BlackFireApps.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BlackFireApps.xcodeproj; path = ../../BlackFireApps/BlackFireApps.xcodeproj; sourceTree = "<group>"; };
 		06466E5F1708C2860027A076 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
 		06466E681708C2D80027A076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BFDeniedAccessToAssetsView.xib; sourceTree = "<group>"; };
 		06466E6A1708C2E40027A076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/BFDeniedAccessToAssetsView.strings; sourceTree = "<group>"; };
@@ -265,6 +257,11 @@
 		06546D7D17A4F724007572D1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		06546D8217A58565007572D1 /* CPAudioAndVideoProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAudioAndVideoProcessor.h; sourceTree = "<group>"; };
 		06546D8317A58565007572D1 /* CPAudioAndVideoProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAudioAndVideoProcessor.m; sourceTree = "<group>"; };
+		065B0EEA1FAD7965000D436F /* UIView+LoadingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LoadingState.m"; sourceTree = SOURCE_ROOT; };
+		065B0EEB1FAD7966000D436F /* UIView+LoadingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LoadingState.h"; sourceTree = SOURCE_ROOT; };
+		065B0EED1FAD7994000D436F /* NetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkActivityIndicatorManager.m; sourceTree = SOURCE_ROOT; };
+		065B0EEE1FAD7994000D436F /* NetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkActivityIndicatorManager.h; sourceTree = SOURCE_ROOT; };
+		065B0EF01FAD7A64000D436F /* UIViewController + Analytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController + Analytics.m"; sourceTree = SOURCE_ROOT; };
 		06670EA217558B8C00AA7E94 /* RCTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTimer.h; path = "Clapmera for Mac/RCTimer.h"; sourceTree = "<group>"; };
 		06670EA317558B8C00AA7E94 /* RCTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTimer.m; path = "Clapmera for Mac/RCTimer.m"; sourceTree = "<group>"; };
 		06670EAA1755906C00AA7E94 /* BFLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFLog.h; sourceTree = "<group>"; };
@@ -443,6 +440,9 @@
 		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* clapmera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clapmera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58BE85E9E5F9FE1B6BB480B5 /* Pods_Clapmera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clapmera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59999291EA4913F83B136DEE /* Pods-Clapmera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clapmera.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera.release.xcconfig"; sourceTree = "<group>"; };
+		6305D26525B4CFA7712626EB /* Pods-Clapmera.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clapmera.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera.adhoc.xcconfig"; sourceTree = "<group>"; };
 		8705C7EC1557593E009D3A6A /* CPSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPSoundManager.h; path = Classes/CPSoundManager.h; sourceTree = "<group>"; };
 		8705C7ED1557593E009D3A6A /* CPSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPSoundManager.m; path = Classes/CPSoundManager.m; sourceTree = "<group>"; };
 		8714CF471554C7AC00391524 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -490,6 +490,7 @@
 		87FB8A6F15C501FA00768768 /* CMMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMenuViewController.m; sourceTree = "<group>"; };
 		A16C47110DE37F9E00F4A0B3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		A16C473E0DE3801700F4A0B3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A1F2EC3CA81E1103E3AD14B2 /* Pods-Clapmera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clapmera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera.debug.xcconfig"; sourceTree = "<group>"; };
 		EB007CB01610007000F9A83E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EB007CB21610007C00F9A83E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		EB79946F15F16DD9000FE961 /* CPConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPConfiguration.h; path = "Clapmera for Mac/CPConfiguration.h"; sourceTree = "<group>"; };
@@ -507,7 +508,6 @@
 				06546D7E17A4F724007572D1 /* MobileCoreServices.framework in Frameworks */,
 				06B7C1A31772C6BB003C4D01 /* Security.framework in Frameworks */,
 				06F3186F1763F5A200AA055B /* CoreMotion.framework in Frameworks */,
-				068230C017334A060071A309 /* libBlacklib.a in Frameworks */,
 				068230BF173347140071A309 /* CoreData.framework in Frameworks */,
 				06BFD2A11702973A00DA8E9A /* Twitter.framework in Frameworks */,
 				06C8BBA5166C1F8500BD93E2 /* StoreKit.framework in Frameworks */,
@@ -531,7 +531,7 @@
 				F7E58EDA0DCFD988006C4A2F /* AudioToolbox.framework in Frameworks */,
 				A16C47120DE37F9E00F4A0B3 /* OpenGLES.framework in Frameworks */,
 				A16C473F0DE3801700F4A0B3 /* QuartzCore.framework in Frameworks */,
-				068230BD173346FD0071A309 /* FacebookSDK.framework in Frameworks */,
+				7F1C67B63216691D0ED95B30 /* Pods_Clapmera.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,17 +626,6 @@
 			name = SomeMoreImages;
 			sourceTree = "<group>";
 		};
-		0682308F173345F20071A309 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				06823096173345F20071A309 /* BlackFireApps.app */,
-				06823098173345F20071A309 /* BlackFireAppsTests.octest */,
-				0682309A173345F20071A309 /* libBlacklib.a */,
-				0682309C173345F20071A309 /* BlacklibTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		0697803217768D5D003ADCFF /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -654,6 +643,8 @@
 				EB79947015F16DD9000FE961 /* CPConfiguration.m */,
 				066E8255178074C1007D8EB5 /* ClapmeraEngine.h */,
 				066E8256178074C1007D8EB5 /* ClapmeraEngine.m */,
+				060813291FAD687A00A80F3D /* TypeTransformers.h */,
+				0608132A1FAD687A00A80F3D /* TypeTransformers.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -680,6 +671,28 @@
 		06A49B1218A202C9005035C3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				065B0EF01FAD7A64000D436F /* UIViewController + Analytics.m */,
+				065B0EEE1FAD7994000D436F /* NetworkActivityIndicatorManager.h */,
+				065B0EED1FAD7994000D436F /* NetworkActivityIndicatorManager.m */,
+				065B0EEB1FAD7966000D436F /* UIView+LoadingState.h */,
+				065B0EEA1FAD7965000D436F /* UIView+LoadingState.m */,
+				060813431FAD728B00A80F3D /* DejalActivityView.h */,
+				060813441FAD728B00A80F3D /* DejalActivityView.m */,
+				0608133F1FAD726F00A80F3D /* InstructionsView.xib */,
+				060813401FAD726F00A80F3D /* InstructionsViewController.h */,
+				0608133E1FAD726F00A80F3D /* InstructionsViewController.m */,
+				0608133B1FAD725900A80F3D /* FadeAndScaleSiegue.h */,
+				0608133C1FAD725900A80F3D /* FadeAndScaleSiegue.m */,
+				060813331FAD71E500A80F3D /* FPPopoverController.h */,
+				060813361FAD71E500A80F3D /* FPPopoverController.m */,
+				060813351FAD71E500A80F3D /* FPPopoverView.h */,
+				060813341FAD71E500A80F3D /* FPPopoverView.m */,
+				060813371FAD71E500A80F3D /* FPTouchView.h */,
+				060813321FAD71E500A80F3D /* FPTouchView.m */,
+				060813301FAD71BD00A80F3D /* AppRater.h */,
+				0608132F1FAD71BD00A80F3D /* AppRater.m */,
+				0608132E1FAD71AA00A80F3D /* AKSegmentedControl.h */,
+				0608132C1FAD71A300A80F3D /* AKSegmentedControl.m */,
 				06A49B1318A202D2005035C3 /* ILTranslucentView.h */,
 				06A49B1418A202D2005035C3 /* ILTranslucentView.m */,
 			);
@@ -801,12 +814,13 @@
 				062EA7C417A4B9E20019FC2C /* modeBg.png */,
 				0673802417A47B8E00174118 /* SomeMoreImages */,
 				06DBCC151708A42300EB0EFB /* BlackFireAppsAssets */,
-				06395643170294A10047B4EF /* BlackFireApps.xcodeproj */,
 				066976D6176EBD2400296262 /* SharedCode */,
 				080E96DDFE201D6D7F000001 /* iOS */,
 				87A1762D155928EE007317AC /* Mac */,
 				29B97323FDCFA39411CA2CEA /* AllFrameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				A94D62F811B40C9A6D8C9FB1 /* Frameworks */,
+				764F62A843019170AF4FCD6D /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -889,6 +903,16 @@
 			name = AllFrameworks;
 			sourceTree = "<group>";
 		};
+		764F62A843019170AF4FCD6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1F2EC3CA81E1103E3AD14B2 /* Pods-Clapmera.debug.xcconfig */,
+				59999291EA4913F83B136DEE /* Pods-Clapmera.release.xcconfig */,
+				6305D26525B4CFA7712626EB /* Pods-Clapmera.adhoc.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8714CF531554D4B700391524 /* InAppPurchasesEngine */ = {
 			isa = PBXGroup;
 			children = (
@@ -964,6 +988,14 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
+		A94D62F811B40C9A6D8C9FB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58BE85E9E5F9FE1B6BB480B5 /* Pods_Clapmera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EB79946E15F16DBE000FE961 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -1026,14 +1058,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Clapmera" */;
 			buildPhases = (
+				B75585AE9F7D0E2C028342F5 /* [CP] Check Pods Manifest.lock */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				6CC7A7CD810E2F1A2D5A9BB1 /* [CP] Embed Pods Frameworks */,
+				04CA2062D01617298B3D7D77 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				068230C217334A0F0071A309 /* PBXTargetDependency */,
 			);
 			name = Clapmera;
 			productName = aurioTouch;
@@ -1063,7 +1097,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0900;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 9BAHU39A66;
@@ -1092,13 +1126,8 @@
 				pt,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 0682308F173345F20071A309 /* Products */;
-					ProjectRef = 06395643170294A10047B4EF /* BlackFireApps.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* Clapmera */,
@@ -1106,37 +1135,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		06823096173345F20071A309 /* BlackFireApps.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = BlackFireApps.app;
-			remoteRef = 06823095173345F20071A309 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		06823098173345F20071A309 /* BlackFireAppsTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = BlackFireAppsTests.octest;
-			remoteRef = 06823097173345F20071A309 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0682309A173345F20071A309 /* libBlacklib.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libBlacklib.a;
-			remoteRef = 06823099173345F20071A309 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0682309C173345F20071A309 /* BlacklibTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = BlacklibTests.octest;
-			remoteRef = 0682309B173345F20071A309 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
@@ -1193,6 +1191,7 @@
 				06B7C1BB1772CFE8003C4D01 /* menu_preview_button.png in Resources */,
 				0697804417769245003ADCFF /* UpgradesViewController.xib in Resources */,
 				066BCC001777721700254548 /* navBar_fondo.png in Resources */,
+				060813421FAD727000A80F3D /* InstructionsView.xib in Resources */,
 				066BCC011777721700254548 /* navBar_fondo@2x.png in Resources */,
 				066BCC0D1777727B00254548 /* navigationBarButton.png in Resources */,
 				066BCC0E1777727B00254548 /* navigationBarButton@2x.png in Resources */,
@@ -1265,6 +1264,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04CA2062D01617298B3D7D77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CC7A7CD810E2F1A2D5A9BB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BFGallery/BFGallery.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BFGallery.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clapmera/Pods-Clapmera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B75585AE9F7D0E2C028342F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clapmera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1274,22 +1334,34 @@
 				8705C7EE1557593E009D3A6A /* CPSoundManager.m in Sources */,
 				0BBA85AC156859DA0007E3C8 /* TutoViewController.m in Sources */,
 				87FB8A7015C501FA00768768 /* CMMenuViewController.m in Sources */,
+				060813381FAD71E500A80F3D /* FPTouchView.m in Sources */,
+				065B0EEC1FAD7966000D436F /* UIView+LoadingState.m in Sources */,
+				0608132D1FAD71A300A80F3D /* AKSegmentedControl.m in Sources */,
+				0608133D1FAD725900A80F3D /* FadeAndScaleSiegue.m in Sources */,
 				068E0C54166A2C2A00E89A72 /* ClapmeraViewController.m in Sources */,
+				065B0EF11FAD7A64000D436F /* UIViewController + Analytics.m in Sources */,
+				0608132B1FAD687A00A80F3D /* TypeTransformers.m in Sources */,
 				068E0C59166A31B300E89A72 /* ClapmeraViewController+iAds.m in Sources */,
 				06546D8417A58565007572D1 /* CPAudioAndVideoProcessor.m in Sources */,
 				06C29163172A0F0700D1FAA9 /* PurchasesRestorer.m in Sources */,
+				0608133A1FAD71E500A80F3D /* FPPopoverController.m in Sources */,
+				060813311FAD71BD00A80F3D /* AppRater.m in Sources */,
 				06C29164172A0F0700D1FAA9 /* InAppPurchasesManager.m in Sources */,
 				0677647D1763BD93000606D6 /* ClapRecognizer.m in Sources */,
+				060813391FAD71E500A80F3D /* FPPopoverView.m in Sources */,
 				0677647F1763BD9B000606D6 /* RCTimer.m in Sources */,
 				067764801763C0B7000606D6 /* CPConfiguration.m in Sources */,
 				06886F9E17640F640098D320 /* main.m in Sources */,
 				0697803917768D88003ADCFF /* CPTheme.m in Sources */,
 				0697804317769245003ADCFF /* UpgradesViewController.m in Sources */,
+				060813451FAD728B00A80F3D /* DejalActivityView.m in Sources */,
 				066BCC1B177786D600254548 /* AcknowledgmentsViewController.m in Sources */,
+				060813411FAD727000A80F3D /* InstructionsViewController.m in Sources */,
 				066E8257178074C1007D8EB5 /* ClapmeraEngine.m in Sources */,
 				06A49B1518A202D2005035C3 /* ILTranslucentView.m in Sources */,
 				069E5C5817A6218100EDA934 /* NewFeaturesController.m in Sources */,
 				066DB11317A644A600F53804 /* CMConfigurationsViewController.m in Sources */,
+				065B0EEF1FAD7994000D436F /* NetworkActivityIndicatorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1314,14 +1386,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		068230C217334A0F0071A309 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Blacklib;
-			targetProxy = 068230C117334A0F0071A309 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		06466E661708C2B30027A076 /* BFDeniedAccessToAssetsView.xib */ = {
@@ -1443,6 +1507,7 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F2EC3CA81E1103E3AD14B2 /* Pods-Clapmera.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1452,35 +1517,33 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../3PartyLibs/FacebookSDK\"",
-				);
+				DEVELOPMENT_TEAM = 9BAHU39A66;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Clapmera_Prefix.pch;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../BlackFireApps\"/**";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../3PartyLibs/GoogleAnalyticsiOS_2.0beta4/Library\"",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "-DDEBUGLOGMODE";
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackfireapps.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = clapmera;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
 			name = Debug;
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59999291EA4913F83B136DEE /* Pods-Clapmera.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1489,40 +1552,61 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../3PartyLibs/FacebookSDK\"",
-				);
+				DEVELOPMENT_TEAM = 9BAHU39A66;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Clapmera_Prefix.pch;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../BlackFireApps\"/**";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../3PartyLibs/GoogleAnalyticsiOS_2.0beta4/Library\"",
-				);
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "-all_load";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackfireapps.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = clapmera;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
 			name = Release;
 		};
 		873277A1153FCA8D0067A451 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Dario Lencina";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dario Lencina";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "";
 				PROVISIONING_PROFILE = "A8EDDD53-E69E-4CE1-83B1-380FD445D9DC";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A8EDDD53-E69E-4CE1-83B1-380FD445D9DC";
 				SDKROOT = iphoneos;
@@ -1531,6 +1615,7 @@
 		};
 		873277A2153FCA8D0067A451 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6305D26525B4CFA7712626EB /* Pods-Clapmera.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1540,27 +1625,23 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../3PartyLibs/FacebookSDK\"",
-				);
+				DEVELOPMENT_TEAM = 9BAHU39A66;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Clapmera_Prefix.pch;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../BlackFireApps\"/**";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../3PartyLibs/GoogleAnalyticsiOS_2.0beta4/Library\"",
-				);
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "-all_load";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackfireapps.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = clapmera;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
 			name = Adhoc;
 		};
@@ -1598,6 +1679,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackfireapps.macos.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -1636,6 +1718,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackfireapps.macos.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0E35F774-625B-42C3-80A6-644179803E9A";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0E35F774-625B-42C3-80A6-644179803E9A";
@@ -1674,6 +1757,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blackfireapps.macos.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -1686,16 +1770,40 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Dario Lencina (B7LQ9NTG5B)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dario Lencina (B7LQ9NTG5B)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = "-DDEBUGLOGMODE";
+				OTHER_CFLAGS = "";
 				PROVISIONING_PROFILE = "6199E90A-A4A3-4A33-BD90-688F1CFEFC11";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6199E90A-A4A3-4A33-BD90-688F1CFEFC11";
 				SDKROOT = iphoneos;
@@ -1705,13 +1813,37 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Dario Lencina";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dario Lencina";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "";
 				PROVISIONING_PROFILE = "66F252B6-0B57-43CA-A6E4-D6725C5EAF72";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "66F252B6-0B57-43CA-A6E4-D6725C5EAF72";
 				SDKROOT = iphoneos;

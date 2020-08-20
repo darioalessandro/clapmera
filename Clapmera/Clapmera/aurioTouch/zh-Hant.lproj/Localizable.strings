@@ -1,0 +1,71 @@
+/* 
+  Localizable.strings
+  Clapmera
+
+  Created by Dario Lencina on 5/2/12.
+  Copyright (c) 2012 BlackFireApps. All rights reserved.
+ Chinese Traditional
+*/
+
+/* Rating Dialog */
+"¡Gracias por usar nuestra App!" =                  "謝謝使用我們的應用程式!";
+"En otro momento" =                                 "也許下次";
+"Calificar en la AppStore" =                        "在AppStore評分 ";
+"Mandar Feedback" =                                 "提交意見";
+"No Gracias" =                                      "不用，謝謝";
+
+/* Camera */
+"Off" =                                             "關";
+"Listening" =                                       "聽";
+
+/* Settings */
+"timeunit" =                                        "秒";
+"Timer to take photos" =                         "拍照計時器";
+"Sensitivity" =                                     "敏感度";
+"Upgrades"     = "升級";
+
+/* Tutorial */
+"tuto_title_step1" =                                "再簡單不過！";
+"tuto_description_step1" =                          "把感應器打開後，拍一拍手就可以拍照。綠色按鈕表示程式已準備好拍照。";
+"tuto_title_step2" =                                "個人化設定";
+"tuto_description1_step2" =                         "設定拍手感應器的敏感度";
+"tuto_description2_step2" =                         "設定計時器。";
+"tuto_title_step3" =                                "只需微笑！";
+"tuto_description_step3" =                          "準備好拍照，拍手，然後微笑！";
+"tuto_go ahead!" =                                  "好！";
+"Processing"=                                       "處理中";
+"iAds Removed."= " iAds已删除。";
+"Front camera and flash installed."="設定前置鏡頭和閃光燈。";
+"Bummer, you ran out of pictures!" = "你跑出來的圖片！";
+
+"Tap to refresh from the AppStore."="從AppStore的點擊刷新";
+"¿Desea sincronizar su %@ con los productos previamente comprados en la AppStore (gratuitamente)?"="你想恢復你以前購買？";
+"%@, ¿Desea intentar nuevamente?"="%@, 你想再試一次嗎？";
+"AppName"="Clapmera";
+
+"Si"="有";
+"Reestableciendo compras"="恢復購買";
+"Espere..."="請稍候";
+"No"="無";
+"Clap Detected..."="掌聲檢測";
+"Smile!"="微笑！";
+"Action canceled..."="行動取消";
+"You have %d pics left"="你有 %d 剩下照片";
+"Choose a way to get more pics:"="選擇一種方式來獲得更多圖片";
+"Invite Facebook friends"="邀請Facebook上的朋友";
+"Pro Version (Unlimited x%x no ads)"="專業版（無限制和無廣告）";
+
+"Community"="用社區";
+"Join the conversation on Twitter"="註冊Twitter上的對話";
+"Visit us on Facebook"="瀏覽我們的Facebook";
+"Tutorial"="教程";
+"Rate on the AppStore"="在AppStore上率";
+"About"="關於";
+"Acknowledgments"="致謝";
+"Version"="版本";
+"Settings"="設置";
+
+"Email us! (english or spanish please)"= "郵寄給我們！";
+"Restore purchases"= "恢復購買";
+"You're running the Pro Version."="專業版";
+"MODE"="模式";

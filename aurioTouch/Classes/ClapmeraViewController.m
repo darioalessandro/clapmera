@@ -20,6 +20,8 @@
 #import "ClapmeraEngine.h"
 #import "BFGAssetsManager.h"
 #import "UIView+LoadingState.h"
+#import "GAI.h"
+#import "TypeTransformers.h"
 
 @interface ClapmeraViewController ()
 -(void)showSettingsAsModalView:(id)sender;
@@ -66,7 +68,13 @@
 
 -(void)clapmeraEngine:(ClapmeraEngine *)clapmeraEngine timerDidTic:(RCTimer *)timer{
     if(timer){
-        self.sensorOnOffLabel.text = [NSString stringWithFormat:@"%d",timer.timeRemaining];
+        NSString * time = [NSString stringWithFormat:@"%ld",(long)timer.timeRemaining];
+        self.sensorOnOffLabel.text = time;
+        if(timer.timeRemaining<= 1) {
+            [DejalBezelActivityView activityViewForView:self.view withLabel:@"Smile 😃"];
+        } else {
+            [DejalBezelActivityView activityViewForView:self.view withLabel:time];
+        }
     }
     [self turnOnFlashForTimeInterval:1];
 }
@@ -74,32 +82,54 @@
 -(void)clapmeraEngine:(ClapmeraEngine *)clapmeraEngine didThrowError:(NSError *)error{
     if (error.code==ClapmeraEngineErrorUserRanOutOfPictures) {
         [self showUpgrades:nil];
-        [[[GAI sharedInstance] defaultTracker] sendView:@"ClapmeraViewController/UserRanOutOfPics"];
+        [[[GAI sharedInstance] defaultTracker] send:@{@"view":@"ClapmeraViewController/UserRanOutOfPics"}];
     }else if(error.code==ClapmeraEngineErrorAppHasNoAccessToPhotos){
-        
         BFLog(@"Error saving photo: %@", error);
-        [[[GAI sharedInstance] defaultTracker] sendView:@"ClapmeraViewController/DidFailToSnapPhoto"];
+        [[[GAI sharedInstance] defaultTracker] send:@{@"view":@"ClapmeraViewController/DidFailToSnapPhoto"}];
     }else if(error.code==ClapmeraEngineErrorhighVolume){
         [DejalBezelActivityView activityViewForView:self.view withLabel:NSLocalizedString(@"Environment is too noisy", nil)];
-        [self removeActivityView];
+        [self removeActivityView:1];
     }
 }
 
 -(void)stateChanged:(ClapmeraEngine *)engine{
-    [self updateMenuButtonWithState:[engine state]];
-    if([engine state]==ClapmeraEngineStateCanceledCapture){
-        [DejalBezelActivityView activityViewForView:self.view withLabel:NSLocalizedString(@"Action canceled...", nil)];
-        [self removeActivityView];
-        [[[GAI sharedInstance] defaultTracker] sendView:@"ClapmeraViewController/cancelPic/FromClap"];
-    }
-    if(engine.state==ClapmeraEngineStateCounting){
-        [DejalBezelActivityView activityViewForView:self.view withLabel:NSLocalizedString(@"Clap Detected...", nil)];
-        [self removeActivityView];
+    [self.changeCameraButton setHidden:NO];
+    switch ([engine state]) {
+        case ClapmeraEngineStateOff:
+            self.sensorOnOffLabel.text = NSLocalizedString(@"Off", nil);
+            [self.onOffSensorButton setImage:[CPTheme imageForMenuButtonSensorOff] forState:UIControlStateNormal];
+            break;
+        case ClapmeraEngineStateListening:
+            [self removeActivityView:1];
+            self.sensorOnOffLabel.text = NSLocalizedString(@"Listening", nil);
+            [self.onOffSensorButton setImage:[CPTheme imageForMenuButtonSensorOn] forState:UIControlStateNormal];
+            break;
+        case ClapmeraEngineStateCounting:
+            [self.changeCameraButton setHidden:TRUE];
+            [self.onOffSensorButton setImage:[CPTheme imageForMenuButtonSensorProcessing] forState:UIControlStateNormal];
+            [DejalBezelActivityView activityViewForView:self.view withLabel:NSLocalizedString(@"Clap Detected...", nil)];
+            [self removeActivityView:1];
+            break;
+        case ClapmeraEngineStateCapturing:
+            [self.changeCameraButton setHidden:TRUE];
+            if([CPConfiguration operationMode]==CPConfigurationOpeationModeVideo){
+                self.sensorOnOffLabel.text = NSLocalizedString(@"Recording", nil);
+            }else{
+                self.sensorOnOffLabel.text = NSLocalizedString(@"Smile!", nil);
+            }
+            break;
+        case ClapmeraEngineStateCanceledCapture:
+            [DejalBezelActivityView activityViewForView:self.view withLabel:NSLocalizedString(@"Action canceled...", nil)];
+            [self removeActivityView:1];
+            [[[GAI sharedInstance] defaultTracker] send:@{@"view":@"ClapmeraViewController/cancelPic/FromClap"}];
+            break;
+        default:
+            [self removeActivityView:1];
+            break;
     }
 }
 
--(void)removeActivityView{
-    double delayInSeconds = 1.0;
+-(void)removeActivityView:(double)delayInSeconds{
     dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
         if([DejalActivityView currentActivityView]!=nil){
@@ -123,7 +153,6 @@
     [self showCamera];
     [self configureFlash];
     [[self clapmeraEngine] startListening];
-    
 }
 
 -(void)verifyCameraAccess{
@@ -192,7 +221,7 @@
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     [self GATrackPage];
-    [self performSelector:@selector(layoutBanners) withObject:nil afterDelay:0.3];
+//    [self performSelector:@selector(layoutBanners) withObject:nil afterDelay:0.3];
 }
 
 -(void)resumeClapmeraEngine{
@@ -256,10 +285,11 @@
 }
 
 -(void)rotateCameraToOrientation:(UIInterfaceOrientation)orientation{
-    [_captureVideoPreviewLayer.connection setVideoOrientation:orientation];
+    AVCaptureVideoOrientation videoOrientation = [TypeTransformers tansformToVideoOrientation:orientation];
+    [_captureVideoPreviewLayer.connection setVideoOrientation:videoOrientation];
     _captureVideoPreviewLayer.frame = self.cameraView.bounds;
     for(AVCaptureConnection * connection in [self.clapmeraEngine.imageOutput connections]){
-        [connection setVideoOrientation:orientation];
+        [connection setVideoOrientation:videoOrientation];
     }
     [self.clapmeraEngine.videoProcessor updateVideoOrientation:orientation];
 }
@@ -426,24 +456,6 @@
 #pragma mark UI Update
 
 -(void)updateMenuButtonWithState:(ClapmeraEngineState)state{
-    [self.changeCameraButton setHidden:NO];
-    if (state == ClapmeraEngineStateOff){
-        self.sensorOnOffLabel.text = NSLocalizedString(@"Off", nil);
-        [self.onOffSensorButton setImage:[CPTheme imageForMenuButtonSensorOff] forState:UIControlStateNormal];
-    } else if (state == ClapmeraEngineStateListening){
-        self.sensorOnOffLabel.text = NSLocalizedString(@"Listening", nil);
-        [self.onOffSensorButton setImage:[CPTheme imageForMenuButtonSensorOn] forState:UIControlStateNormal];
-    } else if (state == ClapmeraEngineStateCounting){
-        [self.changeCameraButton setHidden:TRUE];
-        [self.onOffSensorButton setImage:[CPTheme imageForMenuButtonSensorProcessing] forState:UIControlStateNormal];
-    } else if (state== ClapmeraEngineStateCapturing){
-        [self.changeCameraButton setHidden:TRUE];
-        if([CPConfiguration operationMode]==CPConfigurationOpeationModeVideo){
-            self.sensorOnOffLabel.text = NSLocalizedString(@"Recording", nil);
-        }else{
-            self.sensorOnOffLabel.text = NSLocalizedString(@"Smile!", nil);
-        }
-    }
 }
 
 #pragma mark -
@@ -532,7 +544,7 @@
 
 -(void)showInstructionsIfFirstRun{
     if([CPConfiguration isFirstRun]){
-        [self performSelector:@selector(showInstructions) withObject:nil afterDelay:2];
+    [self performSelectorOnMainThread:@selector(showInstructions) withObject:nil waitUntilDone:FALSE];
         [CPConfiguration setFirstRunFlag:NO];
     }
 }

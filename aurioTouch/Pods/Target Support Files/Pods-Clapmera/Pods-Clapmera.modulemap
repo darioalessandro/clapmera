@@ -1,0 +1,6 @@
+framework module Pods_Clapmera {
+  umbrella header "Pods-Clapmera-umbrella.h"
+
+  export *
+  module * { export * }
+}

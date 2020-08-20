@@ -19,7 +19,7 @@
 #import "CPTheme.h"
 #import "AKSegmentedControl.h"
 #import "NewFeaturesController.h"
-
+#import "GAI.h"
 
 @interface CMConfigurationsViewController ()
 
@@ -38,7 +38,6 @@
                                                                                      target:self                                                                                      action:@selector(showCamera)];
         leftButtonItem.style = UIBarButtonItemStyleDone;
         self.navigationItem.leftBarButtonItem = leftButtonItem;
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateSensitivitySlider:)  name:CPConfigurationSensitivityChanged object:nil];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadData:)  name:AppDidBecomeActive object:nil];
     self.tableViewCells=@[@[self.modeCell],@[self.delayTableViewCell], @[self.likeCell, self.twitterCell, self.youTubeCell, self.rateApp], @[self.aboutCell ,self.acknowledgments, self.version]];
     self.title=NSLocalizedString(@"Settings", nil);
@@ -216,7 +215,7 @@
         pathToTrack=[NSString stringWithFormat:@"%@/BlackFireApps.com", pathToTrack];
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.blackfireapps.com"]];
     }
-    [[[GAI sharedInstance] defaultTracker] sendView:pathToTrack];
+    [[[GAI sharedInstance] defaultTracker] send:@{@"view": pathToTrack}];
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {

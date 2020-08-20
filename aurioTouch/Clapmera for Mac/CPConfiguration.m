@@ -43,9 +43,7 @@
 }
 
 +(void)setOperationMode:(CPConfigurationOperationMode) operationMode{
-    if (![[[GAI sharedInstance] defaultTracker] trackEventWithCategory:@"CPConfigurationOperationMode" withAction:@"setOperationMode" withLabel:@"operationMode" withValue:@(operationMode)]) {
-        BFLog(@"error in trackEvent");
-    }
+    [[[GAI sharedInstance] defaultTracker] set:@"CPConfigurationOperationMode"  value:[NSString stringWithFormat:@"operationMode: %d", operationMode]];
     [[NSUserDefaults standardUserDefaults] setInteger:operationMode forKey:UD_Camera_DefaultOperationMode];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
@@ -59,9 +57,7 @@
 }
 
 +(void)setDelay:(CGFloat)delay{
-    if (![[[GAI sharedInstance] defaultTracker] trackEventWithCategory:@"CPConfigurationOperationMode" withAction:@"setDelay" withLabel:@"delay" withValue:@(delay)]) {
-        BFLog(@"error in trackEvent");
-    }
+    [[[GAI sharedInstance] defaultTracker] set:@"CPConfigurationOperationMode"  value:[NSString stringWithFormat:@"setDelay: %@", @(delay)]];
     [[NSUserDefaults standardUserDefaults] setFloat:delay forKey:kCP_delay];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }

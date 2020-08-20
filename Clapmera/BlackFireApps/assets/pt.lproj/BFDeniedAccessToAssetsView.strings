@@ -1,0 +1,8 @@
+/* Class = "IBUILabel"; text = "You can enable access in Privacy Settings."; ObjectID = "4"; */
+"413.text" = "Pode habilitar o acesso a configuração de privacidade.";
+
+/* Class = "IBUILabel"; text = "This app does not have access to your Photos."; ObjectID = "5"; */
+"427.text" = "Esta aplicação não tem acesso as suas  fotografias.";
+
+/* Class = "IBUILabel"; text = "*This is necessary to use Clapmera."; ObjectID = "35"; */
+"444.text" = "*Isto é necessário para usar Clapmera.";

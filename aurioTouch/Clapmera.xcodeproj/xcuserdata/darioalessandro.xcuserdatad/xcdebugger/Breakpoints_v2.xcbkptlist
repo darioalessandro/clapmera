@@ -96,7 +96,7 @@
             startingLineNumber = "168"
             endingLineNumber = "168"
             landmarkName = "-step2IntroNext"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -352,7 +352,7 @@
             startingLineNumber = "38"
             endingLineNumber = "38"
             landmarkName = "-isInProgress"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -496,7 +496,7 @@
             startingLineNumber = "35"
             endingLineNumber = "35"
             landmarkName = "-errorHappened:withRestorer:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -512,7 +512,7 @@
             startingLineNumber = "43"
             endingLineNumber = "43"
             landmarkName = "-syncDBWithCompletedTransactionsQueue:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1008,7 +1008,7 @@
             startingLineNumber = "73"
             endingLineNumber = "73"
             landmarkName = "-keyDown:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1024,7 +1024,7 @@
             startingLineNumber = "31"
             endingLineNumber = "31"
             landmarkName = "-previewPanel:previewItemAtIndex:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1040,7 +1040,7 @@
             startingLineNumber = "32"
             endingLineNumber = "32"
             landmarkName = "-previewPanel:previewItemAtIndex:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1370,13 +1370,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/ClapmeraViewController.m"
-            timestampString = "432094887.617567"
+            timestampString = "531468651.22409"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "502"
-            endingLineNumber = "502"
-            landmarkName = "-showUpgrades:"
-            landmarkType = "5">
+            startingLineNumber = "512"
+            endingLineNumber = "512"
+            landmarkName = "ClapmeraViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1392,7 +1392,7 @@
             startingLineNumber = "83"
             endingLineNumber = "83"
             landmarkName = "-setDidUserBuyProVersion:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1402,13 +1402,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/CMMenuViewController.m"
-            timestampString = "401501243.982877"
+            timestampString = "531468651.224163"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "153"
-            endingLineNumber = "153"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
             landmarkName = "-dealloc"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1418,13 +1418,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/CMMenuViewController.m"
-            timestampString = "401500782.386236"
+            timestampString = "531468651.224207"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
             endingLineNumber = "37"
             landmarkName = "-configureBars"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1434,13 +1434,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/CMMenuViewController.m"
-            timestampString = "401501243.982877"
+            timestampString = "531468651.224246"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
             endingLineNumber = "44"
             landmarkName = "-closeModalView:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1488,7 +1488,7 @@
             startingLineNumber = "142"
             endingLineNumber = "142"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1504,7 +1504,7 @@
             startingLineNumber = "144"
             endingLineNumber = "144"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1520,7 +1520,7 @@
             startingLineNumber = "143"
             endingLineNumber = "143"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1536,7 +1536,7 @@
             startingLineNumber = "106"
             endingLineNumber = "106"
             landmarkName = "-productsRequest:didReceiveResponse:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1552,7 +1552,7 @@
             startingLineNumber = "134"
             endingLineNumber = "134"
             landmarkName = "-request:didFailWithError:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1567,8 +1567,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "255"
             endingLineNumber = "255"
-            landmarkName = "-showAcknowledgments"
-            landmarkType = "5">
+            landmarkName = "CMConfigurationsViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1626,13 +1626,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/ClapmeraViewController.m"
-            timestampString = "432094887.617567"
+            timestampString = "531468651.224471"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "411"
-            endingLineNumber = "411"
+            startingLineNumber = "439"
+            endingLineNumber = "439"
             landmarkName = "-toggleFlashPreferences"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1642,13 +1642,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/ClapmeraViewController.m"
-            timestampString = "432094887.617567"
+            timestampString = "531468651.224522"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "410"
-            endingLineNumber = "410"
+            startingLineNumber = "438"
+            endingLineNumber = "438"
             landmarkName = "-toggleFlashPreferences"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1658,13 +1658,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/ClapmeraViewController.m"
-            timestampString = "432094887.617567"
+            timestampString = "531468651.224572"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "414"
-            endingLineNumber = "414"
+            startingLineNumber = "442"
+            endingLineNumber = "442"
             landmarkName = "-toggleFlashPreferences"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1680,7 +1680,7 @@
             startingLineNumber = "106"
             endingLineNumber = "106"
             landmarkName = "-setupModeCell"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1690,13 +1690,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/ClapmeraViewController.m"
-            timestampString = "432094887.617567"
+            timestampString = "531468651.224638"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "465"
-            endingLineNumber = "465"
-            landmarkName = "-pushController:"
-            landmarkType = "5">
+            startingLineNumber = "475"
+            endingLineNumber = "475"
+            landmarkName = "ClapmeraViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1706,13 +1706,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ClapmeraEngine.m"
-            timestampString = "401515197.626721"
+            timestampString = "531462350.697474"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "186"
             endingLineNumber = "186"
             landmarkName = "-stateChanged:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1722,13 +1722,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/ClapmeraViewController.m"
-            timestampString = "432094887.617567"
+            timestampString = "531468651.224703"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "409"
-            endingLineNumber = "409"
+            startingLineNumber = "437"
+            endingLineNumber = "437"
             landmarkName = "-toggleFlashPreferences"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1738,13 +1738,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ClapmeraEngine.m"
-            timestampString = "401515197.626721"
+            timestampString = "531462350.698075"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
             endingLineNumber = "42"
             landmarkName = "-setState:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1792,7 +1792,7 @@
             startingLineNumber = "252"
             endingLineNumber = "252"
             landmarkName = "-showAcknowledgments"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1808,7 +1808,7 @@
             startingLineNumber = "251"
             endingLineNumber = "251"
             landmarkName = "-showAcknowledgments"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1818,13 +1818,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ClapmeraEngine.m"
-            timestampString = "432094887.617567"
+            timestampString = "531462350.69825"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "218"
             endingLineNumber = "218"
             landmarkName = "-takePhoto"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1866,12 +1866,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ClapmeraEngine.m"
-            timestampString = "396687858.351698"
+            timestampString = "531462350.69835"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
             endingLineNumber = "24"
-            landmarkName = "@implementation ClapmeraEngine"
+            landmarkName = "ClapmeraEngine"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2154,13 +2154,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ClapmeraEngine.m"
-            timestampString = "401515197.626721"
+            timestampString = "531462350.698853"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "90"
             endingLineNumber = "90"
             landmarkName = "-cancelCapture"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2752,7 +2752,7 @@
             startingLineNumber = "64"
             endingLineNumber = "64"
             landmarkName = "-viewWillAppear:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2768,7 +2768,7 @@
             startingLineNumber = "63"
             endingLineNumber = "63"
             landmarkName = "-viewWillAppear:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2816,7 +2816,7 @@
             startingLineNumber = "388"
             endingLineNumber = "388"
             landmarkName = "-showError:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2832,7 +2832,7 @@
             startingLineNumber = "53"
             endingLineNumber = "53"
             landmarkName = "-saveMovieToCameraRoll"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2848,7 +2848,7 @@
             startingLineNumber = "57"
             endingLineNumber = "57"
             landmarkName = "-saveMovieToCameraRoll"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2864,7 +2864,7 @@
             startingLineNumber = "56"
             endingLineNumber = "56"
             landmarkName = "-saveMovieToCameraRoll"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2880,7 +2880,7 @@
             startingLineNumber = "58"
             endingLineNumber = "58"
             landmarkName = "-saveMovieToCameraRoll"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2896,7 +2896,7 @@
             startingLineNumber = "63"
             endingLineNumber = "63"
             landmarkName = "-saveMovieToCameraRoll"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2912,7 +2912,7 @@
             startingLineNumber = "177"
             endingLineNumber = "177"
             landmarkName = "-startRecording"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2928,7 +2928,7 @@
             startingLineNumber = "180"
             endingLineNumber = "180"
             landmarkName = "-startRecording"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2944,7 +2944,7 @@
             startingLineNumber = "201"
             endingLineNumber = "201"
             landmarkName = "-stopRecording"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2960,7 +2960,7 @@
             startingLineNumber = "389"
             endingLineNumber = "389"
             landmarkName = "-showError:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2976,7 +2976,7 @@
             startingLineNumber = "159"
             endingLineNumber = "159"
             landmarkName = "-setupAssetWriterVideoInput:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2992,7 +2992,7 @@
             startingLineNumber = "260"
             endingLineNumber = "260"
             landmarkName = "-captureOutput:didOutputSampleBuffer:fromConnection:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3008,7 +3008,7 @@
             startingLineNumber = "254"
             endingLineNumber = "254"
             landmarkName = "-captureOutput:didOutputSampleBuffer:fromConnection:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3024,7 +3024,7 @@
             startingLineNumber = "117"
             endingLineNumber = "117"
             landmarkName = "-setupAssetWriterAudioInput:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3040,7 +3040,7 @@
             startingLineNumber = "59"
             endingLineNumber = "59"
             landmarkName = "-saveMovieToCameraRoll"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3050,13 +3050,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ClapmeraEngine.m"
-            timestampString = "432094887.617567"
+            timestampString = "531462350.700173"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "240"
             endingLineNumber = "240"
             landmarkName = "-takeVideo"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3072,7 +3072,7 @@
             startingLineNumber = "250"
             endingLineNumber = "250"
             landmarkName = "-captureOutput:didOutputSampleBuffer:fromConnection:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3088,7 +3088,7 @@
             startingLineNumber = "248"
             endingLineNumber = "248"
             landmarkName = "-captureOutput:didOutputSampleBuffer:fromConnection:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3098,13 +3098,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/ClapmeraViewController.m"
-            timestampString = "432094887.617567"
+            timestampString = "531468651.225904"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "149"
-            endingLineNumber = "149"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
             landmarkName = "-showNoAccessToCameraError"
-            landmarkType = "5">
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -3152,7 +3152,7 @@
             startingLineNumber = "260"
             endingLineNumber = "260"
             landmarkName = "-captureOutput:didOutputSampleBuffer:fromConnection:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3162,13 +3162,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/ClapmeraViewController.m"
-            timestampString = "432094887.617567"
+            timestampString = "531468651.225972"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
             landmarkName = "-showNoAccessToCameraError"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3178,13 +3178,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/ClapmeraViewController.m"
-            timestampString = "432094887.617567"
+            timestampString = "531468651.226022"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "157"
-            endingLineNumber = "157"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
             landmarkName = "-showNoAccessToCameraError"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3194,29 +3194,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/ClapmeraViewController.m"
-            timestampString = "432094887.617567"
+            timestampString = "531468651.226069"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "475"
-            endingLineNumber = "475"
+            startingLineNumber = "485"
+            endingLineNumber = "485"
             landmarkName = "-showLastPhoto:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Classes/ClapmeraViewController.m"
-            timestampString = "432094497.302708"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
-            landmarkName = "-stateChanged:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3232,7 +3216,7 @@
             startingLineNumber = "119"
             endingLineNumber = "119"
             landmarkName = "-tableView:willDisplayCell:forRowAtIndexPath:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3248,23 +3232,7 @@
             startingLineNumber = "121"
             endingLineNumber = "121"
             landmarkName = "-tableView:willDisplayCell:forRowAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Classes/ClapmeraViewController.m"
-            timestampString = "437751844.642069"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "536"
-            endingLineNumber = "536"
-            landmarkName = "-showInstructionsIfFirstRun"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3274,29 +3242,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/ClapmeraViewController.m"
-            timestampString = "437751854.420057"
+            timestampString = "531468651.226152"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "512"
-            endingLineNumber = "512"
+            startingLineNumber = "522"
+            endingLineNumber = "522"
             landmarkName = "-showUpgrades:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/ClapmeraViewController.m"
-            timestampString = "437751885.011145"
+            timestampString = "531468651.226202"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
             landmarkName = "-setupViewController"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3312,7 +3280,7 @@
             startingLineNumber = "74"
             endingLineNumber = "74"
             landmarkName = "-didUserBuyProVersion"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
