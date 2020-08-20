@@ -13,10 +13,8 @@
  limitations under the License.
  */
 
-#import "FlickrRequest.h"
-//#import <FacebookSDK/FacebookSDK.h>
+
 #import <AssetsLibrary/AssetsLibrary.h>
-#import "FBUserPicturesParser.h"
 #import <UIKit/UIKit.h>
 
 static NSString * const kAddedAssetsToLibrary= @"AddedAssetsToLibrary";
@@ -29,8 +27,7 @@ typedef enum{
     BFGAssetsManagerProviderFacebookPictures
 }BFGAssetsManagerProvider;
 
-@interface BFGAssetsManager : NSObject <FlickrImageParserDelegate, FBUserPicturesParserDelegate>{
-    FlickrRequest * flickr;
+@interface BFGAssetsManager : NSObject <>{
     BFGAssetsManagerProvider _provider;
 }
 -(void)readImagesFromProvider:(BFGAssetsManagerProvider)provider withContext:(id)context;

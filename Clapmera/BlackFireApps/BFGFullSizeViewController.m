@@ -17,7 +17,6 @@
 #import "BFGFullSizeViewController.h"
 #import <QuartzCore/QuartzCore.h>
 #define kTransitionDuration 0.5
-#import "FlickrImage.h"
 #import "FBImage.h"
 #import "BFLog.h"
 
@@ -62,15 +61,8 @@
 {
     id asset= [delegate menuDetailViewController:self assetAtIndex:self.initialRowToShow.row];
     
-    if([asset isMemberOfClass:[FlickrImage class]]){
-        FlickrImage * img= asset;
-        if(![img fullSizeImage]){
-            initialImage=[img thumbnail];
-            [img loadFullSizeImageWithQueue:queue setResultInImageView:self.imageView];
-        }else{
-            initialImage=[img fullSizeImage];
-        }
-    }else if([asset isMemberOfClass:[FBImage class]]){
+
+    if([asset isMemberOfClass:[FBImage class]]){
         FBImage * img= asset;
         if(![img fullSizeImage]){
             initialImage=[img thumbnail];

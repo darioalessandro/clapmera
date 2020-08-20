@@ -14,7 +14,6 @@
  */
 
 #import "BFGAssetsManager.h"
-#import "FlickrImage.h"
 #import "FBImage.h"
 #import "BFLog.h"
 
@@ -50,13 +49,6 @@ static BFGAssetsManager * _hiddenInstance= nil;
 -(void)readImagesFromProvider:(BFGAssetsManagerProvider)provider withContext:(id)context{
     if(provider==BFGAssetsManagerProviderPhotoLibrary){
         [self readUserImagesFromLibrary];
-    }else if(provider==BFGAssetsManagerProviderFlickr){
-        if(flickr){
-            flickr.delegate=nil;
-        }
-        self.pics= [NSMutableArray array];
-        flickr=[FlickrRequest new];
-        [flickr performFlickrRequestWithCriteria:self.searchCriteria delegate:self];
     }else if (provider==BFGAssetsManagerProviderFacebookAlbums){
         self.pics= [NSMutableArray array];
         /*if ([FBSession activeSession].isOpen) {
@@ -75,68 +67,12 @@ static BFGAssetsManager * _hiddenInstance= nil;
         }*/
     }else if(provider==BFGAssetsManagerProviderFacebookPictures){
         self.pics=nil;
-            FBUserPicturesParser * parser= [FBUserPicturesParser new];
-            [parser setDelegate:self];
-        [parser picturesFromAlbum:context];
     }
     _provider=provider;
 }
 
 -(NSArray *)fbPermissions{
     return @[@"user_photos", @"user_photo_video_tags", @"friends_photos"];
-}
-
--(void)loadFBImages{
-    FBUserPicturesParser * parser= [FBUserPicturesParser new];
-    [parser setDelegate:self];
-    [parser start];
-}
-
-#pragma mark -
-#pragma FBUserPicturesParser
-
--(void)parser:(FBUserPicturesParser *)fbParser didFinishDownloadingAlbums:(NSArray *)albums{
-    self.pics= [NSMutableArray array];
-    [self.pics addObjectsFromArray:albums];
-    if(_provider==BFGAssetsManagerProviderFacebookAlbums){
-        [[NSNotificationCenter defaultCenter] postNotificationName:kAddedAssetsToLibrary object:self.pics];
-    }
-}
-
--(void)parser:(FBUserPicturesParser *)fbParser didFinishDownloadingImage:(FBImage *)image{
-    if(!self.pics){
-        self.pics= [NSMutableArray array];
-    }
-    [self.pics addObject:image];
-    if(_provider==BFGAssetsManagerProviderFacebookPictures){
-        [[NSNotificationCenter defaultCenter] postNotificationName:kAddedAssetsToLibrary object:self.pics];
-    }
-}
-
--(void)parser:(FBUserPicturesParser *)fbParser didFinishDownloadingAlbum:(NSDictionary *)album{
-    BFLog(@"parser did finish %@", album);
-    if(!self.pics){
-        self.pics= [NSMutableArray array];
-    }
-    [self.pics addObjectsFromArray:[album objectForKey:@"photos"]];
-    [[NSNotificationCenter defaultCenter] postNotificationName:kAddedAssetsToLibrary object:self.pics];
-}
-
--(void)parser:(FBUserPicturesParser *)fbParser failedToLoadAlbum:(NSDictionary *)album withError:(NSError *)error{
-    if(!self.pics){
-        self.pics= [NSMutableArray array];
-    }
-    UIAlertView * alertView=[[UIAlertView alloc] initWithTitle:@"Facebook" message:[error localizedDescription] delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles: nil];
-    [alertView show];
-    [[NSNotificationCenter defaultCenter] postNotificationName:kAddedAssetsToLibrary object:self.pics];
-}
-
--(void)getMoreImages{
-    if(_provider==BFGAssetsManagerProviderPhotoLibrary){
-        
-    }else if(_provider==BFGAssetsManagerProviderFlickr){
-        [flickr getNextPageIfNeeded];
-    }
 }
 
 -(void)shouldRefreshImagesFromUserLibrary:(NSNotification *)notif{
@@ -169,34 +105,6 @@ static BFGAssetsManager * _hiddenInstance= nil;
                         [[NSNotificationCenter defaultCenter] postNotificationName:kUserDeniedAccessToPics object:self];
                     }
      ];
-}
-
-#pragma mark -
-#pragma Flickr
-
-- (void)parserDidDownloadImage:(FlickrImageParser *)parser{
-    
-}
-
-- (void)didFinishParsing:(FlickrImageParser *)parser{
-//    NSOperationQueue * queue = [[NSOperationQueue alloc] init];
-//    for (FlickrImage * img in parser.images){
-//        NSURLRequest * request= [NSURLRequest requestWithURL:img.thumbnailServerPath];
-//        [NSURLConnection sendAsynchronousRequest:request queue:queue completionHandler:^(NSURLResponse * resp, NSData * data, NSError * error){
-//            if(!error){
-//                img.thumbnail=[UIImage imageWithData:data];
-//                [self.pics addObject:img];
-//                if(_provider==BFGAssetsManagerProviderFlickr){
-//                    [[NSNotificationCenter defaultCenter] postNotificationName:kAddedAssetsToLibrary object:self.pics];
-//                }
-//            }
-//        }];
-//    }
-}
-
-- (void)parseErrorOccurred:(FlickrImageParser *)parser{
-//    UIAlertView * alert= [[UIAlertView alloc] initWithTitle:@"Flickr" message:[[parser error] localizedDescription] delegate:nil cancelButtonTitle:@"ok" otherButtonTitles: nil];
-//    [alert show];
 }
 
 #pragma mark -
