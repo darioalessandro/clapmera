@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		06290BBD1FAD412F00C567B9 /* FadeAndScaleSiegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B221FAD406800C567B9 /* FadeAndScaleSiegue.m */; };
-		06290BBE1FAD412F00C567B9 /* BFTwitterImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B241FAD406B00C567B9 /* BFTwitterImageView.m */; };
 		06290BBF1FAD412F00C567B9 /* NSMutableURLRequest+CurlDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B251FAD406C00C567B9 /* NSMutableURLRequest+CurlDescription.m */; };
 		06290BC11FAD412F00C567B9 /* UIBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B2A1FAD407700C567B9 /* UIBlockButton.m */; };
 		06290BC31FAD412F00C567B9 /* MailOptionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B311FAD408000C567B9 /* MailOptionListViewController.m */; };
@@ -36,11 +35,9 @@
 		06290BEB1FAD412F00C567B9 /* BFGCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B821FAD40E800C567B9 /* BFGCell.m */; };
 		06290BEC1FAD412F00C567B9 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06290B831FAD40E900C567B9 /* LoadingView.xib */; };
 		06290BED1FAD412F00C567B9 /* FBUserPicturesParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B851FAD40EB00C567B9 /* FBUserPicturesParser.m */; };
-		06290BEF1FAD412F00C567B9 /* BFFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B871FAD40ED00C567B9 /* BFFacebook.m */; };
 		06290BF01FAD412F00C567B9 /* FBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B881FAD40EE00C567B9 /* FBImage.m */; };
 		06290BF11FAD412F00C567B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B8A1FAD40F000C567B9 /* main.m */; };
 		06290BF21FAD412F00C567B9 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B8B1FAD40F200C567B9 /* UIColor+Hex.m */; };
-		06290BF31FAD412F00C567B9 /* BFTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B8C1FAD40F300C567B9 /* BFTwitter.m */; };
 		06290BF41FAD412F00C567B9 /* FPTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B8D1FAD40F400C567B9 /* FPTouchView.m */; };
 		06290BF51FAD412F00C567B9 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B8E1FAD40F500C567B9 /* NSString+UUID.m */; };
 		06290BF61FAD412F00C567B9 /* ReloadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06290B8F1FAD40F600C567B9 /* ReloadView.xib */; };
@@ -50,7 +47,6 @@
 		06290BFD1FAD412F00C567B9 /* NetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B9A1FAD410500C567B9 /* NetworkActivityIndicatorManager.m */; };
 		06290BFE1FAD412F00C567B9 /* BFAlienCellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290B9C1FAD410800C567B9 /* BFAlienCellBackgroundView.m */; };
 		06290C001FAD412F00C567B9 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290BA41FAD411200C567B9 /* DejalActivityView.m */; };
-		06290C021FAD412F00C567B9 /* BFInstagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290BA61FAD411400C567B9 /* BFInstagram.m */; };
 		06290C031FAD412F00C567B9 /* RMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290BA71FAD411500C567B9 /* RMNavigationController.m */; };
 		06290C041FAD412F00C567B9 /* BFATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06290BA81FAD411600C567B9 /* BFATabBarController.m */; };
 		06290C051FAD412F00C567B9 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 06290BA91FAD411800C567B9 /* assets */; };
@@ -99,7 +95,6 @@
 /* Begin PBXFileReference section */
 		06290B221FAD406800C567B9 /* FadeAndScaleSiegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeAndScaleSiegue.m; sourceTree = "<group>"; };
 		06290B231FAD406A00C567B9 /* BFGCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGCell.h; sourceTree = "<group>"; };
-		06290B241FAD406B00C567B9 /* BFTwitterImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFTwitterImageView.m; sourceTree = "<group>"; };
 		06290B251FAD406C00C567B9 /* NSMutableURLRequest+CurlDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+CurlDescription.m"; sourceTree = "<group>"; };
 		06290B291FAD407600C567B9 /* BFGAssetsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGAssetsManager.h; sourceTree = "<group>"; };
 		06290B2A1FAD407700C567B9 /* UIBlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBlockButton.m; sourceTree = "<group>"; };
@@ -115,9 +110,7 @@
 		06290B381FAD408800C567B9 /* UIImageView+UIImageExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+UIImageExtensions.h"; sourceTree = "<group>"; };
 		06290B3B1FAD408B00C567B9 /* BFGFullSizeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGFullSizeCell.h; sourceTree = "<group>"; };
 		06290B3C1FAD408C00C567B9 /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
-		06290B3D1FAD408E00C567B9 /* BFInstagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFInstagram.h; sourceTree = "<group>"; };
 		06290B3E1FAD408F00C567B9 /* BFGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFGalleryViewController.m; sourceTree = "<group>"; };
-		06290B3F1FAD409000C567B9 /* BFFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFFacebook.h; sourceTree = "<group>"; };
 		06290B401FAD409100C567B9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		06290B411FAD409200C567B9 /* BFGFullSizeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFGFullSizeCell.m; sourceTree = "<group>"; };
 		06290B421FAD409300C567B9 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
@@ -146,7 +139,6 @@
 		06290B6B1FAD40CC00C567B9 /* UIViewController+DataLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DataLoading.m"; sourceTree = "<group>"; };
 		06290B6D1FAD40CE00C567B9 /* switch */ = {isa = PBXFileReference; lastKnownFileType = folder; path = switch; sourceTree = "<group>"; };
 		06290B721FAD40D400C567B9 /* FPPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPopoverController.m; sourceTree = "<group>"; };
-		06290B731FAD40D500C567B9 /* BFTwitterImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFTwitterImageView.h; sourceTree = "<group>"; };
 		06290B741FAD40D600C567B9 /* BFAlienSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFAlienSwitch.m; sourceTree = "<group>"; };
 		06290B751FAD40D700C567B9 /* FPPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPopoverView.m; sourceTree = "<group>"; };
 		06290B771FAD40DA00C567B9 /* BFGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGalleryViewController.h; sourceTree = "<group>"; };
@@ -158,12 +150,10 @@
 		06290B831FAD40E900C567B9 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		06290B841FAD40EA00C567B9 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
 		06290B851FAD40EB00C567B9 /* FBUserPicturesParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBUserPicturesParser.m; sourceTree = "<group>"; };
-		06290B871FAD40ED00C567B9 /* BFFacebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFFacebook.m; sourceTree = "<group>"; };
 		06290B881FAD40EE00C567B9 /* FBImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBImage.m; sourceTree = "<group>"; };
 		06290B891FAD40EF00C567B9 /* BFGFullSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGFullSizeViewController.h; sourceTree = "<group>"; };
 		06290B8A1FAD40F000C567B9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06290B8B1FAD40F200C567B9 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
-		06290B8C1FAD40F300C567B9 /* BFTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFTwitter.m; sourceTree = "<group>"; };
 		06290B8D1FAD40F400C567B9 /* FPTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTouchView.m; sourceTree = "<group>"; };
 		06290B8E1FAD40F500C567B9 /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
 		06290B8F1FAD40F600C567B9 /* ReloadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReloadView.xib; sourceTree = "<group>"; };
@@ -174,12 +164,10 @@
 		06290B9B1FAD410700C567B9 /* BFATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFATabBarController.h; sourceTree = "<group>"; };
 		06290B9C1FAD410800C567B9 /* BFAlienCellBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFAlienCellBackgroundView.m; sourceTree = "<group>"; };
 		06290B9D1FAD410900C567B9 /* BFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFImage.h; sourceTree = "<group>"; };
-		06290B9E1FAD410A00C567B9 /* BFTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFTwitter.h; sourceTree = "<group>"; };
 		06290B9F1FAD410B00C567B9 /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
 		06290BA01FAD410D00C567B9 /* PopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView.h; sourceTree = "<group>"; };
 		06290BA31FAD411000C567B9 /* BlackFireApps-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BlackFireApps-Prefix.pch"; sourceTree = "<group>"; };
 		06290BA41FAD411200C567B9 /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
-		06290BA61FAD411400C567B9 /* BFInstagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFInstagram.m; sourceTree = "<group>"; };
 		06290BA71FAD411500C567B9 /* RMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMNavigationController.m; sourceTree = "<group>"; };
 		06290BA81FAD411600C567B9 /* BFATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFATabBarController.m; sourceTree = "<group>"; };
 		06290BA91FAD411800C567B9 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
@@ -286,8 +274,6 @@
 				06290BAB1FAD411A00C567B9 /* BFAppDelegate.m */,
 				06290B9B1FAD410700C567B9 /* BFATabBarController.h */,
 				06290BA81FAD411600C567B9 /* BFATabBarController.m */,
-				06290B3F1FAD409000C567B9 /* BFFacebook.h */,
-				06290B871FAD40ED00C567B9 /* BFFacebook.m */,
 				06290B771FAD40DA00C567B9 /* BFGalleryViewController.h */,
 				06290B3E1FAD408F00C567B9 /* BFGalleryViewController.m */,
 				06290B291FAD407600C567B9 /* BFGAssetsManager.h */,
@@ -300,13 +286,7 @@
 				06290B371FAD408700C567B9 /* BFGFullSizeViewController.m */,
 				06290B9D1FAD410900C567B9 /* BFImage.h */,
 				06290B4D1FAD40A200C567B9 /* BFImage.m */,
-				06290B3D1FAD408E00C567B9 /* BFInstagram.h */,
-				06290BA61FAD411400C567B9 /* BFInstagram.m */,
 				06290BB71FAD412900C567B9 /* BFLog.h */,
-				06290B9E1FAD410A00C567B9 /* BFTwitter.h */,
-				06290B8C1FAD40F300C567B9 /* BFTwitter.m */,
-				06290B731FAD40D500C567B9 /* BFTwitterImageView.h */,
-				06290B241FAD406B00C567B9 /* BFTwitterImageView.m */,
 				06290BAC1FAD411B00C567B9 /* BlackFireApps-Info.plist */,
 				06290BA31FAD411000C567B9 /* BlackFireApps-Prefix.pch */,
 				06290B401FAD409100C567B9 /* Default-568h@2x.png */,
@@ -739,8 +719,6 @@
 				06290BD91FAD412F00C567B9 /* PopoverView.m in Sources */,
 				06290BEB1FAD412F00C567B9 /* BFGCell.m in Sources */,
 				06290BCD1FAD412F00C567B9 /* AKSegmentedControl.m in Sources */,
-				06290BBE1FAD412F00C567B9 /* BFTwitterImageView.m in Sources */,
-				06290BF31FAD412F00C567B9 /* BFTwitter.m in Sources */,
 				06290BC11FAD412F00C567B9 /* UIBlockButton.m in Sources */,
 				06290BF41FAD412F00C567B9 /* FPTouchView.m in Sources */,
 				06290BFD1FAD412F00C567B9 /* NetworkActivityIndicatorManager.m in Sources */,
@@ -749,11 +727,9 @@
 				067770E61F499AE1001EA6F4 /* CPSoundManager.m in Sources */,
 				06290BCE1FAD412F00C567B9 /* UIView+LoadingState.m in Sources */,
 				06290BE81FAD412F00C567B9 /* AppRater.m in Sources */,
-				06290BEF1FAD412F00C567B9 /* BFFacebook.m in Sources */,
 				06290BFC1FAD412F00C567B9 /* UIImageView+UIImageExtensions.m in Sources */,
 				06290C041FAD412F00C567B9 /* BFATabBarController.m in Sources */,
 				06290BE21FAD412F00C567B9 /* FPPopoverController.m in Sources */,
-				06290C021FAD412F00C567B9 /* BFInstagram.m in Sources */,
 				06290BDB1FAD412F00C567B9 /* UIViewController+DataLoading.m in Sources */,
 				06290BD21FAD412F00C567B9 /* Base64Transcoder.m in Sources */,
 				06290BBF1FAD412F00C567B9 /* NSMutableURLRequest+CurlDescription.m in Sources */,

@@ -120,12 +120,12 @@
 		if ([self.assetWriter canAddInput:assetWriterAudioIn])
 			[self.assetWriter addInput:assetWriterAudioIn];
 		else {
-			BFLog(@"Couldn't add asset writer audio input.");
+			NSLog(@"Couldn't add asset writer audio input.");
             return NO;
 		}
 	}
 	else {
-		BFLog(@"Couldn't apply audio output settings.");
+		NSLog(@"Couldn't apply audio output settings.");
         return NO;
 	}
     
@@ -161,12 +161,12 @@
 		if ([self.assetWriter canAddInput:assetWriterVideoIn])
 			[self.assetWriter addInput:assetWriterVideoIn];
 		else {
-			BFLog(@"Couldn't add asset writer video input.");
+			NSLog(@"Couldn't add asset writer video input.");
             return NO;
 		}
 	}
 	else {
-		BFLog(@"Couldn't apply video output settings.");
+		NSLog(@"Couldn't apply video output settings.");
         return NO;
 	}
     

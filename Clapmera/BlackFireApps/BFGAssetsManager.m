@@ -15,7 +15,6 @@
 
 #import "BFGAssetsManager.h"
 #import "FBImage.h"
-#import "BFLog.h"
 
 static BFGAssetsManager * _hiddenInstance= nil;
 
@@ -61,7 +60,7 @@ static BFGAssetsManager * _hiddenInstance= nil;
                 }else{
                     UIAlertView * alert= [[UIAlertView alloc] initWithTitle:@"Facebook:" message:@"We can not access your account, make sure that this App is enabled to access your Facebook accounts in Privacy Settings." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles: nil];
                     [alert show];
-                    BFLog(@"error %@", error);
+                    NSLog(@"error %@", error);
                 }
             }];
         }*/

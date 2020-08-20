@@ -41,7 +41,6 @@ static NSArray * constants=nil;
 
 - (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error{
     [self layoutBanners];
-    BFLog(@"didFailToReceiveAdWithError");
 }
 
 - (BOOL)bannerViewActionShouldBegin:(ADBannerView *)banner willLeaveApplication:(BOOL)willLeave{
@@ -49,12 +48,10 @@ static NSArray * constants=nil;
 }
 
 - (void)bannerViewActionDidFinish:(ADBannerView *)banner{
-    BFLog(@"bannerViewActionDidFinish");
     [self layoutBanners];
 }
 
 -(void)bannerViewDidLoadAd:(ADBannerView *)banner{
-    BFLog(@"didLoad");
     [self layoutBanners];
 }
 
@@ -78,7 +75,7 @@ static NSArray * constants=nil;
         }
     }
     @catch (NSException *exception) {
-        BFLog(@"exception %@", exception);
+        NSLog(@"exception %@", exception);
     }
 
 }

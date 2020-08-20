@@ -84,11 +84,6 @@
 {
     [self removeObservers];
     if(_shadowColor) CGColorRelease(_shadowColor);
-
-#ifdef FP_DEBUG
-    BFLog(@"FPPopoverController dealloc");
-#endif
-
     SAFE_ARC_RELEASE(_contentView);
     SAFE_ARC_RELEASE(_touchView);
     self.delegate = nil;

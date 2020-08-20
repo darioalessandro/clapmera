@@ -10,7 +10,6 @@
 //#import <FacebookSDK/FacebookSDK.h>
 #import "FBImage.h"
 #import "FBAlbum.h"
-#import "BFLog.h"
 
 @implementation FBUserPicturesParser
 
@@ -27,7 +26,7 @@
     [FBRequestConnection startWithGraphPath:@"/me/albums"
                           completionHandler:^(FBRequestConnection *connection, id result, NSError *error) {
                               if(error) {
-                                  BFLog(@"error %@", error);
+                                  NSLog(@"error %@", error);
                                   [self parsingAlbum:nil failedWithError:error];
                                   return;
                               }else{
@@ -67,7 +66,7 @@
 }
 
 -(void)parsingAlbum:(NSDictionary *)album failedWithError:(NSError *)error{
-    BFLog(@"error %@", error);
+    NSLog(@"error %@", error);
      [self.delegate parser:self failedToLoadAlbum:album withError:error];
 }
 
@@ -90,7 +89,7 @@
                 image.thumbnail= [UIImage imageWithData:img];
                 [self didFinishLoadingImage:image];
             }else{
-                BFLog(@"error %@", error);
+                NSLog(@"error %@", error);
             }
             
         }];

@@ -4,7 +4,7 @@
 
 #import "PurchasesRestorer.h"
 #import "SharedConstants.h"
-#import "BFLog.h"
+
 
 @implementation PurchasesRestorer
 @synthesize numberOfLawsToRestore;
@@ -32,11 +32,11 @@
 
 
 -(void)errorHappened:(NSError *)error withRestorer:(PurchasesRestorer *)restorer{
-    BFLog(@"error %@", error);
+    NSLog(@"error %@", error);
 }
 
 -(void)syncDBWithCompletedTransactionsQueue:(SKPaymentQueue *)queue{
-    BFLog(@"queue %@", queue.transactions);
+    NSLog(@"queue %@", queue.transactions);
     for(SKPaymentTransaction * transaction in queue.transactions){
         [queue removeTransactionObserver:self];
     }
@@ -54,12 +54,12 @@
     if(transactions==nil || [transactions count]<=0)
         return;
     
-    BFLog(@"number of transactions %d", [transactions count]);
+    NSLog(@"number of transactions %d", [transactions count]);
     for(SKPaymentTransaction * transaction in transactions){
         switch ([transaction transactionState]) {
             case SKPaymentTransactionStateRestored:
-                BFLog(@"SKPaymentTransactionStateRestored");
-                BFLog(@"producto %@", transaction.payment.productIdentifier);
+                NSLog(@"SKPaymentTransactionStateRestored");
+                NSLog(@"producto %@", transaction.payment.productIdentifier);
                 if([transaction.payment.productIdentifier isEqualToString:upgrades_GoProFeatureId]){
                     [self.delegate setDidUserBuyProVersion:TRUE];
                 }

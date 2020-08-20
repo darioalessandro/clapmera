@@ -20,7 +20,6 @@
 #import "ClapmeraViewController.h"
 
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import "BFLog.h"
 #import "CPNotifications.h"
 #import "GAI.h"
 
@@ -58,7 +57,7 @@
 }
 
 -(void)applicationDidEnterBackground:(UIApplication *)application{
-    BFLog(@"applicationDidEnterBackground");
+    NSLog(@"applicationDidEnterBackground");
     [((ClapmeraViewController *)self.viewController) applicationDidEnterBackground:application];
 }
 
@@ -92,19 +91,19 @@
 #pragma mark Tracker code
 
 -(void)startGoogleAnalyticsTracker{
-    BFLog(@"GoogleAnalyticsAccount %@", GoogleAnalyticsAccount);
+    NSLog(@"GoogleAnalyticsAccount %@", GoogleAnalyticsAccount);
     [[GAI sharedInstance] setDispatchInterval:kGANDispatchPeriodSec];
     [[GAI sharedInstance] trackerWithTrackingId:GoogleAnalyticsAccount];
 }
 
 - (void)hitDispatched:(NSString *)hitString{
-    BFLog(@"hitDispatched %@", hitString);
+    NSLog(@"hitDispatched %@", hitString);
 }
 
 - (void)trackerDispatchDidComplete:(GAI *)tracker
                   eventsDispatched:(NSUInteger)eventsDispatched
               eventsFailedDispatch:(NSUInteger)eventsFailedDispatch {
-    BFLog(@"events dispatched: %d, events failed: %d", eventsDispatched, eventsFailedDispatch);
+    NSLog(@"events dispatched: %d, events failed: %d", eventsDispatched, eventsFailedDispatch);
 }
 
 #pragma mark -

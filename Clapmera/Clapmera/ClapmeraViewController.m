@@ -77,7 +77,7 @@
         [[[GAI sharedInstance] defaultTracker] sendView:@"ClapmeraViewController/UserRanOutOfPics"];
     }else if(error.code==ClapmeraEngineErrorAppHasNoAccessToPhotos){
         
-        BFLog(@"Error saving photo: %@", error);
+        NSLog(@"Error saving photo: %@", error);
         [[[GAI sharedInstance] defaultTracker] sendView:@"ClapmeraViewController/DidFailToSnapPhoto"];
     }else if(error.code==ClapmeraEngineErrorhighVolume){
         [DejalBezelActivityView activityViewForView:self.view withLabel:NSLocalizedString(@"Environment is too noisy", nil)];

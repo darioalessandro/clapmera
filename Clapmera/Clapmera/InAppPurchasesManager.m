@@ -10,7 +10,6 @@
 #import "GAITracker.h"
 #import "CPConfiguration.h"
 #define kMaxNumberOfPicsAllowed 1000
-#import "BFLog.h"
 
 static InAppPurchasesManager * _manager= nil;
 
@@ -105,7 +104,7 @@ static InAppPurchasesManager * _manager= nil;
 #pragma StoreKit Delegate
 
 -(void)productsRequest:(SKProductsRequest *)request didReceiveResponse:(SKProductsResponse *)response{
-	BFLog(@"request %@", request);
+	NSLog(@"request %@", request);
     if(response.products){
         self.products= response.products;
     }
@@ -113,7 +112,7 @@ static InAppPurchasesManager * _manager= nil;
         	
     for(SKProduct * product in response.products){
         [currencyStyle setLocale:product.priceLocale];
-        BFLog(@"product %@ price %@ localizedPrice %@ %@", product.productIdentifier, product.price, [currencyStyle stringFromNumber:product.price], product.localizedTitle);
+        NSLog(@"product %@ price %@ localizedPrice %@ %@", product.productIdentifier, product.price, [currencyStyle stringFromNumber:product.price], product.localizedTitle);
     }
     if(self.productRefreshHandler)
         self.productRefreshHandler(self, nil);
@@ -137,16 +136,16 @@ static InAppPurchasesManager * _manager= nil;
 }  
 
 -(void)paymentQueue:(SKPaymentQueue *)queue updatedTransactions:(NSArray *)transactions{
-    BFLog(@"number of transactions %d", [transactions count]);
+    NSLog(@"number of transactions %d", [transactions count]);
 	for(SKPaymentTransaction * transaction in transactions){
         NSString * productId=[[transaction payment] productIdentifier];
         switch ([transaction transactionState]) {
             case SKPaymentTransactionStatePurchasing:
-                BFLog(@"SKPaymentTransactionStatePurchasing");
+                NSLog(@"SKPaymentTransactionStatePurchasing");
                 break;
             case SKPaymentTransactionStateRestored:                
             case SKPaymentTransactionStatePurchased:{
-                BFLog(@"SKPaymentTransactionStatePurchased");
+                NSLog(@"SKPaymentTransactionStatePurchased");
                 [queue finishTransaction:transaction];                
                 if([productId isEqualToString:upgrades_GoProFeatureId]){
                     [self setDidUserBuyProVersion:TRUE];
@@ -162,8 +161,8 @@ static InAppPurchasesManager * _manager= nil;
                 
             case SKPaymentTransactionStateFailed:
             default:
-                BFLog(@"SKPaymentTransactionStateFailed");
-                BFLog(@"transaction %@", transaction.error);
+                NSLog(@"SKPaymentTransactionStateFailed");
+                NSLog(@"transaction %@", transaction.error);
                 [queue finishTransaction:transaction];
                 if([productId isEqualToString:upgrades_GoProFeatureId]){
                     if(self.buyProVersionHandler)
@@ -186,7 +185,7 @@ static InAppPurchasesManager * _manager= nil;
 }
 
 -(void)errorHappened:(NSError *)error withRestorer:(PurchasesRestorer *)restorer{
-    BFLog(@"error %@", error);
+    NSLog(@"error %@", error);
     self.buyProVersionHandler(self, error);
 }
 

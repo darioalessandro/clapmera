@@ -2,6 +2,7 @@
 
 #import <AVFoundation/AVFoundation.h>
 #import <CoreMedia/CMBufferQueue.h>
+#import <UIKit/UIKit.h>
 
 @protocol CPAudioAndVideoProcessorDelegate, CPAudioAndVideoProcessorChannelDelegate;
 

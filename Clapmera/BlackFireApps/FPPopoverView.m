@@ -37,17 +37,6 @@
 @synthesize draw3dBorder = _draw3dBorder;
 @synthesize border = _border;
 
--(void)dealloc
-{
-#ifdef FP_DEBUG
-    BFLog(@"FPPopoverView dealloc");
-#endif
-
-    SAFE_ARC_RELEASE(_titleLabel);
-    SAFE_ARC_SUPER_DEALLOC();
-}
-
-
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];

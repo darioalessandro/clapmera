@@ -29,7 +29,7 @@
     
     BOOL above;
     
-    id<PopoverViewDelegate> delegate;
+    __unsafe_unretained id <PopoverViewDelegate> delegate;
     
     UIView *parentView;
     

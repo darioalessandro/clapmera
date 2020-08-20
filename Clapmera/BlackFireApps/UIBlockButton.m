@@ -11,6 +11,7 @@
 @implementation UIBlockButton
 
 -(void)awakeFromNib{
+    [super awakeFromNib];
     self.backgroundColor=[UIColor blackColor];
 }
 

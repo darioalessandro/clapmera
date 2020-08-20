@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BFLog.h"
 #import "BFAppDelegate.h"
 
 int main(int argc, char *argv[])

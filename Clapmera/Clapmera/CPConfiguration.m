@@ -16,7 +16,6 @@
 #define kDefaultDelay 5
 #define kDefaultOfAvailablePictures 30
 #import "GAI.h"
-#import "BFLog.h"
 
 @implementation CPConfiguration
 

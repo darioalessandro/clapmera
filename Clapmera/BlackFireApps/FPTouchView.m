@@ -11,16 +11,6 @@
 
 @implementation FPTouchView
 
--(void)dealloc
-{
-#ifdef FP_DEBUG
-    BFLog(@"FPTouchView dealloc");
-#endif
-    
-    SAFE_ARC_RELEASE(_insideBlock);
-    SAFE_ARC_RELEASE(_outsideBlock);
-    SAFE_ARC_SUPER_DEALLOC();
-}
 
 -(void)setTouchedOutsideBlock:(FPTouchedOutsideBlock)outsideBlock
 {

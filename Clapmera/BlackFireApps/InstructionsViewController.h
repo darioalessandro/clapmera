@@ -18,6 +18,7 @@
  limitations under the License.*/
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface InstructionsViewController : UIViewController {
 	IBOutlet UILabel * instructionsLabel;

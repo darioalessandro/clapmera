@@ -13,6 +13,7 @@
 //
 //  A note on redistribution
 //	if you are re-publishing after editing, please retain the above copyright notices
+#import <Foundation/Foundation.h>
 
 @interface NSMutableURLRequest (CurlDescription)
 

@@ -27,7 +27,7 @@ typedef enum{
     BFGAssetsManagerProviderFacebookPictures
 }BFGAssetsManagerProvider;
 
-@interface BFGAssetsManager : NSObject <>{
+@interface BFGAssetsManager : NSObject {
     BFGAssetsManagerProvider _provider;
 }
 -(void)readImagesFromProvider:(BFGAssetsManagerProvider)provider withContext:(id)context;

@@ -1,5 +1,5 @@
 /*
- *  BFLog.h
+ *  NSLog.h
  *  Fuck
  *
  *  Created by Dario Lencina on 6/23/2010.
@@ -8,7 +8,7 @@
  */
 
 #ifdef DEBUGLOGMODE
-#define BFLog(s, ...) NSLog(@"%@**************************", [self class]); NSLog(s, ##__VA_ARGS__)
+#define NSLog(s, ...) NSLog(@"%@**************************", [self class]); NSLog(s, ##__VA_ARGS__)
 #else
-#define BFLog(s, ...)
+#define NSLog(s, ...)
 #endif

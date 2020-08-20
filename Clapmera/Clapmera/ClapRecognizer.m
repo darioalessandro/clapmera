@@ -92,7 +92,6 @@
 }
 
 -(void)transitionToState:(ClapRecognizerState)state{
-    BFLog(@"transition to state %d", state);
     self.state=state;
     [self.delegate stateChanged:self];
 }

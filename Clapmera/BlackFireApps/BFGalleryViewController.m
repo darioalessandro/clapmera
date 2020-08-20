@@ -15,7 +15,7 @@
 
 #import "BFGalleryViewController.h"
 #import <AssetsLibrary/AssetsLibrary.h>
-#import "FlickrImage.h"
+
 #import "FBImage.h"
 #import "FBAlbum.h"
 #import <MediaPlayer/MediaPlayer.h>
@@ -235,10 +235,7 @@
             if(self.mediaProvider==BFGAssetsManagerProviderPhotoLibrary){
                 image= (self.productsArray)[index0+j];
                 thumbnail= [UIImage imageWithCGImage:[image thumbnail]];
-            }else if(self.mediaProvider==BFGAssetsManagerProviderFlickr){
-                FlickrImage * image=(self.productsArray)[index0+j];
-                thumbnail= [image thumbnail];
-            }else if(self.mediaProvider==BFGAssetsManagerProviderFacebookPictures){
+            }else  if(self.mediaProvider==BFGAssetsManagerProviderFacebookPictures){
                 FBImage * image=(self.productsArray)[index0+j];
                 thumbnail= [image thumbnail];
             }

@@ -151,7 +151,6 @@ static NSMutableArray * notificationQueue;
     [notificationQueue enumerateObjectsUsingBlock:^(InstructionsViewController * obj, NSUInteger idx, BOOL *stop) {
     yOrigin+=obj.view.frame.size.height;
     }];
-    BFLog(@"yOrigin %f", yOrigin);
     return yOrigin;
 }
 
@@ -188,9 +187,6 @@ static NSMutableArray * notificationQueue;
 		self.view.frame=CGRectMake(0, [self targetHeight]-44-20 + yOrigin, widthOfInstructionsView, heightOfTextLine);
 		[self.view setTransform:CGAffineTransformMakeRotation(M_PI)];
 	}
-    BFLog(@"my frame %@", NSStringFromCGRect(self.view.frame));
-    BFLog(@"frame %@", NSStringFromCGRect([[UIApplication sharedApplication] keyWindow].frame));
-    BFLog(@"target %f", [self targetHeight]);
     [notificationQueue addObject:self];
 }
 

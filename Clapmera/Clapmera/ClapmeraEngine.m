@@ -158,19 +158,19 @@
 
 -(void)stateChanged:(ClapRecognizer *)clapRecognizer{
     if(self._state==ClapmeraEngineStateOff){
-        BFLog(@"ignoring clap because engine is off");
+        NSLog(@"ignoring clap because engine is off");
         return;
     }
     
     if(self._state==ClapmeraEngineStateCapturing && clapRecognizer.state==ClapRecognizerStateSuccess){
         [self cancelCapture];
         [self setState:ClapmeraEngineStateListening];
-        BFLog(@"ignoring clap because engine is ClapmeraEngineStateClickingPicture");
+        NSLog(@"ignoring clap because engine is ClapmeraEngineStateClickingPicture");
         return;
     }
     
     if(clapRecognizer.state==ClapRecognizerStateSuccess && self._state==ClapmeraEngineStateCanceledCapture){
-        BFLog(@"ignoring clap because clapRecognizer.state==ClapRecognizerStateSuccess && self._state==ClapmeraEngineStateCanceledPicture");
+        NSLog(@"ignoring clap because clapRecognizer.state==ClapRecognizerStateSuccess && self._state==ClapmeraEngineStateCanceledPicture");
         return;
     }
     
@@ -217,7 +217,7 @@
 		if (videoConnection) { break; }
 	}
     
-	BFLog(@"about to request a capture from: %@", self.imageOutput);
+	NSLog(@"about to request a capture from: %@", self.imageOutput);
 	[self.imageOutput captureStillImageAsynchronouslyFromConnection:videoConnection completionHandler: ^(CMSampleBufferRef imageSampleBuffer, NSError *error)
      {
          NSData *imageData = [AVCaptureStillImageOutput jpegStillImageNSDataRepresentation:imageSampleBuffer];
