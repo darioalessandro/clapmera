@@ -23,7 +23,7 @@
                                 <constraint firstAttribute="height" constant="183" id="83"/>
                             </constraints>
                         </imageView>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This app does not have access to your Microphone." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5">
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This app does not have access to your Photos." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5">
                             <rect key="frame" x="-41" y="304" width="581" height="24"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="581" id="81"/>
